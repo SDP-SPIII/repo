@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6223e5e3-cca4-4279-9f36-61622c435d28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groovy/modules.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/blackjack/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/PlayingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/blackjack/PlayingCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/collections/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/GtStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/collections/GtStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/improvements/nounderscore/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/collectorsfiltering/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/improvements/collectorsfiltering/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/collectorsfiltering/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/improvements/collectorsfiltering/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/collectorsfiltering/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/improvements/collectorsfiltering/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/interfaceprivatemethods/TwoCompletableTimeout.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/improvements/interfaceprivatemethods/TwoCompletableTimeout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/takewhiledropwhile/improvements/takewhiledropwhile/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/trywithresources/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/improvements/trywithresources/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/builder/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/lombokexamples/builder/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/general/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/lombokexamples/general/Logs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/general/Original.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/lombokexamples/general/Original.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/anno.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/autoscan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/autoscan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/di/HelloWorldSpringWithDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/springdi/di/HelloWorldSpringWithDI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/di/beans.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/springdi/di/beans.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/dixml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixmlcons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/dixmlcons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/helloworld/HelloWorldSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/springdi/helloworld/HelloWorldSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/helloworld/beans.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/springdi/helloworld/beans.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/test/designpatterns/publish/TestPublish.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/test/designpatterns/publish/TestPublish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Sample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/algorithms/GtStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/algorithms/GtStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/algorithms/Major.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/algorithms/Major.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/algorithms/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/algorithms/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/algorithms/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/algorithms/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/arrays/CourseAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/arrays/CourseAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/arrays/PartialIntArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/arrays/PartialIntArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/arrays/Shout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/arrays/Shout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/basics/ConsoleOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/basics/ConsoleOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/basics/CourseAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/basics/CourseAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/basics/LittleCourseAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/basics/LittleCourseAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/basics/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/basics/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/blackjack/BetterDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/blackjack/BetterDeck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/blackjack/PlayingCard$Rank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/blackjack/PlayingCard$Rank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/blackjack/PlayingCard$Suit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/blackjack/PlayingCard$Suit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/blackjack/PlayingCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/blackjack/PlayingCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo$FoundPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo$FoundPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo$LostPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo$LostPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo$OverloadedPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo$OverloadedPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo$Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/collections/ArrayListEqualsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/collections/Streams$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/collections/Streams$Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/collections/Streams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/collections/Streams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/companygui/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/companygui/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/companygui/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/companygui/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/companygui/HourlyEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/companygui/HourlyEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/companygui/HourlyEmployeeDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/companygui/HourlyEmployeeDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/companygui/HourlyEmployeeDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/companygui/HourlyEmployeeDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/companygui/HourlyEmployeeDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/companygui/HourlyEmployeeDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/companygui/SalariedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/companygui/SalariedEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/datastructure/BinarySearchTree$InOrderIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/datastructure/BinarySearchTree$InOrderIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/datastructure/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/datastructure/BinarySearchTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/datastructure/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/datastructure/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/datastructure/LinkedQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/datastructure/LinkedQueue$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/datastructure/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/datastructure/LinkedQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/datastructure/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/datastructure/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupled/HelloWorldMessageProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupled/HelloWorldMessageProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupled/StandardOutMessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupled/StandardOutMessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledinterface/MessageProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledinterface/MessageProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledinterface/MessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledinterface/MessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledwithfactory/MessageProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledwithfactory/MessageProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledwithfactory/MessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledwithfactory/MessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledwithfactory/StandardOutMessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/dependencyinjection/decoupledwithfactory/StandardOutMessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactory/CarEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactory/CarEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactory/FordEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactory/FordEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Appetizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Appetizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Entree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Entree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Gelato.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Gelato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Pizzette.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Pizzette.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Steak.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/abstractfactoryalt/Steak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/chain/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/chain/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/chain/MessageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/chain/MessageHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/chain/SpamHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/chain/SpamHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/composite/DVD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/composite/DVD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/composite/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/composite/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/compositealt/Executable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/compositealt/Executable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/compositealt/ExecutableCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/compositealt/ExecutableCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/compositealt/XExecutable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/compositealt/XExecutable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/compositealt/YExecutable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/compositealt/YExecutable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/factorymethod/ConsoleLoggerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/factorymethod/ConsoleLoggerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/factorymethod/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/factorymethod/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/factorymethod/LoggerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/factorymethod/LoggerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/iterator/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/iterator/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/proxy/PersonInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/proxy/PersonInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/singleton/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/singleton/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/state/GiftBag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/state/GiftBag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/state/GiftType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/state/GiftType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/state/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/state/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/state/WrappedProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/state/WrappedProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/strategy/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/strategy/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/strategy/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/strategy/Sorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/template/AdditionCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/template/AdditionCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/template/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/template/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/template/CalculatorTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/template/CalculatorTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatterns/template/SubtractionCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatterns/template/SubtractionCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/ESEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/ESEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/ESWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/ESWeapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/EnemyShipFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/EnemyShipFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/EnemyShipTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/EnemyShipTesting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/UFOEnemyShipFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/abstractfactory/UFOEnemyShipFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/adapter/TestEnemyAttackers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/adapter/TestEnemyAttackers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/bridge/DVDRemote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/bridge/DVDRemote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/bridge/EntertainmentDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/bridge/EntertainmentDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/bridge/RemoteButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/bridge/RemoteButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/bridge/TVRemotePause.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/bridge/TVRemotePause.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/builder/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/builder/Robot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/builder/RobotBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/builder/RobotBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/builder/RobotPlan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/builder/RobotPlan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/chain/AddNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/chain/AddNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/chain/Chain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/chain/Chain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/chain/Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/chain/Numbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/composite/SongComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/composite/SongComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/composite/SongGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/composite/SongGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/decorator/Mozzarella.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/decorator/Mozzarella.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/decorator/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/decorator/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/decorator/ToppingDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/decorator/ToppingDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/factory/EnemyShip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/factory/EnemyShip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/factory/EnemyShipFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/factory/EnemyShipFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/factory/RocketEnemyShip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/factory/RocketEnemyShip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/flyweight/MyRect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/flyweight/MyRect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/flyweight/RectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/flyweight/RectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/interpreter/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/interpreter/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/interpreter/Pints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/interpreter/Pints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/DiscJockey.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/DiscJockey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongsOfThe70s.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongsOfThe70s.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongsOfThe80s.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongsOfThe80s.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongsOfThe90s.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/iterator/SongsOfThe90s.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/mediator/TestStockMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/mediator/TestStockMediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/memento/Caretaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/memento/Caretaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/memento/Memento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/memento/Memento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/memento/Originator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/memento/Originator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/observer/GetTheStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/observer/GetTheStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/observer/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/observer/StockGrabber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/observer/StockGrabber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/observer/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/observer/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/proxy/ATMMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/proxy/ATMMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/proxy/ATMState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/proxy/ATMState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/proxy/GetATMData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/proxy/GetATMData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/state/ATMMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/state/ATMMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/state/ATMState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/state/ATMState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/state/NoCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/state/NoCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/state/NoCash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/state/NoCash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/AnimalPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/AnimalPlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/CantFly.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/CantFly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/Flys.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/Flys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/ItFlys.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/strategy/ItFlys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/template/Sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/template/Sub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/template/VeggieSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/template/VeggieSub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Liquor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Liquor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Necessity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Necessity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Tobacco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Tobacco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Visitable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Visitable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/VisitorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/designpatternsbanas/visitor/VisitorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/employee/Employee2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/employee/Employee2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/employee/Employee3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/employee/Employee3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/employee/Employee5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/employee/Employee5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/employee/Employee6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/employee/Employee6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/employee/HourlyEmployee2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/employee/HourlyEmployee2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/employee/HourlyEmployee6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/employee/HourlyEmployee6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/employee/SalariedEmployee3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/employee/SalariedEmployee3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/exceptions/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/exceptions/MyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/exceptions/Wee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/exceptions/Wee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/generics/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/generics/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/generics/IntBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/generics/IntBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/generics/NewSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/generics/NewSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/guice/Receipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/guice/Receipt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/hipster/Hipster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/hipster/Hipster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/hipster/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/hipster/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/improvements/interfaceprivatemethods/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/improvements/interfaceprivatemethods/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/improvements/interfaceprivatemethods/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/improvements/interfaceprivatemethods/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/javafx/HelloJfx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/javafx/HelloJfx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/javafx/HelloJfxButtons$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/javafx/HelloJfxButtons$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/javafx/HelloJfxButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/javafx/HelloJfxButtons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/javafx/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/javafx/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/javafx/email/EmailMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/javafx/email/EmailMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/lombokexamples/exceptions/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/lombokexamples/exceptions/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/oop/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/oop/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/oop/Animals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/oop/Animals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/oop/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/oop/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/oop/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/oop/Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/oop/Mammal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/oop/Mammal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/oop/Named.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/oop/Named.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/reflection/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/reflection/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/reflection/Spy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/reflection/Spy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/solid/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/solid/Bird.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/solid/Parrot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/solid/Parrot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/anno.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/autoscan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/di/MessageProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/di/MessageProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/di/MessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/di/MessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/di/beans.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/di/beans.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/dixml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/dixml/HelloWorldSpringWithDIXMLFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/dixml/HelloWorldSpringWithDIXMLFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/dixmlcons.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/helloworld/HelloWorldMessageProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/helloworld/HelloWorldMessageProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/helloworld/MessageProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/helloworld/MessageProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/helloworld/MessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/helloworld/MessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/helloworld/StandardOutMessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/helloworld/StandardOutMessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/helloworld/beans.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/helloworld/beans.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/simple/SpellChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/simple/SpellChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/springdi/simple/TextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/springdi/simple/TextEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/swing/BetterListener$GoodByeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/swing/BetterListener$GoodByeListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/swing/BetterListener$HelloListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/swing/BetterListener$HelloListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/swing/BetterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/swing/BetterListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/swing/GreetingFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/swing/GreetingFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/swing/GreetingGui$GreetButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/swing/GreetingGui$GreetButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/swing/GreetingGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/swing/GreetingGui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/swing/HelloSwing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/swing/HelloSwing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/swing/companygui/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/swing/companygui/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/swing/companygui/SalariedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/swing/companygui/SalariedEmployee.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/springdi/annotation/HelloWorldSpringWithAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/autoscan.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/dixml.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/dixmlcons.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/springdi/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/springdi/di/HelloWorldSpringWithDI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/springdi/helloworld/HelloWorldSpring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/springdi/helloworld/beans.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/springdi/di/beans.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/springdi/di/HelloWorldMessageProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/java/src/designpatterns/publish/TestPublish.java" />
+        <option value="$PROJECT_DIR$/java/test/designpatterns/publish/PCLNewsChannelTest.java" />
+        <option value="$PROJECT_DIR$/java/test/designpatterns/publish/TestPublish.java" />
+        <option value="$PROJECT_DIR$/java/src/improvements/trywithresources/Sample.java" />
+        <option value="$PROJECT_DIR$/java/src/lombokexamples/builder/User.java" />
+        <option value="$PROJECT_DIR$/java/src/improvements/interfaceprivatemethods/TwoCompletableTimeout.java" />
+        <option value="$PROJECT_DIR$/java/src/springdi/annotation/HelloWorldSpringWithAnnotation.java" />
+        <option value="$PROJECT_DIR$/java/src/springdi/anno.xml" />
+        <option value="$PROJECT_DIR$/java/src/springdi/dixml.xml" />
+        <option value="$PROJECT_DIR$/java/src/springdi/dixmlcons.xml" />
+        <option value="$PROJECT_DIR$/java/src/beans.properties" />
+        <option value="$PROJECT_DIR$/java/src/springdi/di/HelloWorldSpringWithDI.java" />
+        <option value="$PROJECT_DIR$/java/src/springdi/helloworld/HelloWorldSpring.java" />
+        <option value="$PROJECT_DIR$/java/src/springdi/helloworld/beans.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="springdi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="springdi" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="springdi" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547156516365" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="11.0.1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="designpatterns.publish" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java/src/springdi/di" />
+      <recent name="$PROJECT_DIR$/java/src" />
+      <recent name="$PROJECT_DIR$/java/src/springdi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HelloWorldSpring">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springdi.helloworld.HelloWorldSpring" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springdi.helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldSpringWithAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springdi.annotation.HelloWorldSpringWithAnnotation" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springdi.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldSpringWithDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springdi.di.HelloWorldSpringWithDI" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springdi.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldSpringWithDIXMLFileConstructorArgument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springdi.dixmlcons.HelloWorldSpringWithDIXMLFileConstructorArgument" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springdi.dixmlcons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="improvements.intstreamiterate.Sample" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="improvements.intstreamiterate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloWorldSpring" />
+        <item itemvalue="Application.HelloWorldSpringWithDI" />
+        <item itemvalue="Application.HelloWorldSpringWithDIXMLFileConstructorArgument" />
+        <item itemvalue="Application.HelloWorldSpringWithAnnotation" />
+        <item itemvalue="Application.Sample (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6223e5e3-cca4-4279-9f36-61622c435d28" name="Default Changelist" comment="" />
+      <created>1547139864200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547139864200</updated>
+      <workItem from="1547139871500" duration="2110000" />
+      <workItem from="1547151970166" duration="1673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3783000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="aws.explorer" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Image Layers" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32942238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="11" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32942238" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Flutter Performance" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32942238" />
+      <window_info anchor="bottom" id="Tail" order="18" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Flutter Outline" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../repo-old/javaexamples/src/test/java/designpatterns/publish/TestPublishTest.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/designpatterns/publish/TestPublish.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/designpatterns/publish/PCLNewsChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/test/designpatterns/publish/TestPublish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/lombokexamples/general/EveryThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/lombokexamples/general/AutoLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/lombokexamples/logging/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/designpatternsbanas/state/ATMMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groovy/src/examples/Ise.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/lombokexamples/builder/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/improvements/trywithresources/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding>
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/improvements/optionalimprovements/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/improvements/nounderscore/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/improvements/intstreamiterate/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/improvements/interfaceprivatemethods/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/improvements/interfaceprivatemethods/TwoCompletableTimeout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/springdi/annotation/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/anno.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/springdi/annotation/HelloWorldSpringWithAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/autoscan.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/dixml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/dixmlcons.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/springdi/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/springdi/di/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/springdi/di/beans.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/springdi/di/HelloWorldSpringWithDI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/springdi/helloworld/beans.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/springdi/helloworld/HelloWorldSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-3.0.0-alpha-4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lombok</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
