@@ -28,7 +28,7 @@ public class HelloWorldSpringWithDI {
 
     // load the configuration options
     Properties props = new Properties();
-    props.load(new FileInputStream("springdi/src/di/beans.properties"));
+    props.load(new FileInputStream("java/src/springdi/di/beans.properties"));
 
     rdr.registerBeanDefinitions(props);
 

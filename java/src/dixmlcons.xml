@@ -6,11 +6,11 @@
 		http://www.springframework.org/schema/beans	
 		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="renderer" class="dixmlcons.StandardOutMessageRenderer">
+    <bean id="renderer" class="springdi.dixmlcons.StandardOutMessageRenderer">
         <property name="messageProvider"
                   ref="provider"/>
     </bean>
-    <bean id="provider" class="dixmlcons.ConfigurableMessageProvider">
+    <bean id="provider" class="springdi.dixmlcons.ConfigurableMessageProvider">
         <constructor-arg>
             <value>This is a configurable message</value>
         </constructor-arg>

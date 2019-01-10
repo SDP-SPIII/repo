@@ -4,6 +4,7 @@ public abstract class Player {
 
   protected BlackjackHand hand;
   private String name;
+
   public Player(String aName) {
     name = aName;
     hand = new BlackjackHand();

@@ -34,10 +34,10 @@ public class User {
   private @NonNull byte[] password;
 
   private @NonNull String firstName;
-  private @NonNull String lastName = "";
+  private @NonNull String lastName;
 
   private @NonNull Instant registrationTs;
 
-  private boolean payingCustomer = false;
+  private boolean payingCustomer;
 
 }

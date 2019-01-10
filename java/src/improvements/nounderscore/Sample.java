@@ -1,6 +1,4 @@
-package improvements;
-
-import java.util.*;
+package improvements.nounderscore;
 
 public class Sample {
   public static void main(String[] args) {
@@ -9,4 +7,3 @@ public class Sample {
 //    System.out.println(_); //ERROR
   }
 }
-

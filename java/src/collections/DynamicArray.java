@@ -13,6 +13,7 @@ public class DynamicArray<E> implements Iterable<E> {
   public DynamicArray() {
     this(10);
   }
+
   public DynamicArray(int capacity) {
     this.elements = new Object[capacity];
     lastIndex = -1;

@@ -10,6 +10,7 @@ public class PlayingCard {
   public PlayingCard(String aCardDescription) {
     this(extractRank(aCardDescription), extractSuit(aCardDescription));
   }
+
   public PlayingCard(Rank aRank, Suit aSuit) {
     rank = aRank;
     suit = aSuit;

@@ -4,6 +4,7 @@ public class GtStudent extends Person {
 
   private int year;
   private Major major;
+
   public GtStudent(String aName, int aYear, Major aMajor) {
     super(aName);
     year = aYear;

@@ -15,9 +15,9 @@
             It is because the wiring requirement is specified through
             @Autowired annotation  -->
     <bean id="renderer"
-          class="annotation.StandardOutMessageRenderer">
+          class="springdi.annotation.StandardOutMessageRenderer">
     </bean>
 
     <bean id="provider"
-          class="annotation.HelloWorldMessageProvider"/>
+          class="springdi.annotation.HelloWorldMessageProvider"/>
 </beans>

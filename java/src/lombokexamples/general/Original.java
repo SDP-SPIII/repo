@@ -8,7 +8,7 @@ import java.util.Objects;
 /*
  * The class has four fields, two of them are final so we need a constructor.
  * The flag field is a boolean so the getter is named isFlag() and not getFlag()
- * The strList getter method initialize the list if necessary
+ * The strList getter method initialise the list if necessary
  * The strList is not included in the toString method
  * Equals and hashCode are calculated on number and text fields only.
  */

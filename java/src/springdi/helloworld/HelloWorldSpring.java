@@ -33,7 +33,7 @@ public class HelloWorldSpring {
 
     // load the configuration options
     Properties props = new Properties();
-    props.load(new FileInputStream("springdi/src/helloworld/beans.properties"));
+    props.load(new FileInputStream("java/src/springdi/helloworld/beans.properties"));
 
     rdr.registerBeanDefinitions(props);
 

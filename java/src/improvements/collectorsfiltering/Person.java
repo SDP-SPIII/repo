@@ -1,4 +1,4 @@
-package java9tojava10.improvements.collectorsfiltering;
+package improvements.collectorsfiltering;
 
 public class Person implements Cloneable {
   private final String name;
