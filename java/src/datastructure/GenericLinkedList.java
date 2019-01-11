@@ -121,14 +121,15 @@ public class GenericLinkedList<E> {
 
   public int length2() {
     int len = 0;
-    for (Node<E> node = head; node != null; node = node.next, len++) ;
+    for (Node<E> node = head; node != null; node = node.next, len++) {
+    }
     return len;
   }
 
   public void insertAfter(E existingItem, E newItem) {
     Node<E> curNode = head;
-    while (!curNode.data.equals(existingItem) &&
-            (curNode.next != null)) {
+    while (!curNode.data.equals(existingItem)
+            && (curNode.next != null)) {
       curNode = curNode.next;
     }
     Node<E> newNode = new Node<E>(newItem, curNode.next);
@@ -159,8 +160,8 @@ public class GenericLinkedList<E> {
     boolean wasModified = false;
     Node<E> curNode = head;
     Node<E> previous = null;
-    while (!existingItem.equals(curNode.data) &&
-            (curNode.next != null)) {
+    while (!existingItem.equals(curNode.data)
+            && (curNode.next != null)) {
       previous = curNode;
       curNode = curNode.next;
     }

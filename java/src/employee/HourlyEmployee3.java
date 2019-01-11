@@ -11,16 +11,16 @@ public class HourlyEmployee3 extends Employee3 {
    * Constructs an HourlyEmployee with hourly wage of 20 and
    * monthly hours of 160.
    */
-  public HourlyEmployee3(String aName, LocalDate aHireDate) {
-    this(aName, aHireDate, 20.00, 160.0);
+  public HourlyEmployee3(String aname, LocalDate ahiredate) {
+    this(aname, ahiredate, 20.00, 160.0);
   }
 
   public HourlyEmployee3(String aName, LocalDate aHireDate,
-                         double anHourlyWage, double aMonthlyHours) {
+                         double anhourlywage, double amonthlyhours) {
     super(aName, aHireDate);
-    disallowZeroesAndNegatives(anHourlyWage, aMonthlyHours);
-    hourlyWage = anHourlyWage;
-    monthlyHours = aMonthlyHours;
+    disallowZeroesAndNegatives(anhourlywage, amonthlyhours);
+    hourlyWage = anhourlywage;
+    monthlyHours = amonthlyhours;
   }
 
   private void disallowZeroesAndNegatives(double... args) {

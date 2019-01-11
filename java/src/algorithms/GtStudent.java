@@ -5,9 +5,9 @@ public class GtStudent {
   private String name;
   private Major major;
 
-  public GtStudent(String aName, Major aMajor) {
-    name = aName;
-    major = aMajor;
+  public GtStudent(String aname, Major amajor) {
+    name = aname;
+    major = amajor;
   }
 
   public String getName() {

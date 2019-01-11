@@ -14,17 +14,17 @@ public class HourlyEmployee extends Employee {
    * Constructs an HourlyEmployee with hourly wage of 20 and
    * monthly hours of 160.
    */
-  public HourlyEmployee(String aName, LocalDate aHireDate) {
-    this(aName, aHireDate, 20.00, 160.0);
+  public HourlyEmployee(String aname, LocalDate ahiredate) {
+    this(aname, ahiredate, 20.00, 160.0);
   }
 
-  public HourlyEmployee(String aName, LocalDate aHireDate,
-                        double anHourlyWage, double aMonthlyHours) {
-    super(aName, aHireDate);
-    ValidationUtils.disallowZeroesAndNegatives(anHourlyWage,
-            aMonthlyHours);
-    hourlyWage = anHourlyWage;
-    monthlyHours = aMonthlyHours;
+  public HourlyEmployee(String aname, LocalDate ahiredate,
+                        double anhourlywage, double amonthlyhours) {
+    super(aname, ahiredate);
+    ValidationUtils.disallowZeroesAndNegatives(anhourlywage,
+            amonthlyhours);
+    hourlyWage = anhourlywage;
+    monthlyHours = amonthlyhours;
   }
 
   public static void main(String[] args) throws Exception {
@@ -36,6 +36,7 @@ public class HourlyEmployee extends Employee {
 
   }
 
+  @Override
   public String getName() {
     return "Hourly: " + super.getName();
   }
@@ -52,10 +53,12 @@ public class HourlyEmployee extends Employee {
     return monthlyHours;
   }
 
+  @Override
   public double monthlyPay() {
     return hourlyWage * monthlyHours;
   }
 
+  @Override
   public String toString() {
     return getName() + "; Hire Date: " + getHireDate() + "; Hourly Wage: "
             + hourlyWage + "; Monthly Hours: " + monthlyHours;

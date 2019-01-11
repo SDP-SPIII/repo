@@ -1,7 +1,5 @@
 package swing;
 
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 import java.awt.BorderLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;

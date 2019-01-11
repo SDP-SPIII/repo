@@ -14,21 +14,21 @@ public class HourlyEmployee extends Employee {
     this.monthlyHours = other.monthlyHours;
   }
 
-  public HourlyEmployee(String aName) {
-    this(aName, new Date(), 20.00, 160.0);
+  public HourlyEmployee(String aname) {
+    this(aname, new Date(), 20.00, 160.0);
   }
 
   /**
    * Constructs an HourlyEmployee with hourly wage of 20 and
    * monthly hours of 160.
    */
-  public HourlyEmployee(String aName, Date aHireDate) {
-    this(aName, aHireDate, 20.00, 160.0);
+  public HourlyEmployee(String aname, Date ahiredate) {
+    this(aname, ahiredate, 20.00, 160.0);
   }
 
-  public HourlyEmployee(String aName, Date aHireDate,
+  public HourlyEmployee(String aname, Date ahiredate,
                         double anHourlyWage, double aMonthlyHours) {
-    super(aName, aHireDate);
+    super(aname, ahiredate);
     disallowZeroesAndNegatives(anHourlyWage, aMonthlyHours);
     hourlyWage = anHourlyWage;
     monthlyHours = aMonthlyHours;
@@ -42,10 +42,12 @@ public class HourlyEmployee extends Employee {
     return monthlyHours;
   }
 
+  @Override
   public double monthlyPay(Calendar cal) {
     return hourlyWage * monthlyHours;
   }
 
+  @Override
   public String toString() {
     return getName() + "; Hire Date: " + getHireDate() + "; Hourly Wage: "
             + hourlyWage + "; Monthly Hours: " + monthlyHours;

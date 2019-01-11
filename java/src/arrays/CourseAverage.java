@@ -8,11 +8,6 @@ public class CourseAverage {
 
   public static void main(String[] args) {
     int[] exams = new int[3];
-    double examAvg;
-    double hwAvg;
-    double finalExam;
-    double courseAvg;
-
     Scanner gradeFile = null;
 
     try {
@@ -26,10 +21,10 @@ public class CourseAverage {
       exams[i] = gradeFile.nextInt();
     }
 
-    examAvg = calcAverage(exams);
-    hwAvg = gradeFile.nextDouble();
-    finalExam = gradeFile.nextDouble();
-    courseAvg = .2 * hwAvg + .6 * examAvg + .2 * finalExam;
+    double examAvg = calcAverage(exams);
+    double hwAvg = gradeFile.nextDouble();
+    double finalExam = gradeFile.nextDouble();
+    double courseAvg = .2 * hwAvg + .6 * examAvg + .2 * finalExam;
     System.out.printf("Your course average is %.1f%n", courseAvg);
   }
 

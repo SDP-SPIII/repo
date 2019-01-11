@@ -14,7 +14,6 @@ public class Company {
 
   private List<Employee> employees;
 
-
   public Company(String employeeDataFile) {
     try {
       employees = initFromFile(new File(employeeDataFile));
@@ -45,14 +44,16 @@ public class Company {
     System.out.printf("Monthly payroll: %.2f", c.monthlyPayroll());
   }
 
-//  public void Company(String empDataFile) throws Exception {
-//    employees = initFromFile2(new File(empDataFile));
-//    if (null == employees) {
-//      System.out.println("There was an error initializing employees.");
-//      System.out.println("Perhaps " + empDataFile + " doesn't exist?");
-//      System.exit(1);
-//    }
-//  }
+  /*
+  public void Company(String empDataFile) throws Exception {
+    employees = initFromFile2(new File(empDataFile));
+    if (null == employees) {
+      System.out.println("There was an error initializing employees.");
+      System.out.println("Perhaps " + empDataFile + " doesn't exist?");
+      System.exit(1);
+    }
+  }
+  */
 
   public double monthlyPayroll() {
     double payroll = 0.0;
@@ -71,7 +72,7 @@ public class Company {
     return ret;
   }
 
-  private ArrayList<Employee> initFromFile(File empData)
+  private List<Employee> initFromFile(File empData)
           throws IOException, ParseException {
     ArrayList<Employee> emps = new ArrayList<>();
     BufferedReader reader = new BufferedReader(new FileReader(empData));
@@ -88,7 +89,7 @@ public class Company {
     return emps;
   }
 
-  private ArrayList<Employee> initFromFile2(File empData)
+  private List<Employee> initFromFile2(File empData)
           throws FileNotFoundException {
     ArrayList<Employee> emps = new ArrayList<>();
     BufferedReader reader = new BufferedReader(new FileReader(empData));

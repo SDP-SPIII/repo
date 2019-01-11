@@ -5,7 +5,9 @@ import java.util.Scanner;
 class ConsoleInput {
 
   public static void main(String[] args) {
-    int exam1, exam2, exam3;
+    int exam1;
+    int exam2;
+    int exam3;
     double examAvg, hwAvg, finalExam, courseAvg;
     Scanner keyboard = new Scanner(System.in);
     String token1 = keyboard.next();

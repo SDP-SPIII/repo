@@ -15,26 +15,23 @@ public class GetTheStock implements Runnable {
 
   private Subject stockGrabber;
 
-  public GetTheStock(Subject stockGrabber, int newStartTime, String newStock, double newPrice) {
+  public GetTheStock(Subject stockgrabber, int newstarttime, String newstock, double newprice) {
 
     // Store the reference to the stockGrabber object so
     // I can make calls to its methods
 
-    this.stockGrabber = stockGrabber;
+    this.stockGrabber = stockgrabber;
 
-    // startTime = newStartTime;  Not used to have variable sleep time
-    stock = newStock;
-    price = newPrice;
-
+    // startTime = newstarttime;  Not used to have variable sleep time
+    stock = newstock;
+    price = newprice;
   }
 
   @Override
   public void run() {
-
     for (int i = 1; i <= 20; i++) {
 
       try {
-
         // Sleep for 2 seconds
         Thread.sleep(2000);
 
@@ -55,16 +52,21 @@ public class GetTheStock implements Runnable {
 
       price = Double.valueOf(df.format((price + randNum)));
 
-      if (stock == "IBM") ((StockGrabber) stockGrabber).setIBMPrice(price);
-      if (stock == "AAPL") ((StockGrabber) stockGrabber).setAAPLPrice(price);
-      if (stock == "GOOG") ((StockGrabber) stockGrabber).setGOOGPrice(price);
+      switch (stock) {
+        case "IBM":
+          ((StockGrabber) stockGrabber).setIBMPrice(price);
+          break;
+        case "AAPL":
+          ((StockGrabber) stockGrabber).setAAPLPrice(price);
+          break;
+        case "GOOG":
+          ((StockGrabber) stockGrabber).setGOOGPrice(price);
+          break;
+      }
 
-      System.out.println(stock + ": " + df.format((price + randNum)) +
-              " " + df.format(randNum));
-
+      System.out.println(stock + ": " + df.format((price + randNum))
+              + " " + df.format(randNum));
       System.out.println();
-
     }
   }
-
 }

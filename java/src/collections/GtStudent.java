@@ -5,12 +5,13 @@ public class GtStudent extends Person {
   private int year;
   private Major major;
 
-  public GtStudent(String aName, int aYear, Major aMajor) {
-    super(aName);
-    year = aYear;
-    major = aMajor;
+  public GtStudent(String aname, int ayear, Major amajor) {
+    super(aname);
+    year = ayear;
+    major = amajor;
   }
 
+  @Override
   public String toString() {
     return getName() + ", " + year + "-year " + major;
   }

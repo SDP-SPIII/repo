@@ -59,7 +59,8 @@ public class GenericLinkedList2<E> {
 
   public int length2() {
     int len = 0;
-    for (Node node = front; node != null; node = node.getNext(), len++) ;
+    for (Node node = front; node != null; node = node.getNext(), len++) {
+    }
     return len;
   }
 

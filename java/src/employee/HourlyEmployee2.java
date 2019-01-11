@@ -7,9 +7,9 @@ public class HourlyEmployee2 extends Employee2 {
   private double hourlyWage;
   private double monthlyHours;
 
-  public HourlyEmployee2(String aName, LocalDate aHireDate,
+  public HourlyEmployee2(String aname, LocalDate ahiredate,
                          double anHourlyWage, double aMonthlyHours) {
-    super(aName, aHireDate);
+    super(aname, ahiredate);
     disallowZeroesAndNegatives(anHourlyWage, aMonthlyHours);
     hourlyWage = anHourlyWage;
     monthlyHours = aMonthlyHours;
