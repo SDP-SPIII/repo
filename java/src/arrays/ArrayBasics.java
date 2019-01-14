@@ -24,6 +24,12 @@ public class ArrayBasics {
       System.out.printf("scores[%d] = %.2f%n", i, scores[i]);
     }
 
+    changeToArray(scores);
+
+    for (int i = 0; i < scores.length; ++i) {
+      System.out.printf("scores[%d] = %.2f%n", i, scores[i]);
+    }
+
     // Using traditional for loop with index, you can update array elements
     for (int i = 0; i < scores.length; ++i) {
       scores[i] = scores[i] - 10;
@@ -87,5 +93,14 @@ public class ArrayBasics {
       sb.append(System.lineSeparator());
     }
     return sb.toString();
+  }
+
+  public static void changeToArray(double[] arr) {
+    System.out.println("Change to Array");
+    arr = new double[]{1, 2, 3, 4, 5};
+    // this won't persist
+    for (double d : arr) {
+      System.out.println(d);
+    }
   }
 }
