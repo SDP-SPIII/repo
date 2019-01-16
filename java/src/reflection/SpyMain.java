@@ -1,6 +1,5 @@
 package reflection;
 
-
 public class SpyMain {
   public static void main(String[] args) {
     try {

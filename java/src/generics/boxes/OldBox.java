@@ -1,7 +1,7 @@
-package generics;
+package generics.boxes;
 
 public class OldBox {
-  Object data;
+  private Object data;
 
   public OldBox(Object data) {
     this.data = data;

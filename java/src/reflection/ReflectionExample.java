@@ -10,53 +10,44 @@ public class ReflectionExample {
   public static void main(String[] args) {
 
     // Obtain the class object if we know the name of the class
-    Class rental = RentCar.class;
+    Class type = RentCar.class;
     try {
       // get the absolute name of the class
-      String rentalClassPackage = rental.getName();
-      System.out.println("Class Name is: " + rentalClassPackage);
+      String typeClassPackage = type.getName();
+      System.out.println("Class Name is: " + typeClassPackage);
 
       // get the simple name of the class (without package info)
-      String rentalClassNoPackage = rental.getSimpleName();
-      System.out.println("Class Name without package is: "
-              + rentalClassNoPackage);
+      String typeClassWithoutPackage = type.getSimpleName();
+      System.out.println("Class Name without package is: " + typeClassWithoutPackage);
 
       // get the package name of the class
-      Package rentalPackage = rental.getPackage();
-      System.out.println("Package Name is: " + rentalPackage);
+      Package typePackage = type.getPackage();
+      System.out.println("Package Name is: " + typePackage);
 
       // get all the constructors of the class
-      Constructor[] constructors = rental.getConstructors();
-      System.out.println("Constructors are: "
-              + Arrays.toString(constructors));
+      for (Constructor c : type.getConstructors()) {
+        System.out.println("Constructor: " + c);
+      }
 
       // get constructor with specific argument
-      Constructor constructor = rental.getConstructor(Integer.TYPE);
+      Constructor constructor = type.getConstructor(Integer.TYPE);
 
       // initializing an object of the RentCar class
       RentCar rent = (RentCar) constructor.newInstance(455);
 
-      // get all methods of the class including declared methods of
-      // superclasses
+      // get all methods of the class including declared methods of superclasses
       // in that case, superclass of RentCar is the class java.lang.Object
-      Method[] allmethods = rental.getMethods();
-      System.out.println("Methods are: " + Arrays.toString(allmethods));
-      for (Method method : allmethods) {
+      for (Method method : type.getMethods()) {
         System.out.println("method = " + method.getName());
       }
 
-      // get all methods declared in the class
-      // but excludes inherited methods.
-      Method[] declaredMethods = rental.getDeclaredMethods();
-      System.out.println("Declared Methods are: "
-              + Arrays.toString(declaredMethods));
-      for (Method dmethod : declaredMethods) {
+      // get all methods declared in the class but excludes inherited methods.
+      for (Method dmethod : type.getDeclaredMethods()) {
         System.out.println("method = " + dmethod.getName());
       }
 
       // get method with specific name and parameters
-      Method oneMethod = rental.getMethod("computeRentalCost",
-              Integer.TYPE);
+      Method oneMethod = type.getMethod("computeRentalCost", Integer.TYPE);
       System.out.println("Method is: " + oneMethod);
 
       // call computeRentalCost method with parameter int
@@ -64,33 +55,24 @@ public class ReflectionExample {
 
       // get all the parameters of computeRentalCost
       Class[] parameterTypes = oneMethod.getParameterTypes();
-      System.out.println("Parameter types of computeRentalCost() are: "
-              + Arrays.toString(parameterTypes));
+      System.out.println("Parameter types of computeRentalCost() are: " + Arrays.toString(parameterTypes));
 
       // get the return type of computeRentalCost
-      Class returnType = oneMethod.getReturnType();
-      System.out.println("Return type is: " + returnType);
+      System.out.println("Return type is: " + oneMethod.getReturnType());
 
       // gets all the public member fields of the class RentCar
-      Field[] fields = rental.getFields();
-
       System.out.println("Public Fields are: ");
-      for (Field oneField : fields) {
+      for (Field oneField : type.getFields()) {
         // get public field name
-        Field field = rental.getField(oneField.getName());
-        String fieldname = field.getName();
-        System.out.println("Fieldname is: " + fieldname);
+        Field field = type.getField(oneField.getName());
+        System.out.println("Fieldname is: " + field.getName());
 
         // get public field type
-        Object fieldType = field.getType();
-        System.out.println("Type of field " + fieldname + " is: "
-                + fieldType);
+        System.out.println("Type of field " + field.getName() + " is: " + field.getType());
 
         // get public field value
         Object value = field.get(rent);
-        System.out.println("Value of field " + fieldname + " is: "
-                + value);
-
+        System.out.println("Value of field " + field.getName() + " is: " + value);
       }
 
       // How to access private member fields of the class
@@ -98,15 +80,13 @@ public class ReflectionExample {
       // getDeclaredField() returns the private field
       Field privateField = RentCar.class.getDeclaredField("type");
 
-      String name = privateField.getName();
-      System.out.println("One private Fieldname is: " + name);
+      System.out.println("One private Fieldname is: " + privateField.getName());
       // makes this private field instance accessible
       // for reflection use only, not normal code
       privateField.setAccessible(true);
 
       // get the value of this private field
-      String fieldValue = (String) privateField.get(rent);
-      System.out.println("fieldValue = " + fieldValue);
+      System.out.println("fieldValue = " + privateField.get(rent));
 
     } catch (NoSuchFieldException | NoSuchMethodException | IllegalArgumentException
             | IllegalAccessException | InstantiationException | InvocationTargetException e) {

@@ -1,7 +1,7 @@
-package generics;
+package generics.boxes;
 
 public class Box<T> {
-  T data;
+  private T data;
 
   public Box(T data) {
     this.data = data;

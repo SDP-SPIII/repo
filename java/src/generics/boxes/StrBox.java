@@ -1,7 +1,7 @@
-package generics;
+package generics.boxes;
 
 public class StrBox {
-  String data;
+  private String data;
 
   public StrBox(String data) {
     this.data = data;

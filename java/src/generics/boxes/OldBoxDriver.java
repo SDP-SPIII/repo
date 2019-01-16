@@ -1,4 +1,4 @@
-package generics;
+package generics.boxes;
 
 public class OldBoxDriver {
   public static void main(String[] args) {

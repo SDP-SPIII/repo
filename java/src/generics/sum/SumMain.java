@@ -1,4 +1,4 @@
-package generics;
+package generics.sum;
 
 public class SumMain {
   public static void main(String[] args) {

@@ -12,9 +12,12 @@ public class MyClassPrompt {
       System.out.print("The name of the class: ");
       String aclass = sc.next();
       c = Class.forName(aclass);
+
       System.out.println(c.getName());
       System.out.println(c.getSimpleName());
       System.out.println(c.isInterface());
+
+      // obtain the methods for this class
       Method[] f = c.getMethods();
       for (Method x : f) {
         System.out.println(x);

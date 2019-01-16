@@ -1,4 +1,4 @@
-package generics;
+package generics.sum;
 
 public abstract class Sum {
   public static int sum_0_1() {

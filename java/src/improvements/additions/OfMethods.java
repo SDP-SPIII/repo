@@ -2,7 +2,7 @@ package improvements.additions;
 
 import java.util.*;
 
-public class OneMethods {
+public class OfMethods {
   public static void useList(List<Integer> list) {
     System.out.println("-------");
     System.out.println(list);

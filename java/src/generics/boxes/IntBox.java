@@ -1,7 +1,7 @@
-package generics;
+package generics.boxes;
 
 public class IntBox {
-  Integer data;
+  private Integer data;
 
   public IntBox(Integer data) {
     this.data = data;

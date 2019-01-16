@@ -1,4 +1,4 @@
-package generics;
+package generics.boxes;
 
 public class MathBox<E extends Number> extends Box<Number> {
 

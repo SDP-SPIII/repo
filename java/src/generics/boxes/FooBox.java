@@ -1,7 +1,9 @@
-package generics;
+package generics.boxes;
+
+import generics.Foo;
 
 public class FooBox {
-  Foo data;
+  private Foo data;
 
   public FooBox(Foo data) {
     this.data = data;

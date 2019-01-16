@@ -1,5 +1,8 @@
 package reflection;
 
+/*
+ * Another example class for use with reflection
+ */
 public class Person {
   private String name;
   private String userid;
