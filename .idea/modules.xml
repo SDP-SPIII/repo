@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" filepath="$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples.iml" filepath="$PROJECT_DIR$/.idea/modules/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/groovy/groovy.iml" filepath="$PROJECT_DIR$/groovy/groovy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gui.iml" filepath="$PROJECT_DIR$/.idea/modules/gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lombok/lombok.iml" filepath="$PROJECT_DIR$/lombok/lombok.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules-example.iml" filepath="$PROJECT_DIR$/.idea/modules/modules-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repo.reflection.iml" filepath="$PROJECT_DIR$/.idea/modules/repo.reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unnamed-modules-example.iml" filepath="$PROJECT_DIR$/.idea/modules/unnamed-modules-example.iml" />
     </modules>
   </component>

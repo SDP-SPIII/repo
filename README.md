@@ -6,30 +6,18 @@ Code examples supporting the
 
 modules at Birkbeck.
 
-## Under java
+## Under `examples`
 
-### Java Reflection examples
-
-+ (`src/reflection`) - examples from class
-
-### Java 8 examples
-
-+ (`src/java8`)
+A number of packages illustrating various aspects of Java.
 
 ### Java 9 and Java 10 - the changes
 
-+ (`src/java9tojava10`)
++ (`src/javaten`)
 
 ### SOLID examples
 
 + (`src/solid`)
 
-### Dependency Injection examples
-
-+ (`src/dependencyinjection`) - examples from class
-+ (`src/springdi`) - Spring dependency injection examples from class
-+ (`src/springdialt`) - the alternative coding
-+ (`src/guice`) - Google Guice examples
 
 ### Design Patterns examples
 
@@ -46,23 +34,21 @@ modules at Birkbeck.
 
 + (`src/generics`)
 
-### GUI programming in Java
+## Java Reflection examples (under `reflection`)
+
++ (`src/reflection`) - examples from class
+
+
+## Dependency Injection examples (under `dependencyinjection`)
+
++ (`src/dependencyinjection`) - examples from class
++ (`src/springdi`) - Spring dependency injection examples from class
++ (`src/springdialt`) - the alternative coding
++ (`src/guice`) - Google Guice examples
+
+
+## GUI programming in Java (under `gui`)
 
 + (`src/javafx`) - JavaFX examples
 + (`src/swing`) - Java Swing (no further development)
 + (`src/companygui`) - Example application
-
-## Under groovy
-
-### Meta-Object Protocol examples using Groovy
-
-+ (`src/mop`)
-+ (`src/theMOP`)
-
-## Under kotlin
-
-TBC
-
-## Under scala
-
-TBC

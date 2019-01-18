@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6223e5e3-cca4-4279-9f36-61622c435d28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/examples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/repo.reflection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/PersonRedux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/delegate/ContactInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection/src/reflection/PersonIDE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groovy/groovy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/groovy/groovy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-jmods-11.0.1/javafx.base.jmod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-jmods-11.0.1/javafx.controls.jmod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-jmods-11.0.1/javafx.fxml.jmod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-jmods-11.0.1/javafx.graphics.jmod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-jmods-11.0.1/javafx.media.jmod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-jmods-11.0.1/javafx.swing.jmod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-jmods-11.0.1/javafx.web.jmod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.base/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.base/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.base/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.controls/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.controls/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.fxml/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.fxml/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.graphics/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.graphics/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.graphics/jpeg_v7.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.media/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.media/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.media/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.media/applecoreaudio.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.media/glib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.media/gstreamer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.media/libffi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.swing/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.swing/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.web/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.web/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.web/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.web/icu_v51.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.web/libxml2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.web/libxslt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/legal/javafx.web/webkit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/javafx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libdecora_sse.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libfxplugins.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libglass.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libglib-lite.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libgstreamer-lite.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libjavafx_font.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libjavafx_iio.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libjfxmedia.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libjfxmedia_avf.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libjfxwebkit.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libprism_common.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libprism_es2.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/javafx-sdk-11.0.1/lib/libprism_sw.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/algorithms/Fac.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/algorithms/GtStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/algorithms/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/algorithms/Major.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/algorithms/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/algorithms/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/anno.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/ArrayBasics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/ArrayCsv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/ArrayParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/CourseAverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/GradeBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/GradeBookDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/Greetings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/MarkovChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/PartialIntArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/Shout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/Smiley.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/VarArgs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/arrays/grades.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/autoscan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/ArrayFun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/Average.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/Bugs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/CharCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/CharCountIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/CharCountSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/Conditionals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/ConsoleInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/ConsoleOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/CourseAverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/CourseAverage2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/CourseGrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/CurrencyFormatting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/Expressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/LittleCourseAverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/Loops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/Methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/NameParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/ShortCircuit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/Strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/console-input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/basics/regex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/beans.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/BetterDeck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/Blackjack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/BlackjackGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/BlackjackHand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/BlackjackPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/Deck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/HumanPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/PlayingCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/blackjack/RandomPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/ArrayListBasics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/ArrayListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/ArrayListEqualsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/ArrayListGenericsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/ArrayListPrimitivesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/ArrayListTypesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/CollectionToArrayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/CollectionsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/DynamicArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/DynamicArrayIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/GtStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/LambdaExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/Streams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/i-have-a-dream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/supertroopers/HashTroopers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/supertroopers/LambdaTroopers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/supertroopers/SortTroopers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/supertroopers/StreamTroopers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collections/supertroopers/Trooper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collectors/ToUnmodifiableListExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collectors/ToUnmodifiableMapExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collectors/ToUnmodifiableMapMergeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/collectors/ToUnmodifiableSetExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/CompanyFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/CompanyGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/HourlyEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/HourlyEmployeeDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/SalariedEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/SalariedEmployeeDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/SummerIntern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/companygui/employees.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/covariant/ContravariantGenericsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/covariant/CovariantArraysExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/covariant/CovariantGenericsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/covariant/CovariantGenericsExampleTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/covariant/CovariantReturnExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/covariant/InvariantGenericsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/covariant/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/AbstractStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/ArrayListDataStructures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/BalancedNesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/BstSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/DoublyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/GenericLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/GenericLinkedList2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/LinkedQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/LinkedStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/MyGenericLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/datastructure/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/defaults/BonusCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/defaults/DefaultEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/defaults/DefaultEmployeeEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/defaults/DomainObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/defaults/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupled/HelloWorldDecoupled.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldDecoupled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupled/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupled/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupled/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledinterface/HelloWorldDecoupledInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/HelloWorldDecoupledInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledinterface/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/HelloWorldMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledinterface/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/MessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledinterface/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/MessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledinterface/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledwithfactory/HelloWorldDecoupledWithFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/HelloWorldDecoupledWithFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledwithfactory/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/HelloWorldMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledwithfactory/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledwithfactory/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledwithfactory/MessageSupportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageSupportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledwithfactory/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/decoupledwithfactory/bean.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/bean.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/helloworld/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dependencyinjection/helloworld/HelloWorldWithCommandLineArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorldWithCommandLineArguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/BMWEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/BMWFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/BMWWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/CarEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/CarFactoryInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/CarWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/FordEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/FordFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/FordWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactory/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/AmericanRestaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/Appetizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/CheeseCake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/Dessert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/Entree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/Gelato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/ItalianRestaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/Oysters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/Pasta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/Pizzette.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/Restaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/abstractfactoryalt/Steak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/adapter/EnumerationAsIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/adapter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/chain/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/chain/MessageHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/chain/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/chain/SpamHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/composite/DVD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/composite/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/composite/ProductGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/compositealt/Executable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/compositealt/ExecutableCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/compositealt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/compositealt/XExecutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/compositealt/YExecutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/dao/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/dao/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/dao/DataAccessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/dao/MySqlCustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/dao/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/decorator/DVD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/decorator/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/decorator/WrappedProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/decoratoralt/ByteCounterOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/decoratoralt/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/decoratoralt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/factorymethod/ConsoleLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/factorymethod/ConsoleLoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/factorymethod/FileLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/factorymethod/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/factorymethod/LoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/factorymethod/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/iterator/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/proxy/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/proxy/PersonInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/proxy/PersonProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/publish/PCLNewsAgency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/publish/PCLNewsChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/publish/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/singleton/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/singleton/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/singletonalt/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/singletonalt/MySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/singletonalt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/state/GiftBag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/state/GiftBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/state/GiftType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/state/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/state/WrappedProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/strategy/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/strategy/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/strategy/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/strategy/Sorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/strategyalt/DateComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/strategyalt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/strategyalt/ReverseComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/strategyalt/StringIntegerComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/template/AdditionCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/template/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/template/CalculatorTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatterns/template/SubtractionCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/ESEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/ESUFOBossEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/ESUFOBossGun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/ESUFOEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/ESUFOGun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/ESWeapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/EnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/EnemyShipBuilding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/EnemyShipFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/EnemyShipTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/UFOBossEnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/UFOBossEnemyShipFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/UFOEnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/UFOEnemyShipBuilding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/abstractfactory/UFOEnemyShipFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/adapter/EnemyAttacker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/adapter/EnemyRobot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/adapter/EnemyRobotAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/adapter/EnemyTank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/adapter/TestEnemyAttackers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/bridge/DVDDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/bridge/DVDRemote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/bridge/EntertainmentDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/bridge/RemoteButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/bridge/TVDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/bridge/TVRemoteMute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/bridge/TVRemotePause.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/bridge/TestTheRemote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/builder/OldRobotBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/builder/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/builder/RobotBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/builder/RobotEngineer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/builder/RobotPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/builder/TestRobotBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/chain/AddNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/chain/Chain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/chain/DivideNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/chain/MultNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/chain/Numbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/chain/SubtractNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/chain/TestCalcChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/DeviceButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/ElectronicDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/PlayWithRemote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/Radio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/TVRemote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/Television.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/TurnItAllOff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/TurnTVOff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/TurnTVOn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/command/TurnTVUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/composite/DiscJockey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/composite/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/composite/SongComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/composite/SongGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/composite/SongListGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/decorator/Mozzarella.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/decorator/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/decorator/PizzaMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/decorator/PlainPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/decorator/ThreeCheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/decorator/TomatoSauce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/decorator/ToppingDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/facade/AccountNumberCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/facade/BankAccountFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/facade/FundsCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/facade/SecurityCodeCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/facade/TestBankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/facade/WelcomeToBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/factory/BigUFOEnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/factory/EnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/factory/EnemyShipFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/factory/EnemyShipTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/factory/RocketEnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/factory/UFOEnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/flyweight/FlyWeightTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/flyweight/MyRect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/flyweight/RectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/interpreter/ConversionContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/interpreter/Cups.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/interpreter/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/interpreter/Gallons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/interpreter/MeasurementConversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/interpreter/Pints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/interpreter/Quarts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/interpreter/Tablespoons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/iterator/DiscJockey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/iterator/RadioStation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/iterator/SongInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/iterator/SongIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/iterator/SongsOfThe70s.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/iterator/SongsOfThe80s.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/iterator/SongsOfThe90s.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/mediator/Colleague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/mediator/GormanSlacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/mediator/JTPoorman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/mediator/Mediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/mediator/StockMediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/mediator/StockOffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/mediator/TestStockMediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/memento/Caretaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/memento/Memento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/memento/Originator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/memento/TestMemento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/observer/GetTheStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/observer/GrabStocks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/observer/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/observer/StockGrabber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/observer/StockObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/observer/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/prototype/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/prototype/CloneFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/prototype/Sheep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/prototype/TestCloning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/proxy/ATMMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/proxy/ATMProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/proxy/ATMState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/proxy/GetATMData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/proxy/TestATMMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/reflection/TestingReflection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/reflection/UFOEnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/singleton/GetTheTiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/singleton/ScrabbleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/singleton/ScrabbleTestThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/singleton/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/state/ATMMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/state/ATMState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/state/HasCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/state/HasPin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/state/NoCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/state/NoCash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/state/TestATMMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/strategy/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/strategy/AnimalPlay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/strategy/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/strategy/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/strategy/Flys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/template/ItalianSub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/template/SandwichSculptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/template/Sub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/template/VeggieSub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/visitor/Liquor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/visitor/Necessity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/visitor/TaxHolidayVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/visitor/TaxVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/visitor/Tobacco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/visitor/Visitable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/visitor/Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/designpatternsbanas/visitor/VisitorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dixml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/dixmlcons.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/BadCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Company2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Company4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Company6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Employee1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Employee2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Employee3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Employee4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Employee5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/Employee6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/EmployeeDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/EmployeeDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/EmployeeDemo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/HourlyEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/HourlyEmployee1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/HourlyEmployee2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/HourlyEmployee3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/HourlyEmployee4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/HourlyEmployee5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/HourlyEmployee6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/SalariedEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/SalariedEmployee2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/SalariedEmployee3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/SalariedEmployee4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/SalariedEmployee5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/SalariedEmployee6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/SummerIntern5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/SummerIntern6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/ValidationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/employee/employees.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/exceptions/MyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/exceptions/RobustGuessNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/exceptions/SimpleExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/exceptions/Wee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/Bar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/Foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/boxes/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/boxes/BoxDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/boxes/BoxUpper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/boxes/FooBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/boxes/IntBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/boxes/MathBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/boxes/OldBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/boxes/OldBoxDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/boxes/StrBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/dogs/AbstractDog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/dogs/Chiuaua.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/dogs/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/dogs/DogWalker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/dogs/GermanShepherd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/dogs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/dogs/ObjectPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/sum/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/sum/NewSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/sum/NewSumMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/sum/Sum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/generics/sum/SumMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/BillingModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/BillingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/CreditCardProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/DatabaseTransactionLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/PaypalCreditCardProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/PizzaOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/Receipt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/TestBillingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/guice/TransactionLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/hipster/CoffeeShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/hipster/Hipster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/hipster/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/http/HttpClientExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/additions/OfMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/collectorsfiltering/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/collectorsfiltering/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/collectorsfiltering/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/collectorsflatmapping/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/collectorsflatmapping/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/collectorsflatmapping/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/interfaceprivatemethods/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/interfaceprivatemethods/TwoCompletableTimeout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/interfaceprivatemethods/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/intstreamiterate/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/nounderscore/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/optionalimprovements/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/improvements/trywithresources/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/interfaces/Thing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/io/InputStreamReadAllBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/io/InputStreamReadNBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/io/InputStreamTransferTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/io/ObjectInputFilterExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaeight/debug/Debuggable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaeight/debug/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaeight/optional/OptionalScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaeight/streams/LambdasScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/AnonymousClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ArrayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ArrayExampleThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ArrayExampleTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ArrayExampleValid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/CatchClauseExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/DefiniteAssignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/FieldExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ForEachLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ForLoopExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/IncompatibleAssignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/JavaStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/LambdaExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ListExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ListExampleThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ListExampleTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ListWithDiamondExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/ListWithGenericTypeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/MethodExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/MethodReference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/MethodReturnTypeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/MultiVars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/NullVar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/PassVarToMethodExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/PassVarToMethodExampleTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/Polymorphism.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/PolymorphismTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/StringExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/TernaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/TernaryOperatorFive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/TernaryOperatorFour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/TernaryOperatorThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/TernaryOperatorTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/javaten/UninitializedVar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/junit/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lambdas/ConsumerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lambdas/FunctionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lambdas/PredicateExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lambdas/SupplierExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/builder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/builder/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/builder/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/delegate/ContactInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/delegate/HasContactInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/delegate/HasContactInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/delegate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/delegate/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/delegate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/delegate/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/delegate/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/delegate/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/exceptions/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/exceptions/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/exceptions/UserServiceLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/exceptions/UserServiceLombok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/general/AutoLogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/general/AutoLogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/general/EveryThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/general/EveryThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/general/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/general/Logs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/general/Original.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/general/Original.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/immutable/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/immutable/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/logging/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/logging/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/stepone/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/stepone/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/stepthree/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/stepthree/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lombokexamples/steptwo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/steptwo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/methodreferences/ref/ConstructorRefExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/methodreferences/ref/ObjectRefExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/methodreferences/ref/StaticRefExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/methodreferences/ref/TypeRefExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/methodreferences/service/DataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/methodreferences/service/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/methodreferences/service/UserRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/nodynamicdispatch/CollectionScenario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/nodynamicdispatch/GeneralScenario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/nodynamicdispatch/GeneralScenarioTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/objects/CheckFromIndexSizeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/objects/CheckFromToIndexExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/objects/CheckIndexExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/objects/RequireNonNullElseExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/objects/RequireNonNullElseGetExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/oop/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/oop/Animals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/oop/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/oop/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/oop/Destiny.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/oop/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/oop/Mammal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/oop/Named.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/oop/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/optional/OrElseThrowExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/optional/OrElseThrowExampleTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/optional/OrElseThrowIntExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/processes/ProcessHandleExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/proxies/decorator/MyInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/proxies/decorator/MyInterceptorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/proxies/decorator/MyInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/proxies/dynamic/MyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/proxies/dynamic/MyInvocationHandlerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/proxies/dynamic/MyInvocationHandlerIntercept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/proxies/intercept/MyInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/proxies/intercept/MyInterceptorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/proxies/intercept/MyInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reactive/MySubscriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reactive/SubmissionPublisherExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/reflection/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/MyClassPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/reflection/MyClassPrompt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/NestedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/reflection/NestedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/reflection/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/PersonIDE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/PersonRedux.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/ReflectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/reflection/ReflectionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/RentCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/reflection/RentCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/Spy.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/reflection/Spy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/SpyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/reflection/SpyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/reflection/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/reflection/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/Collection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/DataChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/Door.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/Modem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/Parrot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/Penguin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/Timer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/solid/TimerClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/annotation/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/HelloWorldMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/annotation/HelloWorldSpringWithAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/HelloWorldSpringWithAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/annotation/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/MessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/annotation/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/MessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/annotation/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/autoscan/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/HelloWorldMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/autoscan/HelloWorldSpringWithAutoscan.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/HelloWorldSpringWithAutoscan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/autoscan/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/MessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/autoscan/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/MessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/autoscan/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/di/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/HelloWorldMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/di/HelloWorldSpringWithDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/HelloWorldSpringWithDI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/di/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/MessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/di/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/MessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/di/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixml/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/HelloWorldMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixml/HelloWorldSpringWithDIXMLFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/HelloWorldSpringWithDIXMLFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixml/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/MessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixml/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/MessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixml/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixmlcons/ConfigurableMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/ConfigurableMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixmlcons/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/MessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixmlcons/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/MessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/dixmlcons/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/helloworld/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/HelloWorldMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/helloworld/HelloWorldSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/HelloWorldSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/helloworld/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/MessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/helloworld/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/MessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/helloworld/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/helloworld/beans.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/resources/beans.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/simple/Beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/simple/Beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/simple/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/simple/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/simple/SpellChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/simple/SpellChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdi/simple/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdi/simple/TextEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdialt/Beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdialt/Beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdialt/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdialt/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdialt/SpellChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdialt/SpellChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/springdialt/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/springdialt/TextEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/stackwalker/StackWalkerTraversalExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/stackwalker/StackWalkerWalkExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/strings/StringIsBlankExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/strings/StringLinesExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/strings/StringRepeatExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/strings/StringStripExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/strings/StringStripVsTrimExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/timebasedrelease/SourceVersionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/timebasedrelease/VersionMajorMinor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/timebasedrelease/VersionParseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/timebasedrelease/VersionSystemProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/timebasedrelease/VersionSystemPropertiesTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/timebasedrelease/VersionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/trywithresources/TryWithResourceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/test/defaults/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/test/defaults/TestEmployeeEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/test/designpatterns/publish/TestPublish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/test/junit/DynamicTestCreationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/test/junit/MyClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/javafx/HelloJfx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/javafx/HelloJfxButtons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/javafx/HelloJfxProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/javafx/TicTacToe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/javafx/TicTacToe2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/javafx/TodoList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/javafx/email/EmailDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/javafx/email/EmailGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/javafx/email/EmailMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/BadListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/BetterListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/ColorBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/ColorBox2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/CountListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/CounterFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/CounterGrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/CounterWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/ExitListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/Greeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/GreetingFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/GreetingGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/GtFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/HelloButtons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/HelloSwing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/JACK-HEARTS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/Jack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/New16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/SimpleDialogs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/CompanyFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/CompanyGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/HourlyEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/HourlyEmployeeDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/SalariedEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/SalariedEmployeeDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/SummerIntern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing/src/swing/companygui/employees.data" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/modules-example/.gradle/" />
+    <ignored path="$PROJECT_DIR$/modules-example/build/" />
+    <ignored path="$PROJECT_DIR$/unnamed-modules-example/.gradle/" />
+    <ignored path="$PROJECT_DIR$/unnamed-modules-example/build/" />
+    <ignored path="$PROJECT_DIR$/reflection/.gradle/" />
+    <ignored path="$PROJECT_DIR$/reflection/build/" />
+    <ignored path="$PROJECT_DIR$/examples/.gradle/" />
+    <ignored path="$PROJECT_DIR$/examples/build/" />
+    <ignored path="$PROJECT_DIR$/gui/.gradle/" />
+    <ignored path="$PROJECT_DIR$/gui/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/examples">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/gui">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/modules-example">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/reflection">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/unnamed-modules-example">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/PersonRedux.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/exceptions/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/immutable/LoginResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dependencyinjection/resources/beans.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules-example/sources2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules-example/sources.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dependencyinjection/src/springdialt/SpellChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dependencyinjection/src/springdialt/TextEditor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dependencyinjection/src/springdialt/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/java/src/proxies/decorator/MyInterceptorExample.java" />
+        <option value="$PROJECT_DIR$/java/src/proxies/decorator/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/java/src/covariant/CovariantReturnExample.java" />
+        <option value="$PROJECT_DIR$/java/src/covariant/README.md" />
+        <option value="$PROJECT_DIR$/java/src/covariant/CovariantArraysExample.java" />
+        <option value="$PROJECT_DIR$/java/src/covariant/InvariantGenericsExample.java" />
+        <option value="$PROJECT_DIR$/java/src/covariant/CovariantGenericsExample.java" />
+        <option value="$PROJECT_DIR$/java/src/covariant/CovariantGenericsExampleTwo.java" />
+        <option value="$PROJECT_DIR$/java/src/covariant/ContravariantGenericsExample.java" />
+        <option value="$PROJECT_DIR$/java/src/arrays/ArrayBasics.java" />
+        <option value="$PROJECT_DIR$/java/src/reflection/RentCar.java" />
+        <option value="$PROJECT_DIR$/java/src/reflection/Person.java" />
+        <option value="$PROJECT_DIR$/java/src/reflection/SpyMain.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/sum/Sum.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/NewSum.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/boxes/MathBox.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/boxes/OldBoxDriver.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/boxes/Box.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/boxes/BoxUpper.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/boxes/FooBox.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/boxes/IntBox.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/boxes/OldBox.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/boxes/StrBox.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/sum/Main.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/sum/NewSumMain.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/sum/NewSum.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/sum/SumMain.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/Foo.java" />
+        <option value="$PROJECT_DIR$/java/src/junit/MyClass.java" />
+        <option value="$PROJECT_DIR$/java/test/junit/MyClassTest.java" />
+        <option value="$PROJECT_DIR$/java/src/nodynamicdispatch/CollectionScenario.java" />
+        <option value="$PROJECT_DIR$/java/src/nodynamicdispatch/GeneralScenario.java" />
+        <option value="$PROJECT_DIR$/java/src/nodynamicdispatch/GeneralScenarioTwo.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/AbstractDog.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/dogs/AbstractDog.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/dogs/Chiuaua.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/dogs/Dog.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/dogs/DogWalker.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/dogs/GermanShepherd.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/dogs/Main.java" />
+        <option value="$PROJECT_DIR$/java/src/generics/dogs/ObjectPrinter.java" />
+        <option value="$PROJECT_DIR$/java/test/junit/DynamicTestCreationTest.java" />
+        <option value="$PROJECT_DIR$/java/src/reflection/demo.java" />
+        <option value="$PROJECT_DIR$/java/src/reflection/MyClass.java" />
+        <option value="$PROJECT_DIR$/java/src/reflection/MyClassPrompt.java" />
+        <option value="$PROJECT_DIR$/java/src/reflection/ReflectionExample.java" />
+        <option value="$PROJECT_DIR$/java/src/reflection/PersonIDE.java" />
+        <option value="$PROJECT_DIR$/java/src/reflection/PersonRedux.java" />
+        <option value="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/HelloWorldSpring.java" />
+        <option value="$PROJECT_DIR$/reflection/src/module-info.java" />
+        <option value="$PROJECT_DIR$/lombok/src/lombokexamples/PersonRedux.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dependencyinjection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lombok" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lombok" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lombok" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lombokexamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lombok" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lombokexamples" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lombok" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lombokexamples" type="462c0819:PsiDirectoryNode" />
+              <item name="immutable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modules-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modules-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unnamed-modules-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unnamed-modules-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Course" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547849738252" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="12" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/java/src/improvements/additions" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="junit" />
+      <recent name="defaults" />
+      <recent name="designpatterns.publish" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="reflection" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dependencyinjection/resources" />
+      <recent name="$PROJECT_DIR$/dependencyinjection/lib" />
+      <recent name="$PROJECT_DIR$/lombok/lib" />
+      <recent name="$PROJECT_DIR$/java/src/springdi/di" />
+      <recent name="$PROJECT_DIR$/java/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.demo">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldDecoupled" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decoupled.HelloWorldDecoupled" />
+      <module name="dependencyinjection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decoupled.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springdi.helloworld.HelloWorldSpring" />
+      <module name="dependencyinjection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springdi.helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClassPrompt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.MyClassPrompt" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lombokexamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.ReflectionExample" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lombokexamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.demo" />
+      <module name="repo.reflection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.HelloWorldSpring" />
+        <item itemvalue="Application.HelloWorldDecoupled" />
+        <item itemvalue="Application.MyClassPrompt" />
+        <item itemvalue="Application.ReflectionExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6223e5e3-cca4-4279-9f36-61622c435d28" name="Default Changelist" comment="" />
+      <created>1547139864200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547139864200</updated>
+      <workItem from="1547139871500" duration="2110000" />
+      <workItem from="1547151970166" duration="4516000" />
+      <workItem from="1547200428141" duration="1136000" />
+      <workItem from="1547222448880" duration="201000" />
+      <workItem from="1547222696118" duration="598000" />
+      <workItem from="1547223331492" duration="1024000" />
+      <workItem from="1547224441917" duration="10416000" />
+      <workItem from="1547253341921" duration="636000" />
+      <workItem from="1547400348876" duration="36000" />
+      <workItem from="1547400418245" duration="49000" />
+      <workItem from="1547587889164" duration="1628000" />
+      <workItem from="1547589675229" duration="67000" />
+      <workItem from="1547605846764" duration="996000" />
+      <workItem from="1547648477654" duration="2806000" />
+      <workItem from="1547676850965" duration="268000" />
+      <workItem from="1547753257873" duration="1095000" />
+      <workItem from="1547755231088" duration="2561000" />
+      <workItem from="1547757837756" duration="557000" />
+      <workItem from="1547817311699" duration="25000" />
+      <workItem from="1547817341953" duration="80000" />
+      <workItem from="1547817426008" duration="215000" />
+      <workItem from="1547821565743" duration="204000" />
+      <workItem from="1547821818723" duration="109000" />
+      <workItem from="1547822412424" duration="139000" />
+      <workItem from="1547822594328" duration="121000" />
+      <workItem from="1547822751701" duration="184000" />
+      <workItem from="1547822978621" duration="47000" />
+      <workItem from="1547823123447" duration="78000" />
+      <workItem from="1547823228604" duration="82000" />
+      <workItem from="1547823334813" duration="39000" />
+      <workItem from="1547823397836" duration="86000" />
+      <workItem from="1547823507508" duration="75000" />
+      <workItem from="1547823605707" duration="97000" />
+      <workItem from="1547823732283" duration="235000" />
+      <workItem from="1547823992645" duration="10000" />
+      <workItem from="1547824063292" duration="292000" />
+      <workItem from="1547824418904" duration="17000" />
+      <workItem from="1547824465082" duration="983000" />
+      <workItem from="1547834813144" duration="484000" />
+      <workItem from="1547835613655" duration="109000" />
+      <workItem from="1547835755654" duration="185000" />
+      <workItem from="1547836156347" duration="365000" />
+      <workItem from="1547849132940" duration="70000" />
+      <workItem from="1547849235496" duration="411000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added junit examples">
+      <created>1547606730158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547606730158</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added additional generics examples">
+      <created>1547649424097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547649424098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MyClassTest_multiplicationOfZeroIntegersShouldReturnZero - 2019.01.16 at 02h 43m 20s.xml">
+      <configuration name="MyClassTest.multiplicationOfZeroIntegersShouldReturnZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DynamicTestCreationTest - 2019.01.16 at 22h 17m 31s.xml">
+      <configuration name="DynamicTestCreationTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35442000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21458998" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="aws.explorer" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Image Layers" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52544135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="11" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" weight="0.32942238" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32942238" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Flutter Performance" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32917964" />
+      <window_info anchor="bottom" id="Tail" order="18" />
+      <window_info anchor="bottom" id="Build" order="19" weight="0.32917964" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Flutter Outline" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Gradle" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added junit examples" />
+    <MESSAGE value="Added additional generics examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added additional generics examples" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java/src/generics/boxes/OldBox.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/Foo.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/Example.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/Bar.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/sum/NewSumMain.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/sum/Main.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/boxes/StrBox.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/boxes/OldBoxDriver.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/sum/SumMain.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/sum/NewSum.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/sum/Sum.java" />
+    <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/general/EveryThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/general/Original.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/nodynamicdispatch/CollectionScenario.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/nodynamicdispatch/GeneralScenario.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/nodynamicdispatch/GeneralScenarioTwo.java" />
+    <entry file="file://$PROJECT_DIR$/java/test/junit/DynamicTestCreationTest.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/junit/MyClass.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/dogs/ObjectPrinter.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/dogs/GermanShepherd.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/dogs/DogWalker.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/dogs/Dog.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/dogs/Chiuaua.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/dogs/AbstractDog.java" />
+    <entry file="file://$PROJECT_DIR$/java/test/junit/MyClassTest.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/generics/dogs/Main.java" />
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/PersonIDE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="24" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/ReflectionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2552">
+          <caret line="92" column="89" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/MyClassPrompt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/NestedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/MyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/RentCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldDecoupled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/reflection/.classpath" />
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/HelloWorldSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/module-info.java" />
+    <entry file="file://$PROJECT_DIR$/repo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/resources/beans.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules-example/sources2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules-example/sources.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/springdialt/SpellChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/springdialt/TextEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/springdialt/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/exceptions/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/immutable/LoginResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/PersonRedux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-3.0.0-alpha-4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lombok</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lombok</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
