@@ -34,7 +34,7 @@ public class HelloWorldSpring {
 
     // load the configuration options
     Properties props = new Properties();
-    props.load(new FileInputStream("beans.properties"));
+    props.load(new FileInputStream("dependencyinjection/resources/beans.properties"));
 
     rdr.registerBeanDefinitions(props);
 

@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class MessageSupportFactory {
+  private final String FILENAME = "dependencyinjection/resources/bean.properties";
 
   private static MessageSupportFactory instance = null;
 
@@ -19,7 +20,7 @@ public class MessageSupportFactory {
     props = new Properties();
 
     try {
-      props.load(new FileInputStream("bean.properties"));
+      props.load(new FileInputStream(FILENAME));
 
       // get the implementation classes
       String rendererClass = props.getProperty("renderer.class");

@@ -8,6 +8,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class HelloWorldSpringWithDI {
+  private final static String FILENAME = "dependencyinjection/resources/di.properties";
 
   public static void main(String[] args) throws Exception {
 
@@ -23,12 +24,11 @@ public class HelloWorldSpringWithDI {
     DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
 
     // create a definition reader
-    PropertiesBeanDefinitionReader rdr = new PropertiesBeanDefinitionReader(
-            factory);
+    PropertiesBeanDefinitionReader rdr = new PropertiesBeanDefinitionReader(factory);
 
     // load the configuration options
     Properties props = new Properties();
-    props.load(new FileInputStream("java/src/springdi/di/beans.properties"));
+    props.load(new FileInputStream(FILENAME));
 
     rdr.registerBeanDefinitions(props);
 

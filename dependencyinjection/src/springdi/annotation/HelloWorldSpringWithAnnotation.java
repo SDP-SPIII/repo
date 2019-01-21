@@ -4,6 +4,7 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloWorldSpringWithAnnotation {
+  private final static String CONFIG = "anno.xml";
 
   public static void main(String[] args) throws Exception {
 
@@ -15,7 +16,7 @@ public class HelloWorldSpringWithAnnotation {
 
   private static BeanFactory getBeanFactory() throws Exception {
     // create a bean factory from anno.xml
-    BeanFactory factory = new ClassPathXmlApplicationContext("anno.xml");
+    BeanFactory factory = new ClassPathXmlApplicationContext(CONFIG);
     return factory;
   }
 }
