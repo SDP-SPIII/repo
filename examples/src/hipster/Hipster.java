@@ -1,7 +1,5 @@
 package hipster;
 
-import java.awt.*;
-
 public class Hipster extends Person {
 
   private int beardLength;

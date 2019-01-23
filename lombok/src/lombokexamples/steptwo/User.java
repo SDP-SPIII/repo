@@ -1,8 +1,13 @@
 package lombokexamples.steptwo;
 
-import lombok.*;
-
 import java.time.Instant;
+
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 /*
  * Using @Getter and @Setter Lombok generates getters and setters for all attributes.
@@ -14,7 +19,7 @@ import java.time.Instant;
  * The @ToString annotation auto-generates a toString() method, showing by default all class attributes prefixed
  * by their name.
  * Finally, to have the pair of equals() and hashCode() methods defined in terms of the email field
- * we have used @EqualsAndHashCode and parameterized it with the list of relevant fields (just the email in this case).
+ * we have used @EqualsAndHashCode and parameterised it with the list of relevant fields (just the email in this case).
  */
 
 @Getter

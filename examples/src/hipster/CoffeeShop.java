@@ -1,7 +1,5 @@
 package hipster;
 
-import java.awt.*;
-
 public class CoffeeShop {
 
   public static void main(String[] args) {

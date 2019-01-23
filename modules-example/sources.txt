@@ -1,3 +1,0 @@
-src/common.widget/module-info.java
-src/common.widget/org/jwidgets/SimpleRenderer.java
-src/common.widget/com/thing/RendererSupport.java

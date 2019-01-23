@@ -6,6 +6,12 @@ Code examples supporting the
 
 modules at Birkbeck.
 
+## Source code from *Core Java SE 9 for the Impatient*
+
+by Cay Horstmann 
+
+Source text available on the College link to *[Safari Online][safari]*.
+
 ## Under `examples`
 
 A number of packages illustrating various aspects of Java.
@@ -52,3 +58,6 @@ A number of packages illustrating various aspects of Java.
 + (`src/javafx`) - JavaFX examples
 + (`src/swing`) - Java Swing (no further development)
 + (`src/companygui`) - Example application
+
+[safari]: https://safarijv.auth0.com/login?state=iwib9CiLj-AsoYvov46Q7ldWqzUMlIL3&client=UtNi1m1IRXgzYFIwZrhSxell9EDRaL2v&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fwww.safaribooksonline.com%2Fcomplete%2Fauth0-oauth2%2F&connection=Birkbeck
+

@@ -1,5 +1,16 @@
 package lombokexamples.delegate;
 
+import java.time.Instant;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.Setter;
+import lombok.ToString;
+
 /*
  * We could refactor User to compose with ContactInformation and use Lombok to generate all the required delegating
  * calls to match the interface contract.
@@ -8,10 +19,8 @@ package lombokexamples.delegate;
  * this is something we’re telling Lombok to do, delegating calls to our ContactInformation instance.
  */
 
-import lombok.*;
-import lombok.experimental.Delegate;
 
-import java.time.Instant;
+import lombok.experimental.Delegate;
 
 @Getter
 @Setter(AccessLevel.PROTECTED)
