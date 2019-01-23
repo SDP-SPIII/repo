@@ -1,336 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6223e5e3-cca4-4279-9f36-61622c435d28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/guice_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorldWithCommandLineArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorldWithCommandLineArguments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/anno.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/autoscan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/beans.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/CompanyFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/CompanyGui.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/HourlyEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/HourlyEmployeeDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/SalariedEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/SalariedEmployeeDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/SummerIntern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/companygui/employees.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/BMWEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/BMWEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/BMWFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/BMWFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/BMWWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/BMWWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/CarEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/CarEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/CarFactoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/CarFactoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/CarWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/CarWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/FordEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/FordEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/FordFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/FordFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/FordWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/FordWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/AmericanRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/AmericanRestaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/Appetizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/Appetizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/CheeseCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/CheeseCake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/Dessert.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/Dessert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/Entree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/Gelato.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/Gelato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/ItalianRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/ItalianRestaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/Oysters.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/Oysters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/Pasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/Pasta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/Pizzette.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/Pizzette.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/abstractfactoryalt/Steak.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/abstractfactoryalt/Steak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/adapter/EnumerationAsIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/adapter/EnumerationAsIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/adapter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/adapter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/chain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/chain/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/chain/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/chain/MessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/chain/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/chain/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/chain/SpamHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/chain/SpamHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/composite/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/composite/DVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/composite/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/composite/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/composite/ProductGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/composite/ProductGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/compositealt/Executable.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/compositealt/Executable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/compositealt/ExecutableCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/compositealt/ExecutableCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/compositealt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/compositealt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/compositealt/XExecutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/compositealt/XExecutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/compositealt/YExecutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/compositealt/YExecutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/dao/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/dao/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/dao/CustomerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/dao/DataAccessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/dao/DataAccessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/dao/MySqlCustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/dao/MySqlCustomerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/dao/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/dao/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/decorator/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/decorator/DVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/decorator/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/decorator/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/decorator/WrappedProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/decorator/WrappedProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/decoratoralt/ByteCounterOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/decoratoralt/ByteCounterOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/decoratoralt/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/decoratoralt/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/decoratoralt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/decoratoralt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/factorymethod/ConsoleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/factorymethod/ConsoleLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/factorymethod/ConsoleLoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/factorymethod/ConsoleLoggerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/factorymethod/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/factorymethod/FileLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/factorymethod/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/factorymethod/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/factorymethod/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/factorymethod/LoggerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/factorymethod/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/factorymethod/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/iterator/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/iterator/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/proxy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/proxy/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/proxy/PersonInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/proxy/PersonInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/proxy/PersonProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/proxy/PersonProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/publish/PCLNewsAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/publish/PCLNewsAgency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/publish/PCLNewsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/publish/PCLNewsChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/publish/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/publish/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/singleton/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/singleton/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/singleton/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/singleton/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/singletonalt/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/singletonalt/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/singletonalt/MySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/singletonalt/MySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/singletonalt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/singletonalt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/state/GiftBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/state/GiftBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/state/GiftBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/state/GiftBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/state/GiftType.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/state/GiftType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/state/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/state/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/state/WrappedProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/state/WrappedProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/strategy/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/strategy/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/strategy/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/strategy/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/strategy/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/strategy/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/strategy/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/strategy/Sorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/strategyalt/DateComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/strategyalt/DateComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/strategyalt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/strategyalt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/strategyalt/ReverseComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/strategyalt/ReverseComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/strategyalt/StringIntegerComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/strategyalt/StringIntegerComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/template/AdditionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/template/AdditionCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/template/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/template/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/template/CalculatorTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/template/CalculatorTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/template/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/template/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatterns/template/SubtractionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/src/template/SubtractionCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/ESEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/ESEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/ESUFOBossEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/ESUFOBossEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/ESUFOBossGun.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/ESUFOBossGun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/ESUFOEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/ESUFOEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/ESUFOGun.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/ESUFOGun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/ESWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/ESWeapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/EnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/EnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/EnemyShipBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/EnemyShipBuilding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/EnemyShipFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/EnemyShipFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/EnemyShipTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/EnemyShipTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/UFOBossEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/UFOBossEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/UFOBossEnemyShipFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/UFOBossEnemyShipFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/UFOEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/UFOEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/UFOEnemyShipBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/UFOEnemyShipBuilding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/abstractfactory/UFOEnemyShipFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/abstractfactory/UFOEnemyShipFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/adapter/EnemyAttacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/adapter/EnemyAttacker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/adapter/EnemyRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/adapter/EnemyRobot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/adapter/EnemyRobotAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/adapter/EnemyRobotAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/adapter/EnemyTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/adapter/EnemyTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/adapter/TestEnemyAttackers.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/adapter/TestEnemyAttackers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/bridge/DVDDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/bridge/DVDDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/bridge/DVDRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/bridge/DVDRemote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/bridge/EntertainmentDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/bridge/EntertainmentDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/bridge/RemoteButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/bridge/RemoteButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/bridge/TVDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/bridge/TVDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/bridge/TVRemoteMute.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/bridge/TVRemoteMute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/bridge/TVRemotePause.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/bridge/TVRemotePause.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/bridge/TestTheRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/bridge/TestTheRemote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/builder/OldRobotBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/builder/OldRobotBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/builder/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/builder/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/builder/RobotBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/builder/RobotBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/builder/RobotEngineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/builder/RobotEngineer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/builder/RobotPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/builder/RobotPlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/builder/TestRobotBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/builder/TestRobotBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/chain/AddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/chain/AddNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/chain/Chain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/chain/Chain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/chain/DivideNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/chain/DivideNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/chain/MultNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/chain/MultNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/chain/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/chain/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/chain/SubtractNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/chain/SubtractNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/chain/TestCalcChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/chain/TestCalcChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/DeviceButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/DeviceButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/ElectronicDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/ElectronicDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/PlayWithRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/PlayWithRemote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/TVRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/TVRemote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/Television.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/TurnItAllOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/TurnItAllOff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/TurnTVOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/TurnTVOff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/TurnTVOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/TurnTVOn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/command/TurnTVUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/command/TurnTVUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/composite/DiscJockey.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/composite/DiscJockey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/composite/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/composite/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/composite/SongComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/composite/SongComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/composite/SongGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/composite/SongGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/composite/SongListGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/composite/SongListGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/decorator/Mozzarella.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/decorator/Mozzarella.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/decorator/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/decorator/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/decorator/PizzaMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/decorator/PizzaMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/decorator/PlainPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/decorator/PlainPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/decorator/ThreeCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/decorator/ThreeCheesePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/decorator/TomatoSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/decorator/TomatoSauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/decorator/ToppingDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/decorator/ToppingDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/facade/AccountNumberCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/facade/AccountNumberCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/facade/BankAccountFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/facade/BankAccountFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/facade/FundsCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/facade/FundsCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/facade/SecurityCodeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/facade/SecurityCodeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/facade/TestBankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/facade/TestBankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/facade/WelcomeToBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/facade/WelcomeToBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/factory/BigUFOEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/factory/BigUFOEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/factory/EnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/factory/EnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/factory/EnemyShipFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/factory/EnemyShipFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/factory/EnemyShipTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/factory/EnemyShipTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/factory/RocketEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/factory/RocketEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/factory/UFOEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/factory/UFOEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/flyweight/FlyWeightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/flyweight/FlyWeightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/flyweight/MyRect.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/flyweight/MyRect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/flyweight/RectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/flyweight/RectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/interpreter/ConversionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/interpreter/ConversionContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/interpreter/Cups.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/interpreter/Cups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/interpreter/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/interpreter/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/interpreter/Gallons.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/interpreter/Gallons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/interpreter/MeasurementConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/interpreter/MeasurementConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/interpreter/Pints.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/interpreter/Pints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/interpreter/Quarts.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/interpreter/Quarts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/interpreter/Tablespoons.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/interpreter/Tablespoons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/iterator/DiscJockey.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/iterator/DiscJockey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/iterator/RadioStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/iterator/RadioStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/iterator/SongInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/iterator/SongInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/iterator/SongIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/iterator/SongIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/iterator/SongsOfThe70s.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/iterator/SongsOfThe70s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/iterator/SongsOfThe80s.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/iterator/SongsOfThe80s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/iterator/SongsOfThe90s.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/iterator/SongsOfThe90s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/mediator/Colleague.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/mediator/Colleague.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/mediator/GormanSlacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/mediator/GormanSlacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/mediator/JTPoorman.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/mediator/JTPoorman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/mediator/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/mediator/Mediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/mediator/StockMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/mediator/StockMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/mediator/StockOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/mediator/StockOffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/mediator/TestStockMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/mediator/TestStockMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/memento/Caretaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/memento/Caretaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/memento/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/memento/Memento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/memento/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/memento/Originator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/memento/TestMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/memento/TestMemento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/observer/GetTheStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/observer/GetTheStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/observer/GrabStocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/observer/GrabStocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/observer/StockGrabber.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/observer/StockGrabber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/observer/StockObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/observer/StockObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/observer/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/prototype/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/prototype/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/prototype/CloneFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/prototype/CloneFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/prototype/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/prototype/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/prototype/TestCloning.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/prototype/TestCloning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/proxy/ATMMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/proxy/ATMMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/proxy/ATMProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/proxy/ATMProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/proxy/ATMState.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/proxy/ATMState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/proxy/GetATMData.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/proxy/GetATMData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/proxy/TestATMMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/proxy/TestATMMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/reflection/TestingReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/reflection/TestingReflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/reflection/UFOEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/reflection/UFOEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/singleton/GetTheTiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/singleton/GetTheTiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/singleton/ScrabbleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/singleton/ScrabbleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/singleton/ScrabbleTestThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/singleton/ScrabbleTestThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/state/ATMMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/state/ATMMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/state/ATMState.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/state/ATMState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/state/HasCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/state/HasCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/state/HasPin.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/state/HasPin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/state/NoCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/state/NoCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/state/NoCash.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/state/NoCash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/state/TestATMMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/state/TestATMMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/strategy/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/strategy/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/strategy/AnimalPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/strategy/AnimalPlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/strategy/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/strategy/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/strategy/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/strategy/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/strategy/Flys.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/strategy/Flys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/template/ItalianSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/template/ItalianSub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/template/SandwichSculptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/template/SandwichSculptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/template/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/template/Sub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/template/VeggieSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/template/VeggieSub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/visitor/Liquor.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/visitor/Liquor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/visitor/Necessity.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/visitor/Necessity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/visitor/TaxHolidayVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/visitor/TaxHolidayVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/visitor/TaxVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/visitor/TaxVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/visitor/Tobacco.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/visitor/Tobacco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/visitor/Visitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/visitor/Visitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/visitor/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/visitor/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/designpatternsbanas/visitor/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpatternsbanas/src/visitor/VisitorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/dixml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/dixmlcons.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/BillingModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/BillingModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/BillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/BillingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/CreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/CreditCardProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/DatabaseTransactionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/DatabaseTransactionLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/PaypalCreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/PaypalCreditCardProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/PizzaOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/PizzaOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/TestBillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/TestBillingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/guice/TransactionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/guice/src/guice/TransactionLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/hipster/CoffeeShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/hipster/CoffeeShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/hipster/Hipster.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/hipster/Hipster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/io/InputStreamReadAllBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/io/InputStreamReadNBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/io/InputStreamTransferTo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/io/ObjectInputFilterExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/javaten/Polymorphism.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/javaten/PolymorphismTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/methodreferences/ref/ConstructorRefExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/methodreferences/ref/ObjectRefExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/methodreferences/ref/StaticRefExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/methodreferences/ref/TypeRefExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/methodreferences/service/DataService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/methodreferences/service/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/methodreferences/service/UserRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groovy/groovy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/groovy/groovy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/lombok.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/lombok.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/builder/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/builder/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/delegate/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/delegate/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/exceptions/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/exceptions/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/exceptions/UserServiceLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/exceptions/UserServiceLombok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/general/EveryThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/general/EveryThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/general/LogExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/general/LogExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/general/LogExampleCategoryOrig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/general/LogExampleCategoryOrig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/general/Original.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/general/Original.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/immutable/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/immutable/LoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/logging/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/logging/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/stepthree/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/stepthree/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/src/lombokexamples/steptwo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lombok/src/lombokexamples/steptwo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/.gradle/4.10/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/.gradle/4.10/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/sources.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/sources2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/src/common.widget/com/thing/RendererSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/common.widget/src/com/thing/RendererSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/src/common.widget/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/src/common.widget/org/jwidgets/SimpleRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common.widget/src/org/jwidgets/SimpleRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/src/data.widget/com/example/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/data.widget/src/com/example/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/src/data.widget/com/example/ComponentAlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/data.widget/src/com/example/ComponentAlt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-example/src/data.widget/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/MyClassPrompt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/NestedTest$Nested.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/NestedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/PersonIDE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/ReflectionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/RentCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/Spy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/SpyMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/repo.reflection/reflection/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unnamed-modules-example/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/unnamed-modules-example/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unnamed-modules-example/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/unnamed-modules-example/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-    </list>
+    <list default="true" id="6223e5e3-cca4-4279-9f36-61622c435d28" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/modules-example/.gradle/" />
     <ignored path="$PROJECT_DIR$/modules-example/build/" />
     <ignored path="$PROJECT_DIR$/unnamed-modules-example/.gradle/" />
@@ -585,126 +256,6 @@
             </path>
             <path>
               <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch04" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch04" type="462c0819:PsiDirectoryNode" />
-              <item name="sec05" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyDemo" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch06" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch06" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayUtil" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch09" type="462c0819:PsiDirectoryNode" />
-              <item name="sec03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch10" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch10" type="462c0819:PsiDirectoryNode" />
-              <item name="sec02" type="462c0819:PsiDirectoryNode" />
-              <item name="AsyncDemo" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="javaimpatient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch11" type="462c0819:PsiDirectoryNode" />
-              <item name="sec01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -724,7 +275,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548274818672" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548275102615" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
@@ -959,7 +510,7 @@
       <workItem from="1548104027925" duration="8142000" />
       <workItem from="1548162888339" duration="6917000" />
       <workItem from="1548234616642" duration="273000" />
-      <workItem from="1548253774010" duration="4453000" />
+      <workItem from="1548253774010" duration="4675000" />
     </task>
     <task id="LOCAL-00001" summary="Added junit examples">
       <created>1547606730158</created>
@@ -987,13 +538,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56205000" />
+    <option name="totallyTimeSpent" value="56427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19755058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19755058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="aws.explorer" order="3" side_tool="true" />
@@ -1019,7 +569,7 @@
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="Flutter Performance" order="16" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="17" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Messages" order="17" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Tail" order="18" />
       <window_info anchor="bottom" id="Build" order="19" weight="0.32917964" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
