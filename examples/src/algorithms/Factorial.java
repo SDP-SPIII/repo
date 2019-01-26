@@ -1,22 +1,22 @@
 package algorithms;
 
-public class Fac {
+public class Factorial {
 
   public static void main(String[] args) {
     int n = Integer.parseInt(args[0]);
     System.out.println("facLoop(" + n + ")=" + facLoop(n));
     System.out.println("facTail(" + n + ")=" + facTail(n));
-    System.out.println("fac(" + n + ")=" + fac(n));
+    System.out.println("factorial(" + n + ")=" + factorial(n));
   }
 
   /**
    * The factorial of n is n * facotrial of n-1 for n > 1, otherwise 1.
    */
-  public static int fac(int n) {
+  public static int factorial(int n) {
     if (n <= 1) {
       return 1;
     } else {
-      return n * fac(n - 1);
+      return n * factorial(n - 1);
     }
   }
 
@@ -37,8 +37,8 @@ public class Fac {
   }
 
   /**
-   * Designed to be called by facIter.  accum accumulates the answer as
-   * n decrements to the base case.
+   * Designed to be called by facTail.
+   * accum accumulates the answer as n decrements to the base case.
    */
   private static int facIter(int n, int accum) {
     if (n <= 1) {
@@ -58,11 +58,11 @@ public class Fac {
     120
 
     Recursive process
-    fac(5);
-    5 * fac(4);
-    5 * 4 * fac(3);
-    5 * 4 * 3 * fac(2);
-    5 * 4 * 3 * 2 *fac(1);
+    factorial(5);
+    5 * factorial(4);
+    5 * 4 * factorial(3);
+    5 * 4 * 3 * factorial(2);
+    5 * 4 * 3 * 2 *factorial(1);
     5 * 4 * 3 * 2 * 1;
     5 * 4 * 3 * 2;
     5 * 4 * 6;

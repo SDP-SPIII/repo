@@ -8,9 +8,56 @@ modules at Birkbeck.
 
 ## Source code from *Core Java SE 9 for the Impatient*
 
-by Cay Horstmann 
++ `javaimpatient` by Cay Horstmann 
 
 Source text available on the College link to *[Safari Online][safari]*.
+
+## Java Reflection examples
+
++ `reflection` - examples from class
+
+
+## Dependency Injection examples
+
++ `dependencyinjection` - examples from class - own factory
++ `springdependencyinjection` - Spring dependency injection examples from class
++ `guice` - Google Guice examples
++ `help-sessions-spring-examples` - illustrating the use of scanning and configuration files.
+
+## SOLID principles
+
++ `solid` - examples illustrating the SOLID principles
+
+## Java Generics
+
++ `generics`
+    + `src/generics` - basic examples of *parametric polymorphism*
+    + `src/covariant` - *covariant*, *contravariant*, and *invariant* examples
+
+## Unit Testing
+
++ `junit` - examples using TDD frameworks JUnit 4 and JUnit 5
+
+## Functional Programming in Java
+
+### Default methods in interfaces
+
++ `defaults`
+    + `src/defaults`
+    + `src/interfaces`
+
+### Lambdas
+
++ `lambdas` 
+
+### Streams
+
++ `streams`
+    + `src/collectors`
+    
+### Optional return types
+
++ `optional`
 
 ## Under `examples`
 
@@ -18,11 +65,7 @@ A number of packages illustrating various aspects of Java.
 
 ### Java 9 and Java 10 - the changes
 
-+ (`src/javaten`)
-
-### SOLID examples
-
-+ (`src/solid`)
++ `src/javaten`
 
 ### Generics examples
 
@@ -38,19 +81,6 @@ A number of packages illustrating various aspects of Java.
 + (`designpatternsbanas`)
 
 	The examples which accompany the Derek Banas videos.
-
-
-## Java Reflection examples
-
-+ (`reflection`) - examples from class
-
-
-## Dependency Injection examples
-
-+ (`dependencyinjection`) - examples from class - own factory
-+ (`springdependencyinjection`) - Spring dependency injection examples from class
-+ (`guice`) - Google Guice examples
-
 
 ## GUI programming in Java (under `gui`)
 

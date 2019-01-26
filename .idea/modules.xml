@@ -4,19 +4,26 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common.widget/common.widget.iml" filepath="$PROJECT_DIR$/common.widget/common.widget.iml" />
       <module fileurl="file://$PROJECT_DIR$/data.widget/data.widget.iml" filepath="$PROJECT_DIR$/data.widget/data.widget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/defaults/defaults.iml" filepath="$PROJECT_DIR$/defaults/defaults.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" filepath="$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpatterns/designpatterns.iml" filepath="$PROJECT_DIR$/designpatterns/designpatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpatternsbanas/designpatternsbanas.iml" filepath="$PROJECT_DIR$/designpatternsbanas/designpatternsbanas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples.iml" filepath="$PROJECT_DIR$/.idea/modules/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/gui.iml" filepath="$PROJECT_DIR$/gui/gui.iml" />
       <module fileurl="file://$PROJECT_DIR$/guice/guice.iml" filepath="$PROJECT_DIR$/guice/guice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-example.iml" filepath="$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-examples.iml" filepath="$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaimpatient/javaimpatient.iml" filepath="$PROJECT_DIR$/javaimpatient/javaimpatient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambdas/lambdas.iml" filepath="$PROJECT_DIR$/lambdas/lambdas.iml" />
       <module fileurl="file://$PROJECT_DIR$/lombok/lombok.iml" filepath="$PROJECT_DIR$/lombok/lombok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/optional/optional.iml" filepath="$PROJECT_DIR$/optional/optional.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/repo.iml" filepath="$PROJECT_DIR$/.idea/repo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/help-sessions-spring-examples/spring-examples.iml" filepath="$PROJECT_DIR$/help-sessions-spring-examples/spring-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solid/solid.iml" filepath="$PROJECT_DIR$/solid/solid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdependencyinjection/springdependencyinjection.iml" filepath="$PROJECT_DIR$/springdependencyinjection/springdependencyinjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streams/streams.iml" filepath="$PROJECT_DIR$/streams/streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/unnamed-modules-example/unnamed-modules-example.iml" filepath="$PROJECT_DIR$/unnamed-modules-example/unnamed-modules-example.iml" />
     </modules>
   </component>
