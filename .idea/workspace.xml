@@ -2,50 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6223e5e3-cca4-4279-9f36-61622c435d28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springdependencyinjection/resources/beans.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/resources/anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/resources/anno.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/resources/autoscan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/resources/autoscan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/resources/beans.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/resources/di.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/resources/di.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/resources/dixml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/resources/dixml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/resources/dixmlcons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/resources/dixmlcons.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/resources/simple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/resources/simple.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/annotation/HelloWorldMessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/HelloWorldSpringWithAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/annotation/HelloWorldSpringWithAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/annotation/MessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/annotation/MessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/annotation/StandardOutMessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/autoscan/HelloWorldMessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/HelloWorldSpringWithAutoscan.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/autoscan/HelloWorldSpringWithAutoscan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/autoscan/MessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/autoscan/MessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/autoscan/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/autoscan/StandardOutMessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/di/HelloWorldMessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/HelloWorldSpringWithDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/di/HelloWorldSpringWithDI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/di/MessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/di/MessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/di/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/di/StandardOutMessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixml/HelloWorldMessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/HelloWorldSpringWithDIXMLFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixml/HelloWorldSpringWithDIXMLFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixml/MessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixml/MessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixml/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixml/StandardOutMessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/ConfigurableMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/ConfigurableMessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/MessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/MessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/dixmlcons/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/StandardOutMessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/helloworld/HelloWorldMessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/HelloWorldSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/helloworld/HelloWorldSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/MessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/helloworld/MessageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/helloworld/MessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/helloworld/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/helloworld/StandardOutMessageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/simple/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/simple/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/simple/SpellChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/simple/SpellChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/springdi/simple/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/simple/TextEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldMessageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldMessageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/decoupled/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupled/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/MessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/MessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/StandardOutMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/anno.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/autoscan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/bean.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dependencyinjection/bean.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/beans.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/decoupled/StandardOutMessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dependencyinjection/decoupled/StandardOutMessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/decoupledinterface/MessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dependencyinjection/decoupledinterface/MessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/decoupledinterface/StandardOutMessageRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dependencyinjection/decoupledinterface/StandardOutMessageRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/di.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/dixml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/dixmlcons.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/helloworld/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dependencyinjection/helloworld/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/simple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/annotation/HelloWorldMessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/annotation/HelloWorldSpringWithAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/annotation/MessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/annotation/MessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/annotation/StandardOutMessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/autoscan/HelloWorldMessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/autoscan/HelloWorldSpringWithAutoscan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/autoscan/MessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/autoscan/MessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/autoscan/StandardOutMessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/di/HelloWorldMessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/di/HelloWorldSpringWithDI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/di/MessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/di/MessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/di/StandardOutMessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixml/HelloWorldMessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixml/HelloWorldSpringWithDIXMLFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixml/MessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixml/MessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixml/StandardOutMessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixmlcons/ConfigurableMessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixmlcons/MessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixmlcons/MessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/dixmlcons/StandardOutMessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/helloworld/HelloWorldMessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/helloworld/HelloWorldSpring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/helloworld/MessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/helloworld/MessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/helloworld/StandardOutMessageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/simple/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/simple/SpellChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dependencyinjection/springdi/simple/TextEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/arrays/grades.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/basics/console-input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/basics/regex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/collections/i-have-a-dream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/companygui/employees.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/covariant/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/abstractfactoryalt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/adapter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/chain/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/compositealt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/dao/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/decoratoralt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/factorymethod/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/publish/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/singletonalt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/strategyalt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/designpatterns/template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examples/employee/employees.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springdependencyinjection/dixmlcons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springdependencyinjection/dixmlcons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springdependencyinjection/helloworld/HelloWorldSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springdependencyinjection/helloworld/HelloWorldSpring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springdependencyinjection/simple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springdependencyinjection/simple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/springdependencyinjection/simple/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springdependencyinjection/simple/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdependencyinjection/resources/dixmlcons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/resources/dixmlcons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdependencyinjection/resources/simple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/resources/simple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdependencyinjection/springdependencyinjection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/springdependencyinjection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdependencyinjection/src/autoscan/HelloWorldSpringWithAutoscan.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/autoscan/HelloWorldSpringWithAutoscan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdependencyinjection/src/dixml/HelloWorldSpringWithDIXMLFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixml/HelloWorldSpringWithDIXMLFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdependencyinjection/src/helloworld/HelloWorldSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/helloworld/HelloWorldSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdependencyinjection/src/simple/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdependencyinjection/src/simple/MainApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/modules-example/.gradle/" />
     <ignored path="$PROJECT_DIR$/modules-example/build/" />
@@ -69,6 +107,9 @@
         <entry key="last-active-plugin-version" value="5.23.0" />
       </map>
     </option>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/examples">
@@ -97,91 +138,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/autoscan/HelloWorldSpringWithAutoscan.java">
+        <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/autoscan.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/autoscan/MessageProvider.java">
+        <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/HelloWorldDecoupledWithFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/di/HelloWorldSpringWithDI.java">
+        <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageSupportFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="78" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/dixml/HelloWorldSpringWithDIXMLFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/helloworld/HelloWorldSpring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/simple/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="405">
+              <caret line="28" column="103" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/simple.xml">
+        <entry file="file://$PROJECT_DIR$/reflection/src/reflection/ReflectionExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="587">
+              <caret line="50" column="75" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/simple/SpellChecker.java">
+        <entry file="file://$PROJECT_DIR$/reflection/src/reflection/demo.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reflection/src/reflection/MyClass.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reflection/src/reflection/MyClassPrompt.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reflection/src/reflection/NestedTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reflection/src/reflection/RentCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="480">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/simple/TextEditor.java">
+        <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/dixmlcons.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -208,16 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/test/junit/DynamicTestCreationTest.java" />
-        <option value="$PROJECT_DIR$/java/src/reflection/demo.java" />
-        <option value="$PROJECT_DIR$/java/src/reflection/MyClass.java" />
-        <option value="$PROJECT_DIR$/java/src/reflection/MyClassPrompt.java" />
-        <option value="$PROJECT_DIR$/java/src/reflection/ReflectionExample.java" />
-        <option value="$PROJECT_DIR$/java/src/reflection/PersonIDE.java" />
-        <option value="$PROJECT_DIR$/java/src/reflection/PersonRedux.java" />
-        <option value="$PROJECT_DIR$/reflection/src/module-info.java" />
-        <option value="$PROJECT_DIR$/lombok/src/lombokexamples/PersonRedux.java" />
-        <option value="$PROJECT_DIR$/javaimpatient/src/ch01/sec01/MethodDemo.java" />
         <option value="$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/HelloWorldDecoupledWithFactory.java" />
         <option value="$PROJECT_DIR$/dependencyinjection/src/springdi/annotation/HelloWorldSpringWithAnnotation.java" />
         <option value="$PROJECT_DIR$/dependencyinjection/resources/anno.xml" />
@@ -240,10 +258,8 @@
         <option value="$PROJECT_DIR$/javaimpatient/src/ch15/ch15.sec06/com/horstmann/places/Demo.java" />
         <option value="$PROJECT_DIR$/lombok/src/lombokexamples/general/Person.java" />
         <option value="$PROJECT_DIR$/lombok/src/lombokexamples/general/LogExampleCategory.java" />
-        <option value="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorld.java" />
         <option value="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorldWithCommandLineArguments.java" />
         <option value="$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageSupportFactory.java" />
-        <option value="$PROJECT_DIR$/dependencyinjection/resources/bean.properties" />
         <option value="$PROJECT_DIR$/module-common-widget/src/module-info.java" />
         <option value="$PROJECT_DIR$/data.widget/src/module-info.java" />
         <option value="$PROJECT_DIR$/common.widget/src/module-info.java" />
@@ -258,11 +274,24 @@
         <option value="$PROJECT_DIR$/javaimpatient/src/ch04/sec05/ProxyDemo.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/springdependencyinjection/src/di/HelloWorldSpringWithDI.java" />
+        <option value="$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldMessageProvider.java" />
+        <option value="$PROJECT_DIR$/dependencyinjection/src/decoupled/StandardOutMessageRenderer.java" />
+        <option value="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/MessageRenderer.java" />
+        <option value="$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/StandardOutMessageRenderer.java" />
+        <option value="$PROJECT_DIR$/dependencyinjection/resources/bean.properties" />
+        <option value="$PROJECT_DIR$/springdependencyinjection/src/simple/MainApp.java" />
+        <option value="$PROJECT_DIR$/springdependencyinjection/resources/simple.xml" />
         <option value="$PROJECT_DIR$/springdependencyinjection/src/helloworld/HelloWorldSpring.java" />
+        <option value="$PROJECT_DIR$/springdependencyinjection/src/dixml/HelloWorldSpringWithDIXMLFile.java" />
+        <option value="$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java" />
+        <option value="$PROJECT_DIR$/springdependencyinjection/resources/dixmlcons.xml" />
+        <option value="$PROJECT_DIR$/springdependencyinjection/src/autoscan/HelloWorldSpringWithAutoscan.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="120" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -276,7 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +321,7 @@
         </subPane>
       </pane>
       <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -310,6 +339,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/java/src/improvements/additions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -354,20 +384,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
+  <component name="RunManager" selected="Application.HelloWorldSpringWithAutoscan">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.HelloWorldSpring" />
+    <configuration name="HelloWorldSpringWithAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.HelloWorldSpringWithAnnotation" />
       <module name="springdependencyinjection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helloworld.*" />
+          <option name="PATTERN" value="annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,13 +405,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldSpringWithDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="di.HelloWorldSpringWithDI" />
+    <configuration name="HelloWorldSpringWithAutoscan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="autoscan.HelloWorldSpringWithAutoscan" />
       <module name="springdependencyinjection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="di.*" />
+          <option name="PATTERN" value="autoscan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -445,6 +475,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -462,19 +493,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HelloWorldSpringWithDI" />
       <item itemvalue="Application.HelloWorldSpringWithDIXMLFile" />
       <item itemvalue="Application.HelloWorldSpringWithDIXMLFileConstructorArgument" />
-      <item itemvalue="Application.HelloWorldSpring" />
+      <item itemvalue="Application.HelloWorldSpringWithAutoscan" />
+      <item itemvalue="Application.HelloWorldSpringWithAnnotation" />
       <item itemvalue="Application.MainApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorldSpringWithAutoscan" />
         <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.HelloWorldSpring" />
+        <item itemvalue="Application.HelloWorldSpringWithAnnotation" />
         <item itemvalue="Application.HelloWorldSpringWithDIXMLFileConstructorArgument" />
         <item itemvalue="Application.HelloWorldSpringWithDIXMLFile" />
-        <item itemvalue="Application.HelloWorldSpringWithDI" />
       </list>
     </recent_temporary>
   </component>
@@ -541,6 +572,12 @@
       <workItem from="1548162888339" duration="6917000" />
       <workItem from="1548234616642" duration="273000" />
       <workItem from="1548253774010" duration="5465000" />
+      <workItem from="1548339270384" duration="625000" />
+      <workItem from="1548357227093" duration="3301000" />
+      <workItem from="1548361272334" duration="2143000" />
+      <workItem from="1548421896534" duration="771000" />
+      <workItem from="1548445818531" duration="67000" />
+      <workItem from="1548445908868" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="Added junit examples">
       <created>1547606730158</created>
@@ -568,13 +605,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57217000" />
+    <option name="totallyTimeSpent" value="64511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19755058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17412141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="aws.explorer" order="3" side_tool="true" />
@@ -585,7 +622,7 @@
       <window_info id="Image Layers" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36448598" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36373058" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -600,9 +637,9 @@
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="Flutter Performance" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Messages" order="17" visible="true" weight="0.3284974" />
       <window_info anchor="bottom" id="Tail" order="18" />
-      <window_info anchor="bottom" id="Build" order="19" weight="0.32917964" />
+      <window_info anchor="bottom" id="Build" order="19" weight="0.3284974" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -626,230 +663,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added additional generics examples" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupled/StandardOutMessageRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldMessageProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldDecoupled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/HelloWorldMessageProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/StandardOutMessageRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/HelloWorldDecoupledInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/MessageRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/MessageProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/HelloWorldMessageProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/StandardOutMessageRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/HelloWorldDecoupledWithFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageSupportFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.widget/src/org/jwidgets/SimpleRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules-example/src/common.widget/module-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.widget/src/com/thing/RendererSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules-example/src/data.widget/module-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules-example/sources.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules-example/sources2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.widget/src/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.widget/src/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.widget/src/com/example/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.widget/src/com/example/ComponentAlt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/general/LogExampleCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lombok/src/lombokexamples/general/LogExampleCategoryOrig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaimpatient/src/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaimpatient/src/ch03/sec03/ButtonDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaimpatient/src/ch11/sec03/StandardAnnotations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaimpatient/src/ch09/sec03/PostDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaimpatient/src/ch09/sec03/HttpClientDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="46" column="73" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaimpatient/src/ch11/sec01/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javaimpatient/src/ch11/sec01/package-info.java" />
     <entry file="file://$PROJECT_DIR$/javaimpatient/src/ch10/sec02/AsyncDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -881,16 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dependencyinjection/resources/bean.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/anno.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -901,8 +705,209 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/autoscan/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupled/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupled/HelloWorldDecoupled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="3" selection-start-line="4" selection-start-column="41" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorldWithCommandLineArguments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/helloworld/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/MessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/HelloWorldDecoupledInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/resources/bean.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledinterface/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/autoscan/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/simple/SpellChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/simple/TextEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/simple.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/simple/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/beans.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/helloworld/HelloWorldSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/di.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/di/HelloWorldSpringWithDI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/dixml/HelloWorldSpringWithDIXMLFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/dixml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/autoscan/HelloWorldSpringWithAutoscan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="70" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="70" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/annotation/HelloWorldSpringWithAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -911,73 +916,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/autoscan/HelloWorldSpringWithAutoscan.java">
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/annotation/HelloWorldMessageProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/autoscan/MessageProvider.java">
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/annotation/MessageProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/di/HelloWorldSpringWithDI.java">
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/annotation/MessageRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="78" />
+        <state relative-caret-position="120">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/dixml/HelloWorldSpringWithDIXMLFile.java">
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/annotation/StandardOutMessageRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/anno.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/dixmlcons/HelloWorldSpringWithDIXMLFileConstructorArgument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="225">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/helloworld/HelloWorldSpring.java">
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/autoscan.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state relative-caret-position="210">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/simple/SpellChecker.java">
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/HelloWorldDecoupledWithFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/simple/TextEditor.java">
+    <entry file="file://$PROJECT_DIR$/dependencyinjection/src/decoupledwithfactory/MessageSupportFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="28" column="103" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/src/simple/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/demo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/MyClass.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/MyClassPrompt.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/NestedTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/RentCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="480">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/simple.xml">
+    <entry file="file://$PROJECT_DIR$/springdependencyinjection/resources/dixmlcons.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/src/reflection/ReflectionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="50" column="75" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="75" />
         </state>
       </provider>
     </entry>

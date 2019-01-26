@@ -6,5 +6,4 @@ public class HelloWorldMessageProvider {
   public String getMessage() {
     return message;
   }
-
 }

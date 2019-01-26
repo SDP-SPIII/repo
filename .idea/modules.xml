@@ -7,13 +7,15 @@
       <module fileurl="file://$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" filepath="$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpatterns/designpatterns.iml" filepath="$PROJECT_DIR$/designpatterns/designpatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpatternsbanas/designpatternsbanas.iml" filepath="$PROJECT_DIR$/designpatternsbanas/designpatternsbanas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/groovy/groovy.iml" filepath="$PROJECT_DIR$/groovy/groovy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples.iml" filepath="$PROJECT_DIR$/.idea/modules/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/gui.iml" filepath="$PROJECT_DIR$/gui/gui.iml" />
       <module fileurl="file://$PROJECT_DIR$/guice/guice.iml" filepath="$PROJECT_DIR$/guice/guice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-examples.iml" filepath="$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaimpatient/javaimpatient.iml" filepath="$PROJECT_DIR$/javaimpatient/javaimpatient.iml" />
       <module fileurl="file://$PROJECT_DIR$/lombok/lombok.iml" filepath="$PROJECT_DIR$/lombok/lombok.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/repo.iml" filepath="$PROJECT_DIR$/.idea/repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/help-sessions-spring-examples/spring-examples.iml" filepath="$PROJECT_DIR$/help-sessions-spring-examples/spring-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdependencyinjection/springdependencyinjection.iml" filepath="$PROJECT_DIR$/springdependencyinjection/springdependencyinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/unnamed-modules-example/unnamed-modules-example.iml" filepath="$PROJECT_DIR$/unnamed-modules-example/unnamed-modules-example.iml" />
     </modules>

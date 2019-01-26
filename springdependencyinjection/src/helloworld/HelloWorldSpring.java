@@ -7,7 +7,6 @@ import org.springframework.beans.factory.support.PropertiesBeanDefinitionReader;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-
 public class HelloWorldSpring {
 
   public static void main(String[] args) throws Exception {
@@ -17,7 +16,6 @@ public class HelloWorldSpring {
 
     MessageRenderer mr = (MessageRenderer) factory.getBean("renderer");
     MessageProvider mp = (MessageProvider) factory.getBean("provider");
-
     mr.setMessageProvider(mp);
     mr.render();
   }
@@ -29,8 +27,7 @@ public class HelloWorldSpring {
     DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
 
     // create a definition reader
-    PropertiesBeanDefinitionReader rdr = new PropertiesBeanDefinitionReader(
-            factory);
+    PropertiesBeanDefinitionReader rdr = new PropertiesBeanDefinitionReader(factory);
 
     // load the configuration options
     Properties props = new Properties();

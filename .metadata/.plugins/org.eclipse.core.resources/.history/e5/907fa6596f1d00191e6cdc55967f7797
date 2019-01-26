@@ -1,0 +1,4 @@
+module lombok {
+	requires static lombok;
+	requires java.logging;
+}

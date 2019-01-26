@@ -1,0 +1,8 @@
+/**
+ * @author KLM
+ *
+ */
+module lombok {
+	requires static lombok;
+	requires java.logging;
+}

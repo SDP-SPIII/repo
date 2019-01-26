@@ -1,0 +1,21 @@
+package lombokexamples.general;
+
+import java.util.logging.Logger;
+import org.apache.commons.logging.Log;
+
+class LogExampleOrig {
+	private static final Logger log = Logger.getLogger(LogExample.class.getName());
+
+	public static void main(String... args) {
+		log.severe("Something's wrong here");
+	}
+}
+
+class LogExampleCategoryOrig {
+	private static final Log log = LogFactory
+			.getLog("CounterLog");
+
+	public static void main(String... args) {
+		log.error("Calling the 'CounterLog' with a message");
+	}
+}

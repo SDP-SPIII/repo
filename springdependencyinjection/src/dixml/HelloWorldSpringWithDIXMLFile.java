@@ -14,7 +14,7 @@ public class HelloWorldSpringWithDIXMLFile {
   }
 
   private static BeanFactory getBeanFactory() throws Exception {
-    // create a bean factory from anno.xml
+    // create a bean factory from dixml.xml
     BeanFactory factory = new ClassPathXmlApplicationContext("dixml.xml");
     return factory;
   }
