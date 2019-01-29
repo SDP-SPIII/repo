@@ -1,30 +1,28 @@
 package decoupledwithfactory;
 
-import java.io.FileInputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Properties;
 
 public class MessageSupportFactory {
-  private final String FILENAME = "dependencyinjection/resources/bean.properties";
-
-  private static MessageSupportFactory instance = null;
+  private static MessageSupportFactory instance;
+  private static MessageRenderer renderer;
+  private static MessageProvider provider;
 
   static {
     instance = new MessageSupportFactory();
   }
 
-  private Properties props = null;
-  private MessageRenderer renderer = null;
-  private MessageProvider provider = null;
-
   private MessageSupportFactory() {
-    props = new Properties();
+    final String FILENAME = "dependencyinjection/resources/bean.properties";
+    final Properties props = new Properties();
 
     try {
-      props.load(new FileInputStream(FILENAME));
+      props.load(Files.newInputStream(Paths.get(FILENAME)));
 
       // get the implementation classes
-      String rendererClass = props.getProperty("renderer.class");
-      String providerClass = props.getProperty("provider.class");
+      final String rendererClass = props.getProperty("renderer.class");
+      final String providerClass = props.getProperty("provider.class");
 
       renderer = (MessageRenderer) Class.forName(rendererClass).getDeclaredConstructor().newInstance();
       provider = (MessageProvider) Class.forName(providerClass).getDeclaredConstructor().newInstance();

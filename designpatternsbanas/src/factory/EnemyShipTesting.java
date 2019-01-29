@@ -7,19 +7,19 @@ public class EnemyShipTesting {
   public static void main(String[] args) {
 
     // Create the factory object
-    EnemyShipFactory shipFactory = new EnemyShipFactory();
+    final EnemyShipFactory shipFactory = new EnemyShipFactory();
 
     // Enemy ship object
 
     EnemyShip theEnemy = null;
 
-    Scanner userInput = new Scanner(System.in);
+    final Scanner userInput = new Scanner(System.in);
 
     System.out.print("What type of ship? (U / R / B)");
 
     if (userInput.hasNextLine()) {
 
-      String typeOfShip = userInput.nextLine();
+      final String typeOfShip = userInput.nextLine();
 
       theEnemy = shipFactory.makeEnemyShip(typeOfShip);
 

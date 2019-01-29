@@ -20,8 +20,6 @@ public class EnumSetDemo {
     System.out.println(personInCharge);
   }
 
-  ;
-
   enum Weekday {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
   }

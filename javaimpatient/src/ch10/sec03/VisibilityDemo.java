@@ -4,7 +4,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 public class VisibilityDemo {
-  private static boolean done = false; // add volatile
+  private static boolean done; // add volatile
 
   public static void main(String[] args) {
     Runnable hellos = () -> {

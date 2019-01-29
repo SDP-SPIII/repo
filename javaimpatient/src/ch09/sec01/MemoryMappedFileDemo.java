@@ -23,7 +23,6 @@ public class MemoryMappedFileDemo {
       short planes = buffer.getShort(26);
       short depth = buffer.getShort(28);
       int compressionMode = buffer.getInt(30);
-      ;
       System.out.println("Size: " + size);
       System.out.println("Header size : " + headerSize);
       System.out.println("Width : " + width);

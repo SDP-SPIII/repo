@@ -1,7 +1,7 @@
 package org.jwidgets;
 
 public class SimpleRenderer {
-  public void renderAsString(Object object) {
-      System.out.println(object);
+  public void renderAsString(final Object object) {
+    System.out.println(object);
   }
 }

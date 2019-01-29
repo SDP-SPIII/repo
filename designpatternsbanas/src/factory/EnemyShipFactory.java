@@ -11,7 +11,7 @@ public class EnemyShipFactory {
 
   public EnemyShip makeEnemyShip(String newShipType) {
 
-    EnemyShip newShip = null;
+    final EnemyShip newShip = null;
 
     if (newShipType.equals("U")) {
 

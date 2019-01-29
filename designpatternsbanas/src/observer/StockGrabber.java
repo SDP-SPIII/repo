@@ -32,7 +32,7 @@ public class StockGrabber implements Subject {
 
     // Get the index of the observer to delete
 
-    int observerIndex = observers.indexOf(deleteObserver);
+    final int observerIndex = observers.indexOf(deleteObserver);
 
     // Print out message (Have to increment index to match)
 

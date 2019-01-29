@@ -6,12 +6,6 @@ import java.lang.reflect.Proxy;
 
 public class MyInvocationHandlerExample implements InvocationHandler {
 
-  @Override
-  public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-    System.out.println(method);
-    return null;
-  }
-
   public static void main(String[] args) {
     MyInvocationHandlerExample handler = new MyInvocationHandlerExample();
 
@@ -19,5 +13,11 @@ public class MyInvocationHandlerExample implements InvocationHandler {
             MyInvocationHandlerExample.class.getClassLoader(),
             new Class[]{MyInterface.class}, handler);
     o.doSomething();
+  }
+
+  @Override
+  public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+    System.out.println(method);
+    return null;
   }
 }

@@ -16,7 +16,7 @@ public abstract class EnemyShipBuilding {
   // we execute multiple methods in the EnemyShip Object
 
   public EnemyShip orderTheShip(String typeOfShip) {
-    EnemyShip theEnemyShip = makeEnemyShip(typeOfShip);
+    final EnemyShip theEnemyShip = makeEnemyShip(typeOfShip);
 
     theEnemyShip.makeShip();
     theEnemyShip.displayEnemyShip();

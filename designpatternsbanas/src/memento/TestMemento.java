@@ -11,7 +11,8 @@ public class TestMemento extends JFrame {
   Originator originator = new Originator();
 
   // JTextArea(rows, columns)
-  int saveFiles = 0, currentArticle = 0;
+  int saveFiles;
+  int currentArticle;
 
   // ---------------------------------------------
 
@@ -34,7 +35,7 @@ public class TestMemento extends JFrame {
     this.setTitle("Memento Design Pattern");
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-    JPanel panel1 = new JPanel();
+    final JPanel panel1 = new JPanel();
 
     // Add label to the panel
 
@@ -46,9 +47,9 @@ public class TestMemento extends JFrame {
 
     // Add the buttons & ButtonListeners to the panel
 
-    ButtonListener saveListener = new ButtonListener();
-    ButtonListener undoListener = new ButtonListener();
-    ButtonListener redoListener = new ButtonListener();
+    final ButtonListener saveListener = new ButtonListener();
+    final ButtonListener undoListener = new ButtonListener();
+    final ButtonListener redoListener = new ButtonListener();
 
     saveBut = new JButton("Save");
     saveBut.addActionListener(saveListener);
@@ -87,7 +88,7 @@ public class TestMemento extends JFrame {
 
         // Get text in JTextArea
 
-        String textInTextArea = theArticle.getText();
+        final String textInTextArea = theArticle.getText();
 
         // Set the value for the current memento
 
@@ -119,7 +120,7 @@ public class TestMemento extends JFrame {
 
           // Get the older article saved and display it in JTextArea
 
-          String textBoxString = originator.restoreFromMemento(caretaker.getMemento(currentArticle));
+          final String textBoxString = originator.restoreFromMemento(caretaker.getMemento(currentArticle));
 
           theArticle.setText(textBoxString);
 
@@ -145,7 +146,7 @@ public class TestMemento extends JFrame {
 
           // Get the newer article saved and display it in JTextArea
 
-          String textBoxString = originator.restoreFromMemento(caretaker.getMemento(currentArticle));
+          final String textBoxString = originator.restoreFromMemento(caretaker.getMemento(currentArticle));
 
           theArticle.setText(textBoxString);
 

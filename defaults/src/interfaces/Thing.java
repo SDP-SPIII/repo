@@ -1,6 +1,5 @@
 package interfaces;
 
-
 interface Thingy {
   default boolean alive() {
     return false;
@@ -26,7 +25,6 @@ interface Huly extends Fly, Person {
 }
 
 class FlyImpl implements Fly {
-
 }
 
 class PersonImpl implements Person {
@@ -36,12 +34,11 @@ class PersonImpl implements Person {
 }
 
 class HulyImpl implements Huly {
-
 }
 
 public class Thing {
   public static void main(String[] args) {
-    Huly h = new HulyImpl();
+    final Huly h = new HulyImpl();
     System.out.println("h is alive? = " + h.alive());
     System.out.println(h.eat());
   }

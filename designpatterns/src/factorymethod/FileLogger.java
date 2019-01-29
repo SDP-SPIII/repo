@@ -1,14 +1,15 @@
 package factorymethod;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class FileLogger implements Logger {
   private PrintStream out;
 
   private FileLogger(String file) throws IOException {
-    this.out = new PrintStream(new FileOutputStream(file), true);
+    this.out = new PrintStream(Files.newOutputStream(Paths.get(file)));
   }
 
   @Override

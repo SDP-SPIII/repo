@@ -9,7 +9,7 @@ public class WordList extends ArrayList<String> {
   }
 
   public boolean add(String e) {
-    return isBadWord(e) ? false : super.add(e);
+    return !isBadWord(e) && super.add(e);
   }
 
   public String get(int i) {

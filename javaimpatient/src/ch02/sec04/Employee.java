@@ -1,7 +1,7 @@
 package ch02.sec04;
 
 public class Employee {
-  private static int lastId = 0;
+  private static int lastId;
   private int id;
   private String name;
   private double salary;

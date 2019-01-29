@@ -38,6 +38,6 @@ public class User implements HasContactInformation {
 
   private @NonNull Instant registrationTs;
 
-  private boolean payingCustomer = false;
+  private boolean payingCustomer;
 
 }

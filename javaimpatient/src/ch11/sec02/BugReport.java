@@ -23,7 +23,6 @@ public @interface BugReport {
     REPORTED, CONFIRMED, ASSIGNED, FIXED, WONTFIX
   }
 
-  ;
 }
 
 @Target({ElementType.TYPE, ElementType.METHOD})

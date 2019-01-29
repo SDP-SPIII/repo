@@ -14,68 +14,68 @@ import java.util.Objects;
  */
 
 public class Original {
-	private final int number;
-	private final String text;
-	private boolean flag;
-	private List<String> strList;
+  private final int number;
+  private final String text;
+  private boolean flag;
+  private List<String> strList;
 
-	public Original(int number, String text) {
-		this.number = number;
-		this.text = text;
-	}
+  public Original(int number, String text) {
+    this.number = number;
+    this.text = text;
+  }
 
-	public boolean isFlag() {
-		return flag;
-	}
+  public boolean isFlag() {
+    return flag;
+  }
 
-	public void setFlag(boolean flag) {
-		this.flag = flag;
-	}
+  public void setFlag(boolean flag) {
+    this.flag = flag;
+  }
 
-	public List<String> getStrList() {
-		if (strList == null) {
-			strList = new ArrayList<>(128);
-		}
-		return Collections.unmodifiableList(strList);
-	}
+  public List<String> getStrList() {
+    if (strList == null) {
+      strList = new ArrayList<>(128);
+    }
+    return Collections.unmodifiableList(strList);
+  }
 
-	public void setStrList(List<String> strList) {
-		this.strList = strList;
-	}
+  public void setStrList(List<String> strList) {
+    this.strList = strList;
+  }
 
-	public int getNumber() {
-		return number;
-	}
+  public int getNumber() {
+    return number;
+  }
 
-	public String getText() {
-		return text;
-	}
+  public String getText() {
+    return text;
+  }
 
-	@Override
-	public int hashCode() {
-		int hash = 7;
-		hash = 11 * hash + this.number;
-		hash = 11 * hash + Objects.hashCode(this.text);
-		return hash;
-	}
+  @Override
+  public int hashCode() {
+    int hash = 7;
+    hash = 11 * hash + this.number;
+    hash = 11 * hash + Objects.hashCode(this.text);
+    return hash;
+  }
 
-	@Override
-	public boolean equals(Object obj) {
-		if (obj == null) {
-			return false;
-		}
-		if (getClass() != obj.getClass()) {
-			return false;
-		}
-		final Original other = (Original) obj;
-		if (this.number != other.number) {
-			return false;
-		}
-		return Objects.equals(this.text, other.text);
-	}
+  @Override
+  public boolean equals(Object obj) {
+    if (obj == null) {
+      return false;
+    }
+    if (getClass() != obj.getClass()) {
+      return false;
+    }
+    final Original other = (Original) obj;
+    if (this.number != other.number) {
+      return false;
+    }
+    return Objects.equals(this.text, other.text);
+  }
 
-	@Override
-	public String toString() {
-		return "WithoutLombokAnnotations{" + "flag=" + flag + ", number=" + number + ", text = " + text + '}';
-	}
+  @Override
+  public String toString() {
+    return "WithoutLombokAnnotations{" + "flag=" + flag + ", number=" + number + ", text = " + text + '}';
+  }
 }

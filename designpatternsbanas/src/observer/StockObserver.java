@@ -4,7 +4,7 @@ package observer;
 
 public class StockObserver implements Observer {
 
-  private static int observerIDTracker = 0;
+  private static int observerIDTracker;
   private double ibmPrice;
   private double aaplPrice;
 

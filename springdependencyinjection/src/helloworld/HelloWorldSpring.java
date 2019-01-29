@@ -5,6 +5,8 @@ import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.PropertiesBeanDefinitionReader;
 
 import java.io.FileInputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Properties;
 
 public class HelloWorldSpring {
@@ -31,7 +33,7 @@ public class HelloWorldSpring {
 
     // load the configuration options
     Properties props = new Properties();
-    props.load(new FileInputStream("springdependencyinjection/resources/beans.properties"));
+    props.load(Files.newInputStream(Paths.get("springdependencyinjection/resources/beans.properties")));
 
     rdr.registerBeanDefinitions(props);
 

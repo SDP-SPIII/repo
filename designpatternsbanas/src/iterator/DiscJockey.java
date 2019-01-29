@@ -43,13 +43,13 @@ public class DiscJockey {
     // collections everything must be handled on an individual
     // basis. This is BAD!
 
-    ArrayList aL70sSongs = songs70s.getBestSongs();
+    final ArrayList aL70sSongs = songs70s.getBestSongs();
 
     System.out.println("Songs of the 70s\n");
 
     for (int i = 0; i < aL70sSongs.size(); i++) {
 
-      SongInfo bestSongs = (SongInfo) aL70sSongs.get(i);
+      final SongInfo bestSongs = (SongInfo) aL70sSongs.get(i);
 
       System.out.println(bestSongs.getSongName());
       System.out.println(bestSongs.getBandName());
@@ -57,13 +57,13 @@ public class DiscJockey {
 
     }
 
-    SongInfo[] array80sSongs = songs80s.getBestSongs();
+    final SongInfo[] array80sSongs = songs80s.getBestSongs();
 
     System.out.println("Songs of the 80s\n");
 
     for (int j = 0; j < array80sSongs.length; j++) {
 
-      SongInfo bestSongs = array80sSongs[j];
+      final SongInfo bestSongs = array80sSongs[j];
 
       System.out.println(bestSongs.getSongName());
       System.out.println(bestSongs.getBandName());
@@ -71,12 +71,12 @@ public class DiscJockey {
 
     }
 
-    Hashtable<Integer, SongInfo> ht90sSongs = songs90s.getBestSongs();
+    final Hashtable<Integer, SongInfo> ht90sSongs = songs90s.getBestSongs();
 
     System.out.println("Songs of the 90s\n");
 
     for (Enumeration<Integer> e = ht90sSongs.keys(); e.hasMoreElements(); ) {
-      SongInfo bestSongs = ht90sSongs.get(e.nextElement());
+      final SongInfo bestSongs = ht90sSongs.get(e.nextElement());
 
       System.out.println(bestSongs.getSongName());
       System.out.println(bestSongs.getBandName());
@@ -93,9 +93,9 @@ public class DiscJockey {
 
     System.out.println("NEW WAY WITH ITERATOR\n");
 
-    Iterator Songs70s = iter70sSongs.createIterator();
-    Iterator Songs80s = iter80sSongs.createIterator();
-    Iterator Songs90s = iter90sSongs.createIterator();
+    final Iterator Songs70s = iter70sSongs.createIterator();
+    final Iterator Songs80s = iter80sSongs.createIterator();
+    final Iterator Songs90s = iter90sSongs.createIterator();
 
     System.out.println("Songs of the 70s\n");
     printTheSongs(Songs70s);
@@ -112,7 +112,7 @@ public class DiscJockey {
 
     while (iterator.hasNext()) {
 
-      SongInfo songInfo = (SongInfo) iterator.next();
+      final SongInfo songInfo = (SongInfo) iterator.next();
 
       System.out.println(songInfo.getSongName());
       System.out.println(songInfo.getBandName());

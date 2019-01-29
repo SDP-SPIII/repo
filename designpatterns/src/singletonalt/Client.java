@@ -5,7 +5,7 @@ public class Client {
     // doing something
     MySingleton.getInstance().doX();
     // doing something else
-    int b = MySingleton.getInstance().getB();
+    final int b = MySingleton.getInstance().getB();
     // do something with b
   }
 }

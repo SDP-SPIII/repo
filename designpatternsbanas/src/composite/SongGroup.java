@@ -54,11 +54,11 @@ public class SongGroup extends SongComponent {
     // Cycles through and prints any Songs or SongGroups added
     // to this SongGroups ArrayList songComponents
 
-    Iterator songIterator = songComponents.iterator();
+    final Iterator songIterator = songComponents.iterator();
 
     while (songIterator.hasNext()) {
 
-      SongComponent songInfo = (SongComponent) songIterator.next();
+      final SongComponent songInfo = (SongComponent) songIterator.next();
 
       songInfo.displaySongInfo();
 

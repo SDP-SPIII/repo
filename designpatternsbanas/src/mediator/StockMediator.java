@@ -8,7 +8,7 @@ public class StockMediator implements Mediator {
   private ArrayList<StockOffer> stockBuyOffers;
   private ArrayList<StockOffer> stockSaleOffers;
 
-  private int colleagueCodes = 0;
+  private int colleagueCodes;
 
   public StockMediator() {
 
@@ -55,7 +55,7 @@ public class StockMediator implements Mediator {
       System.out.println(shares + " shares of " + stock +
               " added to inventory");
 
-      StockOffer newOffering = new StockOffer(shares, stock, collCode);
+      final StockOffer newOffering = new StockOffer(shares, stock, collCode);
 
       stockSaleOffers.add(newOffering);
 
@@ -91,7 +91,7 @@ public class StockMediator implements Mediator {
       System.out.println(shares + " shares of " + stock +
               " added to inventory");
 
-      StockOffer newOffering = new StockOffer(shares, stock, collCode);
+      final StockOffer newOffering = new StockOffer(shares, stock, collCode);
 
       stockBuyOffers.add(newOffering);
 

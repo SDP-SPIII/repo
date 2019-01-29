@@ -10,12 +10,6 @@ public class DogWalker<T extends Dog> {
     this.dogs = new LinkedList<T>(dogs);  // Defensive copy
   }
 
-  public void walk() {
-    for (T dog : dogs) {
-      dog.bark();  // Dogs still bark when you walk them
-    }
-  }
-
   public static void main(String[] args) {
     Chiuaua alice = new Chiuaua("Alice");
     Chiuaua bob = new Chiuaua("Bob");
@@ -30,5 +24,11 @@ public class DogWalker<T extends Dog> {
 
     DogWalker<Chiuaua> eve = new DogWalker<Chiuaua>(littleDogs);
     eve.walk();
+  }
+
+  public void walk() {
+    for (T dog : dogs) {
+      dog.bark();  // Dogs still bark when you walk them
+    }
   }
 }

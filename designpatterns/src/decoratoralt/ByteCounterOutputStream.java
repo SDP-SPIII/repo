@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 public class ByteCounterOutputStream extends FilterOutputStream {
-  private int counter = 0;
+  private int counter;
 
   public ByteCounterOutputStream(OutputStream out) {
     super(out);

@@ -13,7 +13,7 @@ public class ToStrings {
     StringBuilder result = new StringBuilder();
     if (ts.includeName())
       result.append(cl.getName());
-    result.append("[");
+    result.append('[');
     boolean first = true;
     for (Field f : cl.getDeclaredFields()) {
       ts = f.getAnnotation(ToString.class);
@@ -21,11 +21,11 @@ public class ToStrings {
         if (first)
           first = false;
         else
-          result.append(",");
+          result.append(',');
         f.setAccessible(true);
         if (ts.includeName()) {
           result.append(f.getName());
-          result.append("=");
+          result.append('=');
         }
         try {
           result.append(ToStrings.toString(f.get(obj)));
@@ -34,7 +34,7 @@ public class ToStrings {
         }
       }
     }
-    result.append("]");
+    result.append(']');
     return result.toString();
   }
 }

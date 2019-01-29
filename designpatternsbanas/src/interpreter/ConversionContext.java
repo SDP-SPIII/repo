@@ -66,7 +66,7 @@ public class ConversionContext {
 
     // Put s on the end if not there
 
-    int lengthOfWord = wordToCapitalize.length();
+    final int lengthOfWord = wordToCapitalize.length();
 
     if ((wordToCapitalize.charAt(lengthOfWord - 1)) != 's') {
 

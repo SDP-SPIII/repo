@@ -22,10 +22,10 @@ import java.net.URL;
 @Log
 public class UserService {
 
-	@SneakyThrows
-	public URL buildUsersApiUrl() {
-		log.info("Building users API URL");
-		return new URL("https://apiserver.com/users");
-	}
+  @SneakyThrows
+  public URL buildUsersApiUrl() {
+    log.info("Building users API URL");
+    return new URL("https://apiserver.com/users");
+  }
 
 }

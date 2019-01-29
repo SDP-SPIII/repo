@@ -8,7 +8,7 @@ public class ScrabbleTest {
 
     // How you create a new instance of Singleton
 
-    Singleton newInstance = Singleton.getInstance();
+    final Singleton newInstance = Singleton.getInstance();
 
     // Get unique id for instance object
 
@@ -18,7 +18,7 @@ public class ScrabbleTest {
 
     System.out.println(newInstance.getLetterList());
 
-    LinkedList<String> playerOneTiles = newInstance.getTiles(7);
+    final LinkedList<String> playerOneTiles = newInstance.getTiles(7);
 
     System.out.println("Player 1: " + playerOneTiles);
 
@@ -31,7 +31,7 @@ public class ScrabbleTest {
 
     // Try getting a new instance using getInstance
 
-    Singleton instanceTwo = Singleton.getInstance();
+    final Singleton instanceTwo = Singleton.getInstance();
 
     // Get unique id for the new instance object
 
@@ -43,7 +43,7 @@ public class ScrabbleTest {
 
     // Player 2 draws 7 tiles
 
-    LinkedList<String> playerTwoTiles = newInstance.getTiles(7);
+    final LinkedList<String> playerTwoTiles = newInstance.getTiles(7);
 
     System.out.println("Player 2: " + playerTwoTiles);
 

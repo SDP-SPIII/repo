@@ -13,6 +13,6 @@ import java.time.LocalDate;
 public class DateServiceImpl implements DateService {
   @Override
   public LocalDate getNextAssessmentDate() {
-    return LocalDate.of(2015,10,10);
+    return LocalDate.of(2015, 10, 10);
   }
 }

@@ -27,11 +27,11 @@ public class TestingReflection {
     // Getting the class Object for UFOEnemyShip
     // Everything in Java has a Class Object
 
-    Class reflectClass = UFOEnemyShip.class;
+    final Class reflectClass = UFOEnemyShip.class;
 
     // Get the class name of an Object
 
-    String className = reflectClass.getName();
+    final String className = reflectClass.getName();
 
     System.out.println(className + "\n");
 
@@ -39,7 +39,7 @@ public class TestingReflection {
     // isAbstract, isFinal, isInterface, isPrivate, isProtected,
     // isStatic, isStrict, isSynchronized, isVolatile
 
-    int classModifiers = reflectClass.getModifiers();
+    final int classModifiers = reflectClass.getModifiers();
 
     System.out.println(Modifier.isPublic(classModifiers) + "\n");
 
@@ -48,13 +48,13 @@ public class TestingReflection {
 
     // Get the super class for UFOEnemyShip
 
-    Class classSuper = reflectClass.getSuperclass();
+    final Class classSuper = reflectClass.getSuperclass();
 
     System.out.println(classSuper.getName() + "\n");
 
     // Get the objects methods, return type and parameter type
 
-    Method[] classMethods = reflectClass.getMethods();
+    final Method[] classMethods = reflectClass.getMethods();
 
     for (Method method : classMethods) {
 
@@ -78,7 +78,7 @@ public class TestingReflection {
 
       System.out.println("Return Type: " + method.getReturnType());
 
-      Class[] parameterType = method.getParameterTypes();
+      final Class[] parameterType = method.getParameterTypes();
 
       // List parameters for a method
 
@@ -131,7 +131,7 @@ public class TestingReflection {
 
     // Return the parameters for a constructor
 
-    Class[] constructParameters = constructor.getParameterTypes();
+    final Class[] constructParameters = constructor.getParameterTypes();
 
     for (Class parameter : constructParameters) {
 
@@ -170,7 +170,7 @@ public class TestingReflection {
 
       // Create a UFOEnemyShip object
 
-      UFOEnemyShip enemyshipPrivate = new UFOEnemyShip(shipFactory);
+      final UFOEnemyShip enemyshipPrivate = new UFOEnemyShip(shipFactory);
 
       // Define the private field you want to access
       // I can access any field with just its name dynamically
@@ -183,7 +183,7 @@ public class TestingReflection {
 
       // Get the value of a field and store it in a String
 
-      String valueOfName = (String) privateStringName.get(enemyshipPrivate);
+      final String valueOfName = (String) privateStringName.get(enemyshipPrivate);
 
       System.out.println("EnemyShip Private Name: " + valueOfName);
 
@@ -193,7 +193,7 @@ public class TestingReflection {
       // Since I provide the method name as a String I can run any method
       // without needing to follow the normal convention methodName()
 
-      String methodName = "getPrivate";
+      final String methodName = "getPrivate";
 
       Method privateMethod = UFOEnemyShip.class.getDeclaredMethod(methodName);
 
@@ -211,11 +211,11 @@ public class TestingReflection {
 
       // Define the parameters expected by the private method
 
-      Class[] methodParameters = new Class[]{Integer.TYPE, String.class};
+      final Class[] methodParameters = new Class[]{Integer.TYPE, String.class};
 
       // Provide the parameters above with values
 
-      Object[] params = new Object[]{10, "Random"};
+      final Object[] params = new Object[]{10, "Random"};
 
       // Get the method by providing its name and a Class array with parameters
 

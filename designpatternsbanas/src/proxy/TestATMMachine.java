@@ -4,7 +4,7 @@ public class TestATMMachine {
 
   public static void main(String[] args) {
 
-    ATMMachine atmMachine = new ATMMachine();
+    final ATMMachine atmMachine = new ATMMachine();
 
     atmMachine.insertCard();
 
@@ -24,9 +24,9 @@ public class TestATMMachine {
     // The interface limits access to just the methods you want
     // made accessible
 
-    GetATMData realATMMachine = new ATMMachine();
+    final GetATMData realATMMachine = new ATMMachine();
 
-    GetATMData atmProxy = new ATMProxy();
+    final GetATMData atmProxy = new ATMProxy();
 
     System.out.println("\nCurrent ATM State " + atmProxy.getATMState());
 

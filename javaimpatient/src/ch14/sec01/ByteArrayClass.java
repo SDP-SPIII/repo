@@ -20,7 +20,6 @@ public class ByteArrayClass extends SimpleJavaFileObject {
 
   @Override
   public OutputStream openOutputStream() throws IOException {
-    // TODO Auto-generated method stub
     out = new ByteArrayOutputStream();
     return out;
   }

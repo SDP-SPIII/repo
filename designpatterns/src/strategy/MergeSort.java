@@ -19,11 +19,11 @@ public class MergeSort implements Sorter {
     }
 
     // Find the split point
-    int c = (int) Math.ceil((r - l + 1) / 2.0);
+    final int c = (int) Math.ceil((r - l + 1) / 2.0);
 
     // Recursively sort the two halves
-    int[] a1 = doMergeSort(array, l, l + c - 1);
-    int[] a2 = doMergeSort(array, l + c, r);
+    final int[] a1 = doMergeSort(array, l, l + c - 1);
+    final int[] a2 = doMergeSort(array, l + c, r);
 
     // Merge the results together
     return doMerge(a1, a2);
@@ -57,11 +57,9 @@ public class MergeSort implements Sorter {
 
   @Override
   public void Sort(int[] array) {
-    int[] r = doMergeSort(array, 0, array.length - 1);
+    final int[] r = doMergeSort(array, 0, array.length - 1);
 
-    for (int i = 0; i < array.length; i++) {
-      array[i] = r[i];
-    }
+    System.arraycopy(r, 0, array, 0, r.length);
   }
 
 

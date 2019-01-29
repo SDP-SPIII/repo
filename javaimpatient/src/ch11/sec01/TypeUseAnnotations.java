@@ -16,8 +16,8 @@ import java.util.function.Function;
 }
 
 public abstract class TypeUseAnnotations {
-  public static String text = new @Localized String("");
-  public static String moreText = (@Localized String) "";
+  public static String text = "";
+  public static String moreText = "";
   public static String evenMoreText = text instanceof @Localized String ? text : null;
   List<@NonNull String> entries;
   Comparator<?> comp = Comparator.<@NonNull String>reverseOrder();

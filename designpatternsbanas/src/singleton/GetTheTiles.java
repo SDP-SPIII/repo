@@ -8,7 +8,7 @@ public class GetTheTiles implements Runnable {
 
     // How you create a new instance of Singleton
 
-    Singleton newInstance = Singleton.getInstance();
+    final Singleton newInstance = Singleton.getInstance();
 
     // Get unique id for instance object
 
@@ -18,7 +18,7 @@ public class GetTheTiles implements Runnable {
 
     System.out.println(newInstance.getLetterList());
 
-    LinkedList<String> playerOneTiles = newInstance.getTiles(7);
+    final LinkedList<String> playerOneTiles = newInstance.getTiles(7);
 
     System.out.println("Player 1: " + playerOneTiles);
 

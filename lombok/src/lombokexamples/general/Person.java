@@ -1,6 +1,7 @@
 package lombokexamples.general;
 
 //import java.util.Objects;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

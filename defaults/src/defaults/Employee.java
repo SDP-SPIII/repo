@@ -4,6 +4,15 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public interface Employee {
+  static String getEmployeeInfo(List<Employee> employeeList) {
+    StringBuilder info = new StringBuilder();
+    for (Employee employee : employeeList) {
+      info.append(employee.getEmployeeInfo());
+      info.append('\n');
+    }
+    return info.toString();
+  }
+
   String getName();
 
   String getDept();
@@ -11,8 +20,8 @@ public interface Employee {
   BigDecimal getSalary();
 
   default BigDecimal getBonus() {
-    return getSalary().multiply(new BigDecimal(0.10)).
-            setScale(2, BigDecimal.ROUND_HALF_UP);
+    return getSalary().multiply(new BigDecimal(0.10));
+    //setScale(2, BigDecimal.ROUND_HALF_UP);
   }
 
   default String getEmployeeInfo() {
@@ -20,13 +29,5 @@ public interface Employee {
             ", Dept: " + getDept() +
             ", Salary " + getSalary() +
             ", Bonus " + getBonus();
-  }
-
-  static String getEmployeeInfo(List<Employee> employeeList) {
-    String info = "";
-    for (Employee employee : employeeList) {
-      info += employee.getEmployeeInfo() + "\n";
-    }
-    return info;
   }
 }

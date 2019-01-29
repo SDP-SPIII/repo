@@ -47,8 +47,7 @@ public abstract class EnemyShip {
   @Override
   public String toString() {
 
-    String infoOnShip = "The " + name + " has a top speed of " + engine +
-            " and an attack power of " + weapon;
+    final String infoOnShip = "The " + name + " has a top speed of " + engine + " and an attack power of " + weapon;
 
     return infoOnShip;
 

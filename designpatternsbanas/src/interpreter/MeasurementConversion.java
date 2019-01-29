@@ -11,56 +11,56 @@ public class MeasurementConversion {
 
     // Create pop up window that asks for a question
 
-    JFrame frame = new JFrame();
+    final JFrame frame = new JFrame();
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-    String questionAsked = JOptionPane.showInputDialog(frame, "What is your question");
+    final String questionAsked = JOptionPane.showInputDialog(frame, "What is your question");
 
     // Add the question to the context for analysis
 
-    ConversionContext question = new ConversionContext(questionAsked);
+    final ConversionContext question = new ConversionContext(questionAsked);
 
-    String fromConversion = question.getFromConversion();
+    final String fromConversion = question.getFromConversion();
 
-    String toConversion = question.getToConversion();
+    final String toConversion = question.getToConversion();
 
-    double quantity = question.getQuantity();
+    final double quantity = question.getQuantity();
 
     try {
 
       // Get class based on the from conversion string
 
-      Class tempClass = Class.forName(fromConversion);
+      final Class tempClass = Class.forName(fromConversion);
 
       // Get the constructor dynamically for the conversion string
 
-      Constructor con = tempClass.getConstructor();
+      final Constructor con = tempClass.getConstructor();
 
       // Create a new instance of the object you want to convert from
 
-      Object convertFrom = con.newInstance();
+      final Object convertFrom = con.newInstance();
 
       // Define the method parameters expected by the method that
       // will convert to your chosen unit of measure
 
-      Class[] methodParams = new Class[]{Double.TYPE};
+      final Class[] methodParams = new Class[]{Double.TYPE};
 
       // Get the method dynamically that will be needed to convert
       // into your chosen unit of measure
 
-      Method conversionMethod = tempClass.getMethod(toConversion, methodParams);
+      final Method conversionMethod = tempClass.getMethod(toConversion, methodParams);
 
       // Define the method parameters that will be passed to the above method
 
-      Object[] params = new Object[]{quantity};
+      final Object[] params = new Object[]{quantity};
 
       // Get the quantity after the conversion
 
-      String toQuantity = (String) conversionMethod.invoke(convertFrom, params);
+      final String toQuantity = (String) conversionMethod.invoke(convertFrom, params);
 
       // Print the results
 
-      String answerToQues = question.getResponse() +
+      final String answerToQues = question.getResponse() +
               toQuantity + " " + toConversion;
 
       JOptionPane.showMessageDialog(null, answerToQues);

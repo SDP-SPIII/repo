@@ -11,7 +11,7 @@ public class SongsOfThe80s implements SongIterator {
 
   // Used to increment to the next position in the array
 
-  int arrayValue = 0;
+  int arrayValue;
 
   public SongsOfThe80s() {
 
@@ -27,7 +27,7 @@ public class SongsOfThe80s implements SongIterator {
 
   public void addSong(String songName, String bandName, int yearReleased) {
 
-    SongInfo song = new SongInfo(songName, bandName, yearReleased);
+    final SongInfo song = new SongInfo(songName, bandName, yearReleased);
 
     bestSongs[arrayValue] = song;
 
@@ -48,7 +48,6 @@ public class SongsOfThe80s implements SongIterator {
 
   @Override
   public Iterator createIterator() {
-    // TODO Auto-generated method stub
     return Arrays.asList(bestSongs).iterator();
   }
 

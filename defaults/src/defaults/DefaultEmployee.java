@@ -7,8 +7,8 @@ public class DefaultEmployee extends DomainObject implements Employee {
   private final String dept;
   private final BigDecimal salary;
 
-  public DefaultEmployee(String id, String name, String dept,
-                  BigDecimal salary) {
+  public DefaultEmployee(final String id, final String name, final String dept,
+                         final BigDecimal salary) {
     super(id);
     this.name = name;
     this.dept = dept;

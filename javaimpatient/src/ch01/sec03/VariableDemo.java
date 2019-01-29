@@ -20,8 +20,6 @@ public class VariableDemo {
     // System.out.println(count);
   }
 
-  ;
-
   enum Weekday {
     MON, TUE, WED, THU, FRI, SAT, SUN
   }

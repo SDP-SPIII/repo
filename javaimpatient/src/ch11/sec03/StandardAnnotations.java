@@ -33,7 +33,7 @@ class Manager extends Employee {
 
 public class StandardAnnotations {
   @Generated(value = "com.horstmann.generator", date = "2015-01-04T12:08:56.235-0700")
-  String message = null;
+  String message;
 
   public static <T> T[] nCopies(int n, T value) {
     Class<?> cl = value.getClass();

@@ -12,8 +12,8 @@ public class DefaultEmployeeEx extends DefaultEmployee
    * Ideally we should apply builder pattern if consturctor
    * parameters are too many.
    */
-  public DefaultEmployeeEx(String id, String name, String dept,
-                    BigDecimal salary, BigDecimal bonusPercent) {
+  public DefaultEmployeeEx(final String id, final String name, final String dept,
+                           final BigDecimal salary, final BigDecimal bonusPercent) {
     super(id, name, dept, salary);
     Objects.requireNonNull(bonusPercent);
     this.bonusPercent = bonusPercent;

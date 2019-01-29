@@ -5,7 +5,5 @@ public interface IntSequence {
     return true;
   }
 
-  ;
-
   int next();
 }

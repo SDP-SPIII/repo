@@ -9,7 +9,7 @@ public class CovariantGenericsExampleTwo {
     integers.add(1);
 
     List<? extends Number> numbers = integers;
-    Double d = new Double(23);
+    Double d = 23.0;
     //numbers.add(d);
   }
 }

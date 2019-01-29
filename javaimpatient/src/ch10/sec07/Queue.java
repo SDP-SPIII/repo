@@ -3,7 +3,6 @@ package ch10.sec07;
 public class Queue {
   private Node head;
 
-  ;
   private Node tail;
 
   public synchronized void add(Object newValue) {

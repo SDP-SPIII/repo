@@ -12,7 +12,7 @@ public class EnemyRobot {
 
   public void smashWithHands() {
 
-    int attackDamage = generator.nextInt(10) + 1;
+    final int attackDamage = generator.nextInt(10) + 1;
 
     System.out.println("Enemy Robot Causes " + attackDamage + " Damage With Its Hands");
 
@@ -20,7 +20,7 @@ public class EnemyRobot {
 
   public void walkForward() {
 
-    int movement = generator.nextInt(5) + 1;
+    final int movement = generator.nextInt(5) + 1;
 
     System.out.println("Enemy Robot Walks Forward " + movement + " spaces");
 

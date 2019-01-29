@@ -7,6 +7,6 @@ public class CovariantArraysExample {
   public static void main(String[] args) {
     Integer[] integers = new Integer[10];
     Number[] numbers = integers;
-    numbers[0] = new Double(25);
+    numbers[0] = 25;
   }
 }

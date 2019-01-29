@@ -17,8 +17,6 @@ public final class Message {
     recipients.add(recipient);
   }
 
-  ;
-
   public Message clone() {
     try {
       Message cloned = (Message) super.clone();

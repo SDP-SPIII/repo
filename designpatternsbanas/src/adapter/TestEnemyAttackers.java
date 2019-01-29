@@ -4,11 +4,11 @@ public class TestEnemyAttackers {
 
   public static void main(String[] args) {
 
-    EnemyTank rx7Tank = new EnemyTank();
+    final EnemyTank rx7Tank = new EnemyTank();
 
-    EnemyRobot fredTheRobot = new EnemyRobot();
+    final EnemyRobot fredTheRobot = new EnemyRobot();
 
-    EnemyAttacker robotAdapter = new EnemyRobotAdapter(fredTheRobot);
+    final EnemyAttacker robotAdapter = new EnemyRobotAdapter(fredTheRobot);
 
     System.out.println("The Robot");
 

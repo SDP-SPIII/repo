@@ -3,7 +3,7 @@ package dixmlcons;
 
 public class StandardOutMessageRenderer implements MessageRenderer {
 
-  private MessageProvider messageProvider = null;
+  private MessageProvider messageProvider;
 
   public void render() {
     if (messageProvider == null) {

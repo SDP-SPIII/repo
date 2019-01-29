@@ -2,9 +2,9 @@ package mediator;
 
 public class StockOffer {
 
-  private int stockShares = 0;
+  private int stockShares;
   private String stockSymbol = "";
-  private int colleagueCode = 0;
+  private int colleagueCode;
 
   public StockOffer(int numOfShares, String stock, int collCode) {
 

@@ -27,7 +27,6 @@ public class BinaryIO {
       short planes = swap(in.readShort());
       short depth = swap(in.readShort());
       int compressionMode = swap(in.readInt());
-      ;
       System.out.println("Header: " + new String(header, StandardCharsets.US_ASCII));
       System.out.println("Size: " + size);
       System.out.println("Header size : " + headerSize);

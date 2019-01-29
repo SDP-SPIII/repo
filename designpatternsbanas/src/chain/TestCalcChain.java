@@ -6,10 +6,10 @@ public class TestCalcChain {
 
     // Here I define all of the objects in the chain
 
-    Chain chainCalc1 = new AddNumbers();
-    Chain chainCalc2 = new SubtractNumbers();
-    Chain chainCalc3 = new MultNumbers();
-    Chain chainCalc4 = new DivideNumbers();
+    final Chain chainCalc1 = new AddNumbers();
+    final Chain chainCalc2 = new SubtractNumbers();
+    final Chain chainCalc3 = new MultNumbers();
+    final Chain chainCalc4 = new DivideNumbers();
 
     // Here I tell each object where to forward the
     // data if it can't process the request

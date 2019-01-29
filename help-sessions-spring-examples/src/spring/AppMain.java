@@ -18,9 +18,9 @@ public class AppMain {
 
     // OR
 
-  //    AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
-  //    context.scan("spring");
-  //    context.refresh();
+    //    AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+    //    context.scan("spring");
+    //    context.refresh();
 
     EmployeeService service = (EmployeeService) context.getBean("employeeService");
 

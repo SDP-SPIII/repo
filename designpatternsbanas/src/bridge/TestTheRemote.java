@@ -4,13 +4,13 @@ public class TestTheRemote {
 
   public static void main(String[] args) {
 
-    RemoteButton theTV = new TVRemoteMute(new TVDevice(1, 200));
+    final RemoteButton theTV = new TVRemoteMute(new TVDevice(1, 200));
 
-    RemoteButton theTV2 = new TVRemotePause(new TVDevice(1, 200));
+    final RemoteButton theTV2 = new TVRemotePause(new TVDevice(1, 200));
 
     // HOMEWORK --------------
 
-    RemoteButton theDVD = new DVDRemote(new DVDDevice(1, 14));
+    final RemoteButton theDVD = new DVDRemote(new DVDDevice(1, 14));
 
     // -----------------------
 

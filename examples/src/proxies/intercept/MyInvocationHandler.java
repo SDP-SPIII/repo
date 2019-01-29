@@ -9,6 +9,15 @@ import java.util.Arrays;
 
 public class MyInvocationHandler implements InvocationHandler {
 
+  public static void main(String[] args) {
+    MyInvocationHandler handler = new MyInvocationHandler();
+
+    MyInterface o = (MyInterface) Proxy.newProxyInstance(
+            MyInvocationHandler.class.getClassLoader(),
+            new Class[]{MyInterface.class}, handler);
+    o.doSomething();
+  }
+
   @Override
   public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 
@@ -20,14 +29,5 @@ public class MyInvocationHandler implements InvocationHandler {
 
     System.out.println("the invoked method: " + method);
     return null;
-  }
-
-  public static void main(String[] args) {
-    MyInvocationHandler handler = new MyInvocationHandler();
-
-    MyInterface o = (MyInterface) Proxy.newProxyInstance(
-            MyInvocationHandler.class.getClassLoader(),
-            new Class[]{MyInterface.class}, handler);
-    o.doSomething();
   }
 }

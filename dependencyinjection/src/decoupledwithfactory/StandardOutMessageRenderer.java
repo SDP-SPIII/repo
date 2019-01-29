@@ -2,14 +2,13 @@ package decoupledwithfactory;
 
 public class StandardOutMessageRenderer implements MessageRenderer {
 
-  private MessageProvider messageProvider = null;
+  private MessageProvider messageProvider;
 
   @Override
   public void render() {
     if (messageProvider == null) {
-      throw new RuntimeException(
-              "You must set the property messageProvider of class:"
-                      + StandardOutMessageRenderer.class.getName());
+      throw new RuntimeException("You must set the property messageProvider of class:"
+              + this.getClass().getName());
     }
 
     System.out.println(messageProvider.getMessage());

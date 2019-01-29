@@ -9,6 +9,7 @@ import java.io.Writer;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,7 +24,7 @@ public class PostDemo {
     URLConnection connection = url.openConnection();
     connection.setRequestProperty("Accept-Charset", "UTF-8");
     connection.setDoOutput(true);
-    try (Writer out = new OutputStreamWriter(connection.getOutputStream(), "UTF-8")) {
+    try (Writer out = new OutputStreamWriter(connection.getOutputStream(), StandardCharsets.UTF_8)) {
       Map<String, String> postData = new HashMap<>();
 
       postData.put("repo", "bj4cc");
@@ -36,9 +37,9 @@ public class PostDemo {
           first = false;
         else
           out.write("&");
-        out.write(URLEncoder.encode(entry.getKey(), "UTF-8"));
+        out.write(URLEncoder.encode(entry.getKey(), StandardCharsets.UTF_8));
         out.write("=");
-        out.write(URLEncoder.encode(entry.getValue(), "UTF-8"));
+        out.write(URLEncoder.encode(entry.getValue(), StandardCharsets.UTF_8));
       }
     }
 

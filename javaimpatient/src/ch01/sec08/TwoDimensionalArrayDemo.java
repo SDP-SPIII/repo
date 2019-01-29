@@ -14,6 +14,7 @@ public class TwoDimensionalArrayDemo {
 
     int n = 5;
     int[][] triangle = new int[n][];
+
     for (int i = 0; i < n; i++) {
       triangle[i] = new int[i + 1];
       triangle[i][0] = 1;

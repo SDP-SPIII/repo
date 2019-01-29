@@ -7,9 +7,9 @@ public class ScrabbleTestThreads {
     // Create a new Thread created using the Runnable interface
     // Execute the code in run after 10 seconds
 
-    Runnable getTiles = new GetTheTiles();
+    final Runnable getTiles = new GetTheTiles();
 
-    Runnable getTilesAgain = new GetTheTiles();
+    final Runnable getTilesAgain = new GetTheTiles();
 
     // Call for the code in the method run to execute
 

@@ -8,7 +8,7 @@ public class Singleton {
 
   // Used to slow down 1st thread
   static boolean firstThread = true;
-  private static Singleton firstInstance = null;
+  private static Singleton firstInstance;
   String[] scrabbleLetters = {"a", "a", "a", "a", "a", "a", "a", "a", "a",
           "b", "b", "c", "c", "d", "d", "d", "d", "e", "e", "e", "e", "e",
           "e", "e", "e", "e", "e", "e", "e", "f", "f", "g", "g", "g", "h",
@@ -85,7 +85,7 @@ public class Singleton {
 
     // Tiles to be returned to the user
 
-    LinkedList<String> tilesToSend = new LinkedList<String>();
+    final LinkedList<String> tilesToSend = new LinkedList<String>();
 
     // Cycle through the LinkedList while adding the starting
     // Strings to the to be returned LinkedList while deleting

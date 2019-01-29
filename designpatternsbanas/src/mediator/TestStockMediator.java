@@ -4,11 +4,11 @@ public class TestStockMediator {
 
   public static void main(String[] args) {
 
-    StockMediator nyse = new StockMediator();
+    final StockMediator nyse = new StockMediator();
 
-    GormanSlacks broker = new GormanSlacks(nyse);
+    final GormanSlacks broker = new GormanSlacks(nyse);
 
-    JTPoorman broker2 = new JTPoorman(nyse);
+    final JTPoorman broker2 = new JTPoorman(nyse);
 
     broker.saleOffer("MSFT", 100);
     broker.saleOffer("GOOG", 50);

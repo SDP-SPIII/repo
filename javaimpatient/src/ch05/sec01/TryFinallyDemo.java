@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class TryFinallyDemo {
   public static Lock myLock = new ReentrantLock();
-  private static int counter = 0;
+  private static int counter;
 
   public static void main(String[] args) throws InterruptedException {
     Thread[] threads = new Thread[2];

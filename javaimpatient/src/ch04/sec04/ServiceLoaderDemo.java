@@ -1,6 +1,7 @@
 package ch04.sec04;
 
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.Optional;
 import java.util.ServiceLoader;
 
@@ -13,7 +14,7 @@ public class ServiceLoaderDemo {
     String message = "Meet me at the toga party.";
     byte[] bytes = cipher.encrypt(message.getBytes(),
             new byte[]{3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7, 9, 3});
-    String encrypted = new String(bytes, "UTF-8");
+    String encrypted = new String(bytes, StandardCharsets.UTF_8);
     System.out.println(encrypted);
   }
 

@@ -6,7 +6,7 @@ package template;
 
 public abstract class Sub {
 
-  boolean afterFirstCondiment = false;
+  boolean afterFirstCondiment;
 
   // This is the Template Method
   // Declare this method final to keep subclasses from

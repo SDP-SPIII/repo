@@ -13,7 +13,7 @@ public class EnemyTank implements EnemyAttacker {
   @Override
   public void fireWeapon() {
 
-    int attackDamage = generator.nextInt(10) + 1;
+    final int attackDamage = generator.nextInt(10) + 1;
 
     System.out.println("Enemy Tank Does " + attackDamage + " Damage");
 
@@ -22,7 +22,7 @@ public class EnemyTank implements EnemyAttacker {
   @Override
   public void driveForward() {
 
-    int movement = generator.nextInt(5) + 1;
+    final int movement = generator.nextInt(5) + 1;
 
     System.out.println("Enemy Tank moves " + movement + " spaces");
 

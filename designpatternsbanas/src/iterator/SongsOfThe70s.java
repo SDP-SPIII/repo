@@ -23,7 +23,7 @@ public class SongsOfThe70s implements SongIterator {
 
   public void addSong(String songName, String bandName, int yearReleased) {
 
-    SongInfo songInfo = new SongInfo(songName, bandName, yearReleased);
+    final SongInfo songInfo = new SongInfo(songName, bandName, yearReleased);
 
     bestSongs.add(songInfo);
 

@@ -16,7 +16,7 @@ public class Spy {
   public Field[] fields;
   public Method[] methods;
   public boolean atBeginningOfLine;
-  public int level = 0;
+  public int level;
   public String aaaaa;
   int packageInt;
 
@@ -166,36 +166,49 @@ public class Spy {
   public String decodeType(String typeCode) {
     // horrible code!!
     int arrayLevel = 0;
-    String brackets = "";
+    StringBuilder brackets = new StringBuilder();
     while (typeCode.charAt(arrayLevel) == '[') {
       arrayLevel++;
-      brackets += "[]";
+      brackets.append("[]");
     }
     // probably should use a hashmap or something similar...
+    StringBuilder str = new StringBuilder();
     switch (typeCode.charAt(arrayLevel)) {
       case 'B':
-        return "byte" + brackets;
+        str.append("byte");
+        break;
       case 'C':
-        return "char" + brackets;
+        str.append("char");
+        break;
       case 'D':
-        return "double" + brackets;
+        str.append("double");
+        break;
       case 'F':
-        return "float" + brackets;
+        str.append("float");
+        break;
       case 'I':
-        return "int" + brackets;
+        str.append("int");
+        break;
       case 'J':
-        return "long" + brackets;
+        str.append("long");
+        break;
       case 'S':
-        return "short" + brackets;
+        str.append("short");
+        break;
       case 'Z':
-        return "boolean" + brackets;
+        str.append("boolean");
+        break;
       case 'V':
-        return "void" + brackets;
+        str.append("void");
+        break;
       case 'L':
-        return simplifyName(typeCode) + brackets;
+        str.append(simplifyName(typeCode));
+        break;
       default:
-        return typeCode + brackets;
+        str.append(typeCode);
+        break;
     }
+    return str.append(brackets).toString();
   }
 
   public void printMethod(Method method) {

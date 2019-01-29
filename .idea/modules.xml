@@ -13,7 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/gui/gui.iml" filepath="$PROJECT_DIR$/gui/gui.iml" />
       <module fileurl="file://$PROJECT_DIR$/guice/guice.iml" filepath="$PROJECT_DIR$/guice/guice.iml" />
       <module fileurl="file://$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-example.iml" filepath="$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-examples.iml" filepath="$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaimpatient/javaimpatient.iml" filepath="$PROJECT_DIR$/javaimpatient/javaimpatient.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/lambdas/lambdas.iml" filepath="$PROJECT_DIR$/lambdas/lambdas.iml" />

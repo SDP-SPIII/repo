@@ -2,6 +2,7 @@ package ch04.sec03;
 
 public enum Modifier {
   PUBLIC, PRIVATE, PROTECTED, STATIC, FINAL, ABSTRACT;
+
   static {
     int maskBit = 1;
     for (Modifier m : Modifier.values()) {

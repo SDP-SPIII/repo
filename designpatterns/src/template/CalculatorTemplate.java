@@ -2,7 +2,7 @@ package template;
 
 public abstract class CalculatorTemplate implements Calculator {
   private double result;
-  private boolean initialized = false;
+  private boolean initialized;
 
   public final void calculate(double operand) {
     if (this.initialized) {

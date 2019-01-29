@@ -12,7 +12,7 @@ public class SongsOfThe90s implements SongIterator {
 
   // Will increment the Hashtable key
 
-  int hashKey = 0;
+  int hashKey;
 
   public SongsOfThe90s() {
 
@@ -27,7 +27,7 @@ public class SongsOfThe90s implements SongIterator {
 
   public void addSong(String songName, String bandName, int yearReleased) {
 
-    SongInfo songInfo = new SongInfo(songName, bandName, yearReleased);
+    final SongInfo songInfo = new SongInfo(songName, bandName, yearReleased);
 
     bestSongs.put(hashKey, songInfo);
 
@@ -48,7 +48,6 @@ public class SongsOfThe90s implements SongIterator {
   // collections the same
 
   public Iterator createIterator() {
-    // TODO Auto-generated method stub
     return bestSongs.values().iterator();
   }
 

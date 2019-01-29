@@ -4,21 +4,21 @@
 var RandomIterator = Java.extend(java.util.Iterator, {
     next: function () Math.random(),
     hasNext: function () true
-}) // RandomIterator is a class object
-var iter = new RandomIterator() // Use it to construct an instance
-print(iter.next())
-print(iter.next())
-print(iter.next())
+}); // RandomIterator is a class object
+var iter = new RandomIterator(); // Use it to construct an instance
+print(iter.next());
+print(iter.next());
+print(iter.next());
 
 var task = new java.lang.Runnable(function () {
     print('Hello')
-})
-task.run()
+});
+task.run();
 
-iter = new java.util.Iterator
+iter = new java.util.Iterator;
 {
-    count: 10,
-        next
+    10,
+        next;
 :
 
     function () {
@@ -31,9 +31,9 @@ iter = new java.util.Iterator
     this.count > 0
 }
 
-while (iter.hasNext()) print(iter.next())
+while (iter.hasNext()) print(iter.next());
 
-var arr = new (Java.extend(java.util.ArrayList))
+var arr = new (Java.extend(java.util.ArrayList));
 {
     add: function (x) {
         print('Adding ' + x);
@@ -41,5 +41,5 @@ var arr = new (Java.extend(java.util.ArrayList))
     }
 }
 
-arr.add('Fred')
-print(arr)
+arr.add('Fred');
+print(arr);

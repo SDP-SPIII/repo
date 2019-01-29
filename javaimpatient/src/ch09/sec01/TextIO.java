@@ -25,7 +25,7 @@ public class TextIO {
     try (Stream<String> lineStream = Files.lines(path, StandardCharsets.UTF_8)) {
       System.out.println("Average line length: " + lineStream.mapToInt(String::length).average().orElse(0));
     }
-    try (Scanner in = new Scanner(path, "UTF-8")) {
+    try (Scanner in = new Scanner(path, StandardCharsets.UTF_8)) {
       in.useDelimiter("\\PL+");
       int words = 0;
       while (in.hasNext()) {

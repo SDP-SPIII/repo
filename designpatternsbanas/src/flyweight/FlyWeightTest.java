@@ -36,7 +36,7 @@ public class FlyWeightTest extends JFrame {
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.setTitle("Flyweight Test");
 
-    JPanel contentPane = new JPanel();
+    final JPanel contentPane = new JPanel();
 
     contentPane.setLayout(new BorderLayout());
 
@@ -51,10 +51,10 @@ public class FlyWeightTest extends JFrame {
     startDrawing.addActionListener(new ActionListener() {
 
       public void actionPerformed(ActionEvent event) {
-        Graphics g = drawingPanel.getGraphics();
+        final Graphics g = drawingPanel.getGraphics();
 
 
-        long startTime = System.currentTimeMillis();
+        final long startTime = System.currentTimeMillis();
 
 
         for (int i = 0; i < 100000; ++i) {
@@ -63,7 +63,7 @@ public class FlyWeightTest extends JFrame {
           // Uses rectangles stored in the HashMap to
           // speed up the program
 
-          MyRect rect = RectFactory.getRect(getRandColor());
+          final MyRect rect = RectFactory.getRect(getRandColor());
           rect.draw(g, getRandX(), getRandY(),
                   getRandX(), getRandY());
 
@@ -83,7 +83,7 @@ public class FlyWeightTest extends JFrame {
 
         }
 
-        long endTime = System.currentTimeMillis();
+        final long endTime = System.currentTimeMillis();
 
         System.out.println("That took " + (endTime - startTime) + " milliseconds");
 
@@ -115,9 +115,9 @@ public class FlyWeightTest extends JFrame {
   // Picks a random Color from the 9 available
 
   private Color getRandColor() {
-    Random randomGenerator = new Random();
+    final Random randomGenerator = new Random();
 
-    int randInt = randomGenerator.nextInt(9);
+    final int randInt = randomGenerator.nextInt(9);
 
     return shapeColor[randInt];
 

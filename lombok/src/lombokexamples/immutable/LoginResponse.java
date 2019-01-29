@@ -26,11 +26,11 @@ import java.time.Instant;
 @ToString
 @EqualsAndHashCode
 public final class LoginResponse {
-	private final long userId;
-	private final @NonNull String authToken;
-	private final @NonNull Instant loginTs;
+  private final long userId;
+  private final @NonNull String authToken;
+  private final @NonNull Instant loginTs;
 
-	@Wither
-	private final @NonNull Instant tokenExpiryTs;
+  @Wither
+  private final @NonNull Instant tokenExpiryTs;
 
 }

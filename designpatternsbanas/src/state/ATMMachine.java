@@ -36,12 +36,6 @@ public class ATMMachine {
 
   }
 
-  public void setCashInMachine(int newCashInMachine) {
-
-    cashInMachine = newCashInMachine;
-
-  }
-
   public void insertCard() {
 
     atmState.insertCard();
@@ -86,16 +80,32 @@ public class ATMMachine {
     return this.hasCard;
   }
 
+  public void setHasCard(ATMState hasCard) {
+    this.hasCard = hasCard;
+  }
+
   public ATMState getNoCard() {
     return this.noCard;
+  }
+
+  public void setNoCard(ATMState noCard) {
+    this.noCard = noCard;
   }
 
   public ATMState getHasCorrectPin() {
     return this.hasCorrectPin;
   }
 
+  public void setHasCorrectPin(ATMState hasCorrectPin) {
+    this.hasCorrectPin = hasCorrectPin;
+  }
+
   public ATMState getAtmOutOfMoney() {
     return this.atmOutOfMoney;
+  }
+
+  public void setAtmOutOfMoney(ATMState atmOutOfMoney) {
+    this.atmOutOfMoney = atmOutOfMoney;
   }
 
   public ATMState getAtmState() {
@@ -106,24 +116,14 @@ public class ATMMachine {
     return this.cashInMachine;
   }
 
+  public void setCashInMachine(int newCashInMachine) {
+
+    cashInMachine = newCashInMachine;
+
+  }
+
   public boolean isCorrectPinEntered() {
     return this.correctPinEntered;
-  }
-
-  public void setHasCard(ATMState hasCard) {
-    this.hasCard = hasCard;
-  }
-
-  public void setNoCard(ATMState noCard) {
-    this.noCard = noCard;
-  }
-
-  public void setHasCorrectPin(ATMState hasCorrectPin) {
-    this.hasCorrectPin = hasCorrectPin;
-  }
-
-  public void setAtmOutOfMoney(ATMState atmOutOfMoney) {
-    this.atmOutOfMoney = atmOutOfMoney;
   }
 
   public void setCorrectPinEntered(boolean correctPinEntered) {
@@ -134,7 +134,7 @@ public class ATMMachine {
     if (o == this) return true;
     if (!(o instanceof ATMMachine)) return false;
     final ATMMachine other = (ATMMachine) o;
-    if (!other.canEqual((Object) this)) return false;
+    if (!other.canEqual(this)) return false;
     final Object this$hasCard = this.getHasCard();
     final Object other$hasCard = other.getHasCard();
     if (this$hasCard == null ? other$hasCard != null : !this$hasCard.equals(other$hasCard)) return false;
@@ -153,8 +153,7 @@ public class ATMMachine {
     final Object other$atmState = other.getAtmState();
     if (this$atmState == null ? other$atmState != null : !this$atmState.equals(other$atmState)) return false;
     if (this.getCashInMachine() != other.getCashInMachine()) return false;
-    if (this.isCorrectPinEntered() != other.isCorrectPinEntered()) return false;
-    return true;
+    return this.isCorrectPinEntered() == other.isCorrectPinEntered();
   }
 
   protected boolean canEqual(final Object other) {

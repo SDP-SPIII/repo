@@ -12,14 +12,6 @@ public class MyInvocationHandler implements InvocationHandler {
     this.theString = theString;
   }
 
-  @Override
-  public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-    System.out.println("before method call : " + method.getName());
-    Object result = method.invoke(theString, args);
-    System.out.println("after method call : " + method.getName());
-    return result;
-  }
-
   public static void main(String[] args) {
 
     MyInvocationHandler handler = new MyInvocationHandler("the example string");
@@ -29,5 +21,13 @@ public class MyInvocationHandler implements InvocationHandler {
             new Class[]{CharSequence.class}, handler);
     System.out.println(o.length());
     System.out.println(o.subSequence(4, 8));
+  }
+
+  @Override
+  public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+    System.out.println("before method call : " + method.getName());
+    Object result = method.invoke(theString, args);
+    System.out.println("after method call : " + method.getName());
+    return result;
   }
 }

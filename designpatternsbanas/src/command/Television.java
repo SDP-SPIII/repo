@@ -1,8 +1,7 @@
 package command;
 
 public class Television implements ElectronicDevice {
-
-  private int volume = 0;
+  private int volume;
 
   @Override
   public void on() {

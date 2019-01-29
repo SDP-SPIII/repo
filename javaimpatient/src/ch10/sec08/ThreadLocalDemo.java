@@ -26,7 +26,6 @@ public class ThreadLocalDemo {
     List<Callable<String>> tasks = new ArrayList<>();
     for (int i = 1; i < 100; i++) {
       double value = 1000.01 * i;
-      ;
       tasks.add(() -> asCurrency(value));
     }
     List<Future<String>> result = executor.invokeAll(tasks);

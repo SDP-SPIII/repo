@@ -7,16 +7,16 @@ public class TestCloning {
     // Handles routing makeCopy method calls to the
     // right subclasses of Animal
 
-    CloneFactory animalMaker = new CloneFactory();
+    final CloneFactory animalMaker = new CloneFactory();
 
     // Creates a new Sheep instance
 
-    Sheep sally = new Sheep();
+    final Sheep sally = new Sheep();
 
     // Creates a clone of Sally and stores it in its own
     // memory location
 
-    Sheep clonedSheep = (Sheep) animalMaker.getClone(sally);
+    final Sheep clonedSheep = (Sheep) animalMaker.getClone(sally);
 
     // These are exact copies of each other
 

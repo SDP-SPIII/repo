@@ -17,7 +17,7 @@ public class DomainObject {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
 
-    DomainObject that = (DomainObject) o;
+    final DomainObject that = (DomainObject) o;
 
     return id != null ? id.equals(that.id) : that.id == null;
 

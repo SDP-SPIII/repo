@@ -9,12 +9,9 @@ package bridge;
 // This allows me to use an infinite variety of devices and remotes
 
 abstract class EntertainmentDevice {
-
   public int deviceState;
-
   public int maxSetting;
-
-  public int volumeLevel = 0;
+  public int volumeLevel;
 
   public abstract void buttonFivePressed();
 

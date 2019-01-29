@@ -4,10 +4,9 @@ package reflection;
  * An example class to use for reflection
  */
 public class RentCar {
+  public int price;    // just so that it is different to the others
   private int rate;
   private String type;
-
-  public int price;    // just so that it is different to the others
 
   public RentCar(int length) {
     if (length < 455) {

@@ -29,6 +29,10 @@ public class GetTheStock implements Runnable {
 
   @Override
   public void run() {
+    // Formats decimals to 2 places
+
+    final DecimalFormat df = new DecimalFormat("#.##");
+
     for (int i = 1; i <= 20; i++) {
 
       try {
@@ -42,11 +46,7 @@ public class GetTheStock implements Runnable {
 
       // Generates a random number between -.03 and .03
 
-      double randNum = (Math.random() * (.06)) - .03;
-
-      // Formats decimals to 2 places
-
-      DecimalFormat df = new DecimalFormat("#.##");
+      final double randNum = (Math.random() * (.06)) - .03;
 
       // Change the price and then convert it back into a double
 

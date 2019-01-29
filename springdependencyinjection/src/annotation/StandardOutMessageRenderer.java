@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class StandardOutMessageRenderer implements MessageRenderer {
 
   @Autowired
-  private MessageProvider messageProvider = null;
+  private MessageProvider messageProvider;
 
   @Override
   public void render() {

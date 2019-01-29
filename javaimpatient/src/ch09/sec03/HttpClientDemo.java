@@ -7,6 +7,7 @@ import java.net.URLEncoder;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,10 +36,10 @@ public class HttpClientDemo {
       if (first)
         first = false;
       else
-        body.append("&");
-      body.append(URLEncoder.encode(entry.getKey(), "UTF-8"));
-      body.append("=");
-      body.append(URLEncoder.encode(entry.getValue(), "UTF-8"));
+        body.append('&');
+      body.append(URLEncoder.encode(entry.getKey(), StandardCharsets.UTF_8));
+      body.append('=');
+      body.append(URLEncoder.encode(entry.getValue(), StandardCharsets.UTF_8));
     }
 
     request = HttpRequest.newBuilder().uri(new URI("http://codecheck.it/check")).header("Accept-Charset", "UTF-8")

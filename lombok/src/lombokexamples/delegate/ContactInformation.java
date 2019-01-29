@@ -14,20 +14,20 @@ public class ContactInformation implements HasContactInformation {
     return this.email;
   }
 
-  public String getFirstName() {
-    return this.firstName;
-  }
-
-  public String getLastName() {
-    return this.lastName;
-  }
-
   public void setEmail(String email) {
     this.email = email;
   }
 
+  public String getFirstName() {
+    return this.firstName;
+  }
+
   public void setFirstName(String firstName) {
     this.firstName = firstName;
+  }
+
+  public String getLastName() {
+    return this.lastName;
   }
 
   public void setLastName(String lastName) {
@@ -38,7 +38,7 @@ public class ContactInformation implements HasContactInformation {
     if (o == this) return true;
     if (!(o instanceof ContactInformation)) return false;
     final ContactInformation other = (ContactInformation) o;
-    if (!other.canEqual((Object) this)) return false;
+    if (!other.canEqual(this)) return false;
     final Object this$email = this.getEmail();
     final Object other$email = other.getEmail();
     if (this$email == null ? other$email != null : !this$email.equals(other$email)) return false;
@@ -47,8 +47,7 @@ public class ContactInformation implements HasContactInformation {
     if (this$firstName == null ? other$firstName != null : !this$firstName.equals(other$firstName)) return false;
     final Object this$lastName = this.getLastName();
     final Object other$lastName = other.getLastName();
-    if (this$lastName == null ? other$lastName != null : !this$lastName.equals(other$lastName)) return false;
-    return true;
+    return this$lastName == null ? other$lastName == null : this$lastName.equals(other$lastName);
   }
 
   protected boolean canEqual(final Object other) {

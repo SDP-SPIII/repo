@@ -33,25 +33,25 @@ import lombok.ToString;
 @Setter(AccessLevel.PROTECTED)
 @NoArgsConstructor(access = AccessLevel.PACKAGE)
 @AllArgsConstructor
-@ToString(exclude = { "password" })
-@EqualsAndHashCode(of = { "email" })
+@ToString(exclude = {"password"})
+@EqualsAndHashCode(of = {"email"})
 public class User {
 
-	private @NonNull String email;
+  private @NonNull String email;
 
-	private @NonNull byte[] password;
+  private @NonNull byte[] password;
 
-	private @NonNull String firstName;
-	private @NonNull String lastName;
+  private @NonNull String firstName;
+  private @NonNull String lastName;
 
-	private @NonNull Instant registrationTs;
+  private @NonNull Instant registrationTs;
 
-	private boolean payingCustomer;
+  private boolean payingCustomer;
 
-	protected void setEmail(String email) {
-		// Check for null (=> NullPointerException)
-		// and valid email code (=> IllegalArgumentException)
-		this.email = email;
-	}
+  protected void setEmail(String email) {
+    // Check for null (=> NullPointerException)
+    // and valid email code (=> IllegalArgumentException)
+    this.email = email;
+  }
 
 }

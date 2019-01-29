@@ -15,7 +15,7 @@ public class Exceptions {
     try {
       return c.call();
     } catch (Throwable ex) {
-      Exceptions.<RuntimeException>throwAs(ex);
+      Exceptions.throwAs(ex);
       return null;
     }
   }

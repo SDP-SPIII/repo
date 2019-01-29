@@ -2,7 +2,7 @@ package helloworld;
 
 public class StandardOutMessageRenderer implements MessageRenderer {
 
-  private MessageProvider messageProvider = null;
+  private MessageProvider messageProvider;
 
   @Override
   public void render() {

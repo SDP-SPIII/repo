@@ -13,18 +13,18 @@ import java.util.List;
 @Getter
 @Setter
 @RequiredArgsConstructor
-@EqualsAndHashCode(of = { "number", "text" })
+@EqualsAndHashCode(of = {"number", "text"})
 @ToString(exclude = "strList")
 public class EveryThing {
-	private final int number;
-	private final String text;
-	private boolean flag;
-	private List<String> strList;
+  private final int number;
+  private final String text;
+  private boolean flag;
+  private List<String> strList;
 
-	public List<String> getStrList() {
-		if (strList == null) {
-			strList = new ArrayList<>(128);
-		}
-		return Collections.unmodifiableList(strList);
-	}
+  public List<String> getStrList() {
+    if (strList == null) {
+      strList = new ArrayList<>(128);
+    }
+    return Collections.unmodifiableList(strList);
+  }
 }

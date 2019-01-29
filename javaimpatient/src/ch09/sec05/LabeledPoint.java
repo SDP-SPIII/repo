@@ -17,7 +17,6 @@ public class LabeledPoint implements Serializable {
   }
 
   public String toString() {
-    // TODO Auto-generated method stub
     return String.format("%s[label=%s,point=%s]", getClass().getName(), label, point);
   }
 

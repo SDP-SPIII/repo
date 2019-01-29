@@ -8,7 +8,7 @@ public enum PersonDatabase {
 
   private Map<Integer, Person> people = new ConcurrentHashMap<>();
 
-  private PersonDatabase() {
+  PersonDatabase() {
     add(new Person(1, "Adam"));
     add(new Person(2, "Eve"));
   }
