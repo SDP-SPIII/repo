@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public interface Employee {
+
   static String getEmployeeInfo(List<Employee> employeeList) {
     StringBuilder info = new StringBuilder();
     for (Employee employee : employeeList) {
@@ -21,7 +22,6 @@ public interface Employee {
 
   default BigDecimal getBonus() {
     return getSalary().multiply(new BigDecimal(0.10));
-    //setScale(2, BigDecimal.ROUND_HALF_UP);
   }
 
   default String getEmployeeInfo() {

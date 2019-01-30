@@ -42,7 +42,7 @@ public class StandardTestCycle {
   void shouldThrowException() {
     System.out.println("shouldThrowException");
     Throwable exception = assertThrows(UnsupportedOperationException.class, () -> {
-      throw new UnsupportedOperationException("Not supported");
+        throw new UnsupportedOperationException("Not supported");
     });
     assertEquals(exception.getMessage(), "Not supported");
   }
