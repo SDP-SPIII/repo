@@ -2,14 +2,10 @@ package capture;
 
 public class Main {
   public static void main(String[] args) {
-    MyFactory myFactory = (chars) -> {
-      return new String(chars);
-    };
+    MyFactory myFactory = chars -> new String(chars);
 
     String myString = "Test";
 
-    myFactory = (chars) -> {
-      return myString + ":" + new String(chars);
-    };
+    myFactory = chars -> myString + ":" + new String(chars);
   }
 }

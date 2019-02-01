@@ -1,0 +1,3 @@
+[submodule "fpijinjava"]
+	path = fpijinjava
+	url = https://github.com/fpinjava/fpinjava.git

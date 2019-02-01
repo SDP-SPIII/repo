@@ -14,7 +14,7 @@ public class PredicateFunctionExample {
   }
 
   public static List<Integer> filterList(List<Integer> listOfIntegers, Predicate<Integer> predicate) {
-    List<Integer> filteredList = new ArrayList<Integer>();
+    List<Integer> filteredList = new ArrayList<>();
     for (Integer integer : listOfIntegers) {
       if (predicate.test(integer)) {
         filteredList.add(integer);
