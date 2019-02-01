@@ -8,9 +8,19 @@ modules at Birkbeck.
 
 ## Source code from *Core Java SE 9 for the Impatient*
 
-+ `javaimpatient` by Cay Horstmann 
+**Removed**  - available at `http://horstmann.com/javaimpatient/javaimpatient.zip`
 
 Source text available on the College link to *[Safari Online][safari]*.
+
+## Source code from *Design Patterns in Java*
+
+**Removed** - available at `https://xp123.com/oozinoz/`
+
+## Source code from *Core Java, 11th Edition*
+
+**Removed** - available at `http://horstmann.com/corejava/corejava.zip`
+
+# Examples
 
 ## Java Reflection examples
 
