@@ -8,13 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" filepath="$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpatterns/designpatterns.iml" filepath="$PROJECT_DIR$/designpatterns/designpatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpatternsbanas/designpatternsbanas.iml" filepath="$PROJECT_DIR$/designpatternsbanas/designpatternsbanas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dpij/dpij.iml" filepath="$PROJECT_DIR$/dpij/dpij.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples.iml" filepath="$PROJECT_DIR$/.idea/modules/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/gui.iml" filepath="$PROJECT_DIR$/gui/gui.iml" />
       <module fileurl="file://$PROJECT_DIR$/guice/guice.iml" filepath="$PROJECT_DIR$/guice/guice.iml" />
       <module fileurl="file://$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-example.iml" filepath="$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaimpatient/javaimpatient.iml" filepath="$PROJECT_DIR$/javaimpatient/javaimpatient.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/lambdas/lambdas.iml" filepath="$PROJECT_DIR$/lambdas/lambdas.iml" />
       <module fileurl="file://$PROJECT_DIR$/lombok/lombok.iml" filepath="$PROJECT_DIR$/lombok/lombok.iml" />
@@ -76,7 +74,6 @@
       <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-solutions/src/test/test7.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-solutions/src/test/test7.iml" />
       <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-exercises/src/test/test8.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-exercises/src/test/test8.iml" />
       <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-exercises/src/test/test9.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-exercises/src/test/test9.iml" />
-      <module fileurl="file://$PROJECT_DIR$/things/things.iml" filepath="$PROJECT_DIR$/things/things.iml" />
       <module fileurl="file://$PROJECT_DIR$/unnamed-modules-example/unnamed-modules-example.iml" filepath="$PROJECT_DIR$/unnamed-modules-example/unnamed-modules-example.iml" />
     </modules>
   </component>

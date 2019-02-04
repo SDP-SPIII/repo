@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 import java.util.Properties;
 
 public class MessageSupportFactory {
-  private static MessageSupportFactory instance;
+  private static MessageSupportFactory instance ;
   private static MessageRenderer renderer;
   private static MessageProvider provider;
 
