@@ -36,7 +36,7 @@ public class PrimitiveTypeStreams {
     show("is3", is3);
 
     Path path = Paths.get("streams/resources/gutenberg/alice30.txt");
-    var contents = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);
+    var contents = Files.readString(path);
 
     Stream<String> words = Stream.of(contents.split("\\PL+"));
     IntStream is4 = words.mapToInt(String::length);
@@ -44,8 +44,7 @@ public class PrimitiveTypeStreams {
     var sentence = "\uD835\uDD46 is the set of octonions.";
     System.out.println(sentence);
     IntStream codes = sentence.codePoints();
-    System.out.println(codes.mapToObj(c -> String.format("%X ", c)).collect(
-            Collectors.joining()));
+    System.out.println(codes.mapToObj(c -> String.format("%X ", c)).collect(Collectors.joining()));
 
     Stream<Integer> integers = IntStream.range(0, 100).boxed();
     IntStream is5 = integers.mapToInt(Integer::intValue);

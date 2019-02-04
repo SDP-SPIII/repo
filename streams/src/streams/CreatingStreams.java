@@ -30,7 +30,7 @@ public class CreatingStreams {
 
   public static void main(String[] args) throws IOException {
     Path path = Paths.get("streams/resources/gutenberg/alice30.txt");
-    var contents = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);
+    var contents = Files.readString(path);
 
     Stream<String> words = Stream.of(contents.split("\\PL+"));
     show("words", words);
@@ -45,8 +45,7 @@ public class CreatingStreams {
     Stream<Double> randoms = Stream.generate(Math::random);
     show("randoms", randoms);
 
-    Stream<BigInteger> integers = Stream.iterate(BigInteger.ONE,
-            n -> n.add(BigInteger.ONE));
+    Stream<BigInteger> integers = Stream.iterate(BigInteger.ONE, n -> n.add(BigInteger.ONE));
     show("integers", integers);
 
     Stream<String> wordsAnotherWay = Pattern.compile("\\PL+").splitAsStream(contents);
