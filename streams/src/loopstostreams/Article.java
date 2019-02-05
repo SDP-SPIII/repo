@@ -2,7 +2,6 @@ package loopstostreams;
 
 import java.util.List;
 
-
 public class Article {
   private final String title;
   private final String author;

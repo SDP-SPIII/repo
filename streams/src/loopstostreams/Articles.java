@@ -7,6 +7,7 @@ public class Articles {
   private List<Article> articles;
 
   public Articles(List<Article> arr) {
+    // articles = arr; = bad!
     articles = new ArrayList<>();
     for (Article a : arr) {
       articles.add(a);
@@ -58,7 +59,7 @@ public class Articles {
       if (result.containsKey(article.getAuthor())) {
         result.get(article.getAuthor()).add(article);
       } else {
-        ArrayList<Article> articles = new ArrayList<>();
+        List<Article> articles = new ArrayList<>();
         articles.add(article);
         result.put(article.getAuthor(), articles);
       }

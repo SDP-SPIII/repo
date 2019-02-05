@@ -15,15 +15,15 @@ public class ExamplesMain {
     Articles ex = new Articles(articles);
     Article empty = new Article("", "", List.of());
 
-    System.out.println(ex.getFirstJavaArticleLoop());
-    System.out.println(ex.getFirstJavaArticleStream().orElse(empty));
-    System.out.println();
-    System.out.println(ex.getAllJavaArticlesLoop());
-    System.out.println(ex.getAllJavaArticlesStream());
-    System.out.println();
-    System.out.println(ex.groupByAuthorLoop());
-    System.out.println(ex.groupByAuthorStream());
-    System.out.println();
+//    System.out.println(ex.getFirstJavaArticleLoop());
+//    System.out.println(ex.getFirstJavaArticleStream().orElse(empty));
+//    System.out.println();
+//    System.out.println(ex.getAllJavaArticlesLoop());
+//    System.out.println(ex.getAllJavaArticlesStream());
+//    System.out.println();
+//    System.out.println(ex.groupByAuthorLoop());
+//    System.out.println(ex.groupByAuthorStream());
+//    System.out.println();
     System.out.println(ex.getDistinctTagsLoop());
     System.out.println(ex.getDistinctTagsStream());
   }

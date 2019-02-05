@@ -1,4 +1,4 @@
-package streams;
+package collectors;
 
 /**
  * @version 1.01 2018-05-01
@@ -41,8 +41,10 @@ public class PrimitiveTypeStreams {
     Stream<String> words = Stream.of(contents.split("\\PL+"));
     IntStream is4 = words.mapToInt(String::length);
     show("is4", is4);
+
     var sentence = "\uD835\uDD46 is the set of octonions.";
     System.out.println(sentence);
+
     IntStream codes = sentence.codePoints();
     System.out.println(codes.mapToObj(c -> String.format("%X ", c)).collect(Collectors.joining()));
 

@@ -35,7 +35,7 @@ public class FilterMapDemo {
   }
 
   public static void main(String[] args) throws IOException {
-    String contents = new String(Files.readAllBytes(Paths.get("alice.txt")), StandardCharsets.UTF_8);
+    String contents = new String(Files.readAllBytes(Paths.get("streams/resources/gutenberg/alice30.txt")), StandardCharsets.UTF_8);
     List<String> words = List.of(contents.split("\\PL+"));
     Stream<String> longWords = words.stream().filter(w -> w.length() > 12);
     show("longWords", longWords);
