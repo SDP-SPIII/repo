@@ -5,12 +5,12 @@ public class Bar<T> {
 
   public static void main(String[] args) {
     Bar<Integer> bar = new Bar<>();
-    int k = bar.amethod(5);
+    int k = bar.aMethod(5);
     //String s = bar.aMethod("abc");
     //Compilation error in the above line
   }
 
-  public T amethod(T x) {
+  public T aMethod(T x) {
     return x;
   }
 }

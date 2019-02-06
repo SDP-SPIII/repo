@@ -1,6 +1,10 @@
 package generics.boxes;
 
-public class BoxDriver {
+public final class BoxDriver {
+
+  private BoxDriver() {
+  }
+
   public static void main(String[] args) {
     IntBox intBox = new IntBox(42);
     int x = intBox.getData();

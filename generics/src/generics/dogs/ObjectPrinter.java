@@ -14,8 +14,9 @@ public class ObjectPrinter<T> {
     String[] strings = {"To", "be", "or", "not", "to", "be"};
 
     List<String> stringList = new LinkedList<>();
-    for (String s : strings)
+    for (String s : strings) {
       stringList.add(s);
+    }
 
     ObjectPrinter<String> op = new ObjectPrinter<>(stringList);
     op.printAll();

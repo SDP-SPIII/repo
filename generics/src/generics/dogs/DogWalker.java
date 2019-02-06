@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class DogWalker<T extends Dog> {
-  final List<T> dogs;
+  private final List<T> dogs;
 
   public DogWalker(List<T> dogs) {
     this.dogs = new LinkedList<T>(dogs);  // Defensive copy

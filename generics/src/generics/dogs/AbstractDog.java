@@ -11,21 +11,21 @@ public abstract class AbstractDog implements Dog {
   private String breed;
 
   @Override
-  public String getName() {
+  public final String getName() {
     return this.name;
   }
 
   @Override
-  public void setName(String name) {
+  public final void setName(String name) {
     this.name = name;
   }
 
   @Override
-  public String getBreed() {
+  public final String getBreed() {
     return this.breed;
   }
 
-  protected void setBreed(String breed) {
+  protected final void setBreed(String breed) {
     this.breed = breed;
   }
 
@@ -33,8 +33,7 @@ public abstract class AbstractDog implements Dog {
   public abstract void bark();
 
   @Override
-  public String toString() {
-    String s = "Breed: " + this.breed + " Name: " + this.name;
-    return s;
+  public final String toString() {
+    return "Breed: " + this.breed + " Name: " + this.name;
   }
 }

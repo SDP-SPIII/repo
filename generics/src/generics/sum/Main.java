@@ -2,8 +2,8 @@ package generics.sum;
 
 public class Main {
   public static void main(String[] nu) {
-    int j = Sum.sum_0_1();
+    Sum.sumone();
     // …
-    int k = Sum.sum_15_22();
+    Sum.sumtwo();
   }
 }

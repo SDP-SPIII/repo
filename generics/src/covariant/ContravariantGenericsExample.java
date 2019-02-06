@@ -3,7 +3,11 @@ package covariant;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ContravariantGenericsExample {
+public final class ContravariantGenericsExample {
+
+  private ContravariantGenericsExample() {
+  }
+
   public static void main(String[] args) {
     List<A> aList = new ArrayList<>();
     aList.add(new A());

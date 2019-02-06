@@ -1,11 +1,12 @@
 package generics.sum;
 
 public abstract class Sum {
-  public static int sum_0_1() {
+  public static int sumone() {
     return (0 + 1);
   }
 
-  public static int sum_15_22() {
+  public static int sumtwo() {
+
     return (15 + 22);
   }
 }
