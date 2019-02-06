@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -35,7 +37,9 @@ class User {
 }
 
 class Users {
-  private static User[] users = {new User("gboole", "George Boole"), new User("achurch", "Alonzo Church"),
+  private static User[] users = {
+          new User("gboole", "George Boole"),
+          new User("achurch", "Alonzo Church"),
           new User("hcurry", "Haskell Curry")};
 
   public static Optional<User> lookup(String id) {
@@ -44,22 +48,22 @@ class Users {
 
   public static User classicLookup(String id) {
     for (User u : users) {
-      if (u.getId().equals(id))
+      if (u.getId().equals(id)) {
         return u;
+      }
     }
     return null;
   }
 }
 
 public class OptionalDemo {
-
   public static <T> void show(String title, Stream<T> stream) {
     final int SIZE = 10;
     List<T> firstElements = stream.limit(SIZE + 1).collect(Collectors.toList());
     System.out.print(title + ": ");
-    if (firstElements.size() <= SIZE)
+    if (firstElements.size() <= SIZE) {
       System.out.println(firstElements);
-    else {
+    } else {
       firstElements.remove(SIZE);
       String out = firstElements.toString();
       System.out.println(out.substring(0, out.length() - 1) + ", ...]");
@@ -67,6 +71,8 @@ public class OptionalDemo {
   }
 
   public static void main(String[] args) throws IOException {
+    final Logger logger = Logger.getLogger(OptionalDemo.class.getName());
+
     String contents = new String(Files.readAllBytes(Paths.get("alice.txt")), StandardCharsets.UTF_8);
     List<String> wordList = List.of(contents.split("\\PL+"));
 
@@ -81,8 +87,8 @@ public class OptionalDemo {
     try {
       result = optionalString.orElseThrow(IllegalStateException::new);
       System.out.println("result: " + result);
-    } catch (Throwable t) {
-      t.printStackTrace();
+    } catch (Exception t) {
+      logger.log(Level.INFO, t.getMessage());
     }
     Optional<String> result2 = optionalString.or(() -> Optional.ofNullable(System.getProperty("myapp.default")));
     System.out.println("result2: " + result2);
@@ -105,25 +111,28 @@ public class OptionalDemo {
     Optional<Double> result3 = Optional.of(-4.0).flatMap(OptionalDemo::inverse).flatMap(OptionalDemo::squareRoot);
     System.out.println("result3: " + result3);
 
-    Stream<String> ids = Stream.of("gboole", "jgosling");
+    List<String> ls = List.of("gboole", "jgosling");
+    Stream<String> ids = ls.stream();
     Stream<User> users = ids.map(Users::lookup).filter(Optional::isPresent).map(Optional::get);
-    show("users", users);
+    String title = "users";
 
-    ids = Stream.of("gboole", "jgosling");
+    show(title, users);
+
+    ids = ls.stream();
     users = ids.map(Users::lookup).flatMap(Optional::stream);
-    show("users", users);
+    show(title, users);
 
-    ids = Stream.of("gboole", "jgosling");
+    ids = ls.stream();
     users = ids.map(Users::classicLookup).filter(Objects::nonNull);
-    show("users", users);
+    show(title, users);
 
-    ids = Stream.of("gboole", "jgosling");
+    ids = ls.stream();
     users = ids.flatMap(id -> Stream.ofNullable(Users.classicLookup(id)));
-    show("users", users);
+    show(title, users);
 
-    ids = Stream.of("gboole", "jgosling");
+    ids = ls.stream();
     users = ids.map(Users::classicLookup).flatMap(Stream::ofNullable);
-    show("users", users);
+    show(title, users);
   }
 
   public static Optional<Double> inverse(Double x) {

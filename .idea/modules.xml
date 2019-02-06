@@ -12,68 +12,15 @@
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/gui.iml" filepath="$PROJECT_DIR$/gui/gui.iml" />
       <module fileurl="file://$PROJECT_DIR$/guice/guice.iml" filepath="$PROJECT_DIR$/guice/guice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-example.iml" filepath="$PROJECT_DIR$/help-sessions-spring-examples/help-sessions-spring-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/lambdas/lambdas.iml" filepath="$PROJECT_DIR$/lambdas/lambdas.iml" />
       <module fileurl="file://$PROJECT_DIR$/lombok/lombok.iml" filepath="$PROJECT_DIR$/lombok/lombok.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-recursion-solutions/src/main/main.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-recursion-solutions/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-io-exercises/src/main/main1.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-io-exercises/src/main/main1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-state-exercises/src/main/main10.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-state-exercises/src/main/main10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-common/src/main/main11.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-common/src/main/main11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-io-solutions/src/main/main12.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-io-solutions/src/main/main12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-actors/src/main/main13.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-actors/src/main/main13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-solutions/src/main/main14.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-solutions/src/main/main14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-state-solutions/src/main/main15.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-state-solutions/src/main/main15.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-laziness-solutions/src/main/main16.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-laziness-solutions/src/main/main16.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-handlingerrors-exercises/src/main/main17.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-handlingerrors-exercises/src/main/main17.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedtrees-exercises/src/main/main18.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedtrees-exercises/src/main/main18.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedlisthandling-solutions/src/main/main19.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedlisthandling-solutions/src/main/main19.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-exercises/src/main/main2.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-exercises/src/main/main2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-applications/src/main/main20.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-applications/src/main/main20.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-exercises/src/main/main21.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-exercises/src/main/main21.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-recursion-exercises/src/main/main22.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-recursion-exercises/src/main/main22.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-exercises/src/main/main23.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-exercises/src/main/main23.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-makingjavafunctional-exercises/src/main/main24.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-makingjavafunctional-exercises/src/main/main24.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-solutions/src/main/main25.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-solutions/src/main/main25.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-usingfunctions-exercises/src/main/main26.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-usingfunctions-exercises/src/main/main26.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-makingjavafunctional-solutions/src/main/main27.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-makingjavafunctional-solutions/src/main/main27.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-laziness-exercises/src/main/main3.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-laziness-exercises/src/main/main3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-handlingerrors-solutions/src/main/main4.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-handlingerrors-solutions/src/main/main4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedtrees-solutions/src/main/main5.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedtrees-solutions/src/main/main5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-usingfunctions-solutions/src/main/main6.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-usingfunctions-solutions/src/main/main6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-introduction/src/main/main7.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-introduction/src/main/main7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedlisthandling-exercises/src/main/main8.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedlisthandling-exercises/src/main/main8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-solutions/src/main/main9.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-solutions/src/main/main9.iml" />
       <module fileurl="file://$PROJECT_DIR$/optional/optional.iml" filepath="$PROJECT_DIR$/optional/optional.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/repo.iml" filepath="$PROJECT_DIR$/.idea/repo.iml" />
       <module fileurl="file://$PROJECT_DIR$/solid/solid.iml" filepath="$PROJECT_DIR$/solid/solid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdependencyinjection/springdependencyinjection.iml" filepath="$PROJECT_DIR$/springdependencyinjection/springdependencyinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/streams/streams.iml" filepath="$PROJECT_DIR$/streams/streams.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-usingfunctions-exercises/src/test/test.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-usingfunctions-exercises/src/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-recursion-exercises/src/test/test1.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-recursion-exercises/src/test/test1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-exercises/src/test/test10.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-exercises/src/test/test10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-laziness-solutions/src/test/test11.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-laziness-solutions/src/test/test11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-actors/src/test/test12.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-actors/src/test/test12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-solutions/src/test/test13.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-solutions/src/test/test13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-usingfunctions-solutions/src/test/test14.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-usingfunctions-solutions/src/test/test14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-laziness-exercises/src/test/test15.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-laziness-exercises/src/test/test15.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-recursion-solutions/src/test/test16.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-recursion-solutions/src/test/test16.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-state-exercises/src/test/test17.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-state-exercises/src/test/test17.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedtrees-solutions/src/test/test18.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedtrees-solutions/src/test/test18.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-makingjavafunctional-exercises/src/test/test19.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-makingjavafunctional-exercises/src/test/test19.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedlisthandling-solutions/src/test/test2.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedlisthandling-solutions/src/test/test2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-handlingerrors-solutions/src/test/test20.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-handlingerrors-solutions/src/test/test20.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedtrees-exercises/src/test/test21.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedtrees-exercises/src/test/test21.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-handlingerrors-exercises/src/test/test22.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-handlingerrors-exercises/src/test/test22.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedlisthandling-exercises/src/test/test23.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-advancedlisthandling-exercises/src/test/test23.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-introduction/src/test/test3.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-introduction/src/test/test3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-state-solutions/src/test/test4.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-state-solutions/src/test/test4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-solutions/src/test/test5.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-solutions/src/test/test5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-makingjavafunctional-solutions/src/test/test6.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-makingjavafunctional-solutions/src/test/test6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-solutions/src/test/test7.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-trees-solutions/src/test/test7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-exercises/src/test/test8.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-lists-exercises/src/test/test8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-exercises/src/test/test9.iml" filepath="$PROJECT_DIR$/fpinjava/fpinjava-parent/fpinjava-optionaldata-exercises/src/test/test9.iml" />
       <module fileurl="file://$PROJECT_DIR$/unnamed-modules-example/unnamed-modules-example.iml" filepath="$PROJECT_DIR$/unnamed-modules-example/unnamed-modules-example.iml" />
     </modules>
   </component>

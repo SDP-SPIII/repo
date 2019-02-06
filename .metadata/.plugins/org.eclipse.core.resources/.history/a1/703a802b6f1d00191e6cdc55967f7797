@@ -1,3 +1,0 @@
-module lombok {
-	requires static lombok;
-}

@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author keith
- *
- */
-module lombok {exports lombokexamples.steptwo;exports lombokexamples.builder;exports lombokexamples.general;exports lombokexamples.stepone;exports lombokexamples.delegate;exports lombokexamples;exports lombokexamples.exceptions;exports lombokexamples.stepthree;exports lombokexamples.immutable;exports lombokexamples.logging;requires java.logging;}
