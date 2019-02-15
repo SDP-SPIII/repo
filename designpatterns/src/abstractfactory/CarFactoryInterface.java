@@ -1,7 +1,6 @@
 package abstractfactory;
 
-// An interface is a good choice for the abstract
-// factory itself
+// An interface is a good choice for an abstract factory
 
 public interface CarFactoryInterface {
 
