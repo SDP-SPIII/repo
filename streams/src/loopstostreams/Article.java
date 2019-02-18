@@ -26,7 +26,7 @@ public class Article {
   }
 
   public String toString() {
-    StringBuilder sb = new StringBuilder();
+    StringBuilder sb = new StringBuilder(); // Builder design pattern
     sb.append("Title: ")
             .append(getTitle())
             .append(" Author: ")

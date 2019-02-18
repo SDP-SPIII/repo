@@ -32,7 +32,7 @@ public class FlatMapTest {
 
         List<String> teamLanguages = team.stream() // List<String>
             .map(d -> d.getLanguages()) // before was List<List<String>>
-            .flatMap(l -> l.stream())
+            .flatMap(Collection::stream)
             .distinct()
             .collect(Collectors.toList());
 

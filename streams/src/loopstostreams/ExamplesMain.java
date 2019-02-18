@@ -24,8 +24,8 @@ public class ExamplesMain {
 //    System.out.println(ex.groupByAuthorLoop());
 //    System.out.println(ex.groupByAuthorStream());
 //    System.out.println();
-    System.out.println(ex.getDistinctTagsLoop());
-    System.out.println(ex.getDistinctTagsStream());
+      System.out.println(ex.getDistinctTagsLoop());
+      System.out.println(ex.getDistinctTagsStream());
   }
 
 }

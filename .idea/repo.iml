@@ -10,6 +10,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/modules-example/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/fpinjava/fpinjava-parent" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/designpatternsinclass/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
