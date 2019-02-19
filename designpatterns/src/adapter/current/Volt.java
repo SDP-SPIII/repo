@@ -1,7 +1,6 @@
 package adapter.current;
 
 public class Volt {
-
     private int volts;
 
     public Volt(int v) {
@@ -15,5 +14,4 @@ public class Volt {
     public void setVolts(int volts) {
         this.volts = volts;
     }
-
 }

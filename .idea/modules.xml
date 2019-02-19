@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" filepath="$PROJECT_DIR$/dependencyinjection/dependencyinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpatterns/designpatterns.iml" filepath="$PROJECT_DIR$/designpatterns/designpatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpatternsbanas/designpatternsbanas.iml" filepath="$PROJECT_DIR$/designpatternsbanas/designpatternsbanas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/designpatternsinclass/designpatternsinclass.iml" filepath="$PROJECT_DIR$/designpatternsinclass/designpatternsinclass.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples.iml" filepath="$PROJECT_DIR$/.idea/modules/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/gui.iml" filepath="$PROJECT_DIR$/gui/gui.iml" />
