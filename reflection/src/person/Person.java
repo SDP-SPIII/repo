@@ -1,4 +1,4 @@
-package reflection;
+package person;
 
 /*
  * Another example class for use with reflection
