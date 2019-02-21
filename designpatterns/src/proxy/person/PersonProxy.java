@@ -21,6 +21,4 @@ public class PersonProxy implements PersonInterface {
     // Pass through the request to the real object
     return mPerson.getWeight();
   }
-
-
 }

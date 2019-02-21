@@ -12,12 +12,12 @@ public class SocketObjectAdapterImpl implements SocketAdapter {
 
     @Override
     public Volt get12Volt() {
-        return convertVolt(sock.getVolt(), 10);
+        return convertVolt(sock.getVolt(), 20);
     }
 
     @Override
     public Volt get3Volt() {
-        return convertVolt(sock.getVolt(), 40);
+        return convertVolt(sock.getVolt(), 80);
     }
 
     private Volt convertVolt(Volt v, int i) {
